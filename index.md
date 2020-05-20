@@ -5,6 +5,7 @@
 .<div class = "align">
 <div class = "picture">
 <img src="Activity 2/image.png" alt="Yaow Hui Chong" class="img">
+	<p><a href="Activity 2/resume.pdf" </a></p>
 </div>
 <h2>My story</h2>
 <p>I am an International student from Malaysia. I was an undergraduate student majoring in Actuarial Sscience in UNL from 2015 - 2018. After that, I worked in Kingsbay Group, LLC for a year. Kingsbay Group is an E-commerce
