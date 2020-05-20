@@ -46,6 +46,7 @@ data to make decision. I believe data can tell the true story. </p>
 
 
 <footer>
+	<h1>Contact Info</h1>
 	<ul>
 		<li><a href="mailto:ychong@unomaha.com">Email</a></li>
               	<li><a href="https://www.facebook.com/chong.terry.31">Facebook</a></li>
