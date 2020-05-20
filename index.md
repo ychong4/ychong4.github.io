@@ -52,6 +52,6 @@ data to make decision. I believe data can tell the true story. </p>
               	<li><a href="https://www.facebook.com/chong.terry.31">Facebook</a></li>
                 <li><a href="https://www.linkedin.com/in/yaow-hui-chong/">LinkedIn</a></li>	
 	</ul>
-	<p>&copy; Yaow Hui Chong 2020 </p>
+	<h3>&copy; Yaow Hui Chong 2020 </h3>
 </footer>
 </body>
