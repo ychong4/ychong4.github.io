@@ -43,7 +43,6 @@ data to make decision. I believe data can tell the true story. </p>
 <div class = "picture">
 <img src="image.png" alt="Yaow Hui Chong" class="img">
 <p class="nv"><a href ="resume.pdf">RESUME</a></p>
-<p class="nv"><a href ="additional.html">Badminton Page</a></p>
 </div>
 </main>
 
