@@ -1,3 +1,4 @@
+<body>
 <h1><a href="Activity 2/Resume.pdf">Yaow Hui Chong</a></h1>
 <img src="Activity 2/image.png" alt="Yaow Hui Chong" class="img">	
 <h2>My story</h2>
@@ -43,4 +44,4 @@ data to make decision. I believe data can tell the true story. </p>
                 <li><a href="https://www.linkedin.com/in/yaow-hui-chong/">LinkedIn</a></li>	
 	</ul>
 <h3>&copy; Yaow Hui Chong 2020 </h3>
-
+</body>
