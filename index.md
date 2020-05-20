@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -11,8 +10,6 @@
 <body>	
 	<header>
 		<h1>Yaow Hui Chong</h1>
-		<h2>Today's mood:</h2>
-		<img src="sun.jpg" alt="sun">
 	</header>
 	<main class = "body">
 	.<div class = "align">
