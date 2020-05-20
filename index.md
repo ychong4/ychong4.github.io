@@ -1,37 +1,73 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    	<title>Yaow Hui Chong - Activity 2</title>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lobster&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    	<link rel="stylesheet" href="style.css"/>
+</head>
+<body>	
+	<header>
+		<h1>Yaow Hui Chong</h1>
+		<h2>Today's mood:</h2>
+		<img src="sun.jpg" alt="sun">
+	</header>
+	<main class = "body">
+	.<div class = "align">
+		<h2>My story</h2>
+		<p>I am an International student from Malaysia. I was an undergraduate student majoring in Actuarial Sscience in UNL from 2015 - 2018. After that, I worked in Kingsbay Group, LLC for a year. Kingsbay Group is an E-commerce
+ retailer. They mainly retail products on the Amazon Seller Portal. I worked as a Purchasing Analyst to predict the sales quantities of merchandize in the following seasons and purchase the amount from the manufacturers. I love the job because it is full of 
+challenges. </p>
 
-You can use the [editor on GitHub](https://github.com/ychong4/ychong4.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+		<h2>Current</h2>
+		<p>Currently, I am studying as a full-time student, Master's in MIS, and concentrate in data analytics. I started my journey in University of Nebraska-Omaha (UNO) from Spring 2020. The reason I choose MIS as major is that I am in love with using 
+data to make decision. I believe data can tell the true story. </p>   
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+		<h2>Career Goal</h2>
+		<p>Working in a prestigious insurance company has always been my career goal. I aim to gain data analytic knowledge and some practical experience studying Master's in MIS and apply them to my future job.</p>
 
-### Markdown
+ 		<h2>Hobbies</h2>
+		<p>I try various of activities when I have spare time. The following activities are those I like the most: </p>
+			<ul class="Unorder">
+				<li>Sports: Badminton, Basketball, Tennis, Swimming, Jogging</li>
+				<li>Brain games: Puzzle, Chinese Chess</li>
+				<li>Cooking, Baking</li> 
+			</ul>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+		<h2>Languages</h2>
+			<ul class ="Unorder">
+				<li> English </li>
+				<li> Chinese </li>
+				<li> Malay </li>
+				<li> Cantonese </li>
+			</ul>
+		<h2>Top 5 Gallup Strengths</h2>
+			<ul class ="Unorder">
+				<li> Relator </li>
+				<li> Learner </li>
+				<li> Positivity </li>
+				<li> Activator </li>
+				<li> Deliberative </li>
+			</ul>
+	</div>
+	<div class = "picture">
+	<img src="image.png" alt="Yaow Hui Chong" class="img">
+	<p class="nv"><a href ="resume.pdf">RESUME</a></p>
+	<p class="nv"><a href ="additional.html">Badminton Page</a></p>
+	</div>
+	</main>
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ychong4/ychong4.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<footer>
+	<ul>
+		<li><a href="mailto:ychong@unomaha.com">Email</a></li>
+              	                   <li><a href="https://www.facebook.com/chong.terry.31">Facebook</a></li>
+                	                   <li><a href="https://www.linkedin.com/in/yaow-hui-chong/">LinkedIn</a></li>
+		
+	</ul>
+	<p>&copy; Yaow Hui Chong 2020 </p>
+</footer>
+</body>
+</html>
