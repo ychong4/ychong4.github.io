@@ -42,7 +42,7 @@ data to make decision. I believe data can tell the true story. </p>
 </div>
 <div class = "picture">
 <img src="image.png" alt="Yaow Hui Chong" class="img">
-<p class="nv"><a href ="resume.pdf">RESUME</a></p>
+[URL] https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/Resume.pdf
 </div>
 </main>
 
