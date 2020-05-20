@@ -41,8 +41,8 @@ data to make decision. I believe data can tell the true story. </p>
 	</ul>
 </div>
 <div class = "picture">
-<img src="image.png" alt="Yaow Hui Chong" class="img">
-[URL] https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/Resume.pdf
+<img src="Activity 2/image.png" alt="Yaow Hui Chong" class="img">
+ 
 </div>
 </main>
 
