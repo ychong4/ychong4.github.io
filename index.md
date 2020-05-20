@@ -3,7 +3,9 @@
 </header>
 <main class = "body">
 .<div class = "align">
-
+<div class = "picture">
+<img src="Activity 2/image.png" alt="Yaow Hui Chong" class="img">
+</div>
 <h2>My story</h2>
 <p>I am an International student from Malaysia. I was an undergraduate student majoring in Actuarial Sscience in UNL from 2015 - 2018. After that, I worked in Kingsbay Group, LLC for a year. Kingsbay Group is an E-commerce
  retailer. They mainly retail products on the Amazon Seller Portal. I worked as a Purchasing Analyst to predict the sales quantities of merchandize in the following seasons and purchase the amount from the manufacturers. I love the job because it is full of 
@@ -39,10 +41,6 @@ data to make decision. I believe data can tell the true story. </p>
 		<li> Activator </li>
 		<li> Deliberative </li>
 	</ul>
-</div>
-<div class = "picture">
-<img src="Activity 2/image.png" alt="Yaow Hui Chong" class="img">
- 
 </div>
 </main>
 
