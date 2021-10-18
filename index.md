@@ -5,7 +5,6 @@
 <h3><a href="Activity 2/Resume-act-newest.pdf">Resume</a></h3>
 	
 <br>
-<br>
 	
 <h2>My story</h2>
 <p>I am currently studying in University of Nebraska Omaha as a full-time master's student. I major in Management Information System (MIS) with a data analytics concentration. I expect to graduate in May 2022. I was an undergraduate student majoring in Actuarial Sscience in UNL from 2015 - 2018. After that, I worked in Kingsbay Group, LLC for a year. Kingsbay Group is an E-commerce retailer. They mainly retail products on the Amazon Seller Portal. I worked as a Purchasing Analyst to predict the sales quantities of merchandize in the following months to purchase the amount accordingly from the manufacturers. I love the job because it is full of analytics and challenges. </p>
@@ -37,6 +36,15 @@
 		<li> Deliberative </li>
 	</ul>
 
+<h2>Projects</h2>
+	<ul class ="Unorder">
+		<li><a href="Activity 2/Resume-act-newest.pdf">Resume</a></li>
+		<li><a href="Activity 2/Resume-act-newest.pdf">Resume</a></li>
+		<li> Positivity </li>
+		<li> Activator </li>
+		<li> Deliberative </li>
+	</ul>	
+	
 <h2>Contact Info</h2>
 	<ul>
 		<li><a href="mailto:ychong@unomaha.com">Email</a></li>
