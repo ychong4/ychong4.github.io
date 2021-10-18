@@ -2,7 +2,7 @@
 <h1>Yaow Hui Chong</h1>
 <img src="Activity 2/image.png" alt="Yaow Hui Chong" class="img">
 
-<h2><a href="Activity 2/Resume-act-newest.pdf">Resume</a></h2>
+<h3><a href="Activity 2/Resume-act-newest.pdf">Resume</a></h3>
 	
 <br>
 <br>
