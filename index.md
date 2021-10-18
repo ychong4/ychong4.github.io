@@ -38,11 +38,11 @@
 
 <h2>Projects</h2>
 	<ul class ="Unorder">
-		<li><a href="Activity 2/Resume-act-newest.pdf">Resume</a></li>
-		<li><a href="Activity 2/Resume-act-newest.pdf">Resume</a></li>
-		<li> Positivity </li>
-		<li> Activator </li>
-		<li> Deliberative </li>
+		<li><a href="Activity 2/ISQA 8156 Group project.pdf">Statistical Analysis of participation surveys for "Omaha Girls Rock"</a></li>
+		<li><a href="Activity 2/ISQA 8700 Group Project.pdf">COVID-19 Data Mining & Analysis Project</a></li>
+		<li><a href="Activity 2/ISQA8750 Individual Research.pdf">Keys factors that afect the severity of road accidents</a></li>
+		<li><a href="Activity 2/sampleEnergyDoc.pdf">Analysis on Australian Energy Household</a></li>
+		<li><a href="https://ychong4.pythonanywhere.com/">Eagle Financial Services</a></li>
 	</ul>	
 	
 <h2>Contact Info</h2>
