@@ -1,6 +1,9 @@
 <body>
-<h1><a href="Activity 2/Resume.pdf">Yaow Hui Chong</a></h1>
-<img src="Activity 2/image.png" alt="Yaow Hui Chong" class="img">	
+<h1>Yaow Hui Chong</h1>
+<img src="Activity 2/image.png" alt="Yaow Hui Chong" class="img">
+
+<h2><a href="Activity 2/Resume-act-newest.pdf.pdf">Resume</h2>
+	
 <h2>My story</h2>
 <p>I am an International student from Malaysia. I was an undergraduate student majoring in Actuarial Sscience in UNL from 2015 - 2018. After that, I worked in Kingsbay Group, LLC for a year. Kingsbay Group is an E-commerce
  retailer. They mainly retail products on the Amazon Seller Portal. I worked as a Purchasing Analyst to predict the sales quantities of merchandize in the following seasons and purchase the amount from the manufacturers. I love the job because it is full of 
