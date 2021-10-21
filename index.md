@@ -17,7 +17,7 @@
 	<ul class="Unorder">
 		<li>Sports: Badminton, Basketball, Tennis, Swimming, Jogging</li>
 		<li>Brain games: Puzzle, Chinese Chess</li>
-		<li>Self-development: Explore data analysis software (e.g. Tableau, PowerBI), Practice coding on Python</li>
+		<li>Self-development: Explore data analysis software (e.g. Tableau, PowerBI), Practice coding on Python (currently learning NLP)</li>
 	</ul>
 
 <h2>Languages</h2>
