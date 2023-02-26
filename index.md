@@ -44,6 +44,12 @@
 		<li><a href="https://ychong4.pythonanywhere.com/">Eagle Financial Services</a></li>
 	</ul>	
 	
+<h2>Kaggle Projects</h2>
+	<ul class ="Unorder">
+		<li><a href="Titanic.ipynb">Titanic: Machine Learning from Disaster"</a></li>
+		<li><a href="HousePricePredict.ipynb">House Prices: Advanced Regression Techniques"</a></li>
+	</ul>
+	
 <h2>Contact Info</h2>
 	<ul>
 		<li><a href="mailto:ychong@unomaha.com">Email</a></li>
