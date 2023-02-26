@@ -9,11 +9,10 @@
 <h2>My story</h2>
 <p>I am currently working in the Utility Plant in University of Nebraska-Lincoln as a Data analyst. I received my Master's degree with a major in Management Information System (MIS) and a concentration in data analytics. I was an undergraduate student majoring in Actuarial Sscience in UNL from 2015 - 2018. After that, I worked in Kingsbay Group, LLC for a year. Kingsbay Group is an E-commerce retailer. They mainly retail products on the Amazon Seller Portal. I worked as a Purchasing Analyst to predict the sales quantities of merchandize in the following months to purchase the amount accordingly from the manufacturers. I love the job because it is full of analytics and challenges. </p>
 
-<h2>Career Goal</h2>
-<p>Working in a prestigious insurance company has always been my career goal. I aim to gain data analytic knowledge and some practical experience studying Master's in MIS and apply them to my future job.</p>
+<h2>Goal</h2>
+<p>Apply my knowledge in Machine Learning/AI to help building a better community</p>
 
 <h2>Hobbies</h2>
-<p>I try various of activities when I have spare time. The following activities are those I like the most: </p>
 	<ul class="Unorder">
 		<li>Sports: Badminton, Basketball, Tennis, Swimming, Jogging</li>
 		<li>Brain games: Puzzle, Chinese Chess</li>
@@ -51,5 +50,5 @@
               	<li><a href="https://www.facebook.com/chong.terry.31">Facebook</a></li>
                 <li><a href="https://www.linkedin.com/in/yaow-hui-chong/">LinkedIn</a></li>	
 	</ul>
-<h3>&copy; Yaow Hui Chong 2021 </h3>
+<h3>&copy; Yaow Hui Chong 2023 </h3>
 </body>
