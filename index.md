@@ -46,8 +46,8 @@
 	
 <h2>Kaggle Projects</h2>
 	<ul class ="Unorder">
-		<li><a href="Titanic.ipynb">Titanic: Machine Learning from Disaster"</a></li>
-		<li><a href="HousePricePredict.ipynb">House Prices: Advanced Regression Techniques"</a></li>
+		<li><a href="Activity2/Titanic.ipynb">Titanic: Machine Learning from Disaster"</a></li>
+		<li><a href="Activity 2/HousePricePredict.ipynb">House Prices: Advanced Regression Techniques"</a></li>
 	</ul>
 	
 <h2>Contact Info</h2>
