@@ -47,7 +47,7 @@
 <h2>Kaggle Projects</h2>
 	<ul class ="Unorder">
 		<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/Titanic.ipynb">[Classification] Titanic: Machine Learning from Disaster</a></li>
-		<li><a href="Activity 2/HousePricePredict.ipynb">[Regression] House Prices: Advanced Regression Techniques</a></li>
+		<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/HousePricePredict.ipynb">[Regression] House Prices: Advanced Regression Techniques</a></li>
 	</ul>
 	
 <h2>Computer Vision</h2>
