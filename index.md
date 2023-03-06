@@ -54,7 +54,8 @@
 	<ul class ="Unorder">
 		<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/yolov5.ipynb">[Object Detection] Detecting Cars in images</a></li>
 		<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/car.mp4">[Object Detection] Detecting Cars in a video</a></li>
-	
+	</ul>
+		
 <h2>Contact Info</h2>
 	<ul>
 		<li><a href="mailto:ychong@unomaha.com">Email</a></li>
