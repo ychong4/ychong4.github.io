@@ -53,18 +53,15 @@
 	
 <h2>Computer Vision</h2>
 	<ul class ="Unorder">
-		<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/Intel_Image_Classification.ipynb">[Image Classification] Natural Scene Image Classification</a>
-		</li>
+		<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/Intel_Image_Classification.ipynb">[Image Classification] Natural Scene Image Classification</a></li>
 		
-		<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/TransferLearning_MobileNet_v2.ipynb">[Image Classification] Transfer Learning on MobileNetV2</a>
-		</li>
+		<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/TransferLearning_MobileNet_v2.ipynb">[Image Classification] Transfer Learning on MobileNetV2</a></li>
 		
-		<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/FineTune_MobileNetV2.ipynb">[Image Classification] Fine tuning MobileNetV2</a>
-		</li>
+		<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/FineTune_MobileNetV2.ipynb">[Image Classification] Fine tuning MobileNetV2</a></li>
 		
-		<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/yolov5.ipynb">[Object Detection] YOLOv5_Detecting Cars in images</a>		       </li>
+		<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/yolov5.ipynb">[Object Detection] YOLOv5_Detecting Cars in images</a></li>
 		
-		<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/car.mp4">[Object Detection] YOLOv5_Detecting Cars in a video</a>		   </li>
+		<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/car.mp4">[Object Detection] YOLOv5_Detecting Cars in a video</a></li>
 		
 	</ul>
 		
