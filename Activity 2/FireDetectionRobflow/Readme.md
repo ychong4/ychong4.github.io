@@ -19,5 +19,6 @@ URL: https://app.roboflow.com/chong-yaow-hui-henfg/fire-detection-wfdhl/1
 
 **Training Result:** The model training result has a 74.8% mAP, 79.7% precision, and 70.2% recall.
 
-** Statistics Plot:**
+**Statistics Plot:**
+
 ![](results.png)
