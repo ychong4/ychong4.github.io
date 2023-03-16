@@ -25,4 +25,4 @@
 
 **Result**
 
-![](fire_image1_labeled.jfif)
+![](fire_image1_labeled.jfif =250x250)
