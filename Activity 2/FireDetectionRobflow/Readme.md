@@ -10,8 +10,14 @@ URL: https://app.roboflow.com/chong-yaow-hui-henfg/fire-detection-wfdhl/1
 
 **Preprocessing:** All images are resized to 640x 640.
 
-**Data Augmentation:** Data Augmentation techniques are applied to increasing training accuracy. The applied techniques are (1) Horizontal flip, (2) 0-12% Random Crop, and (3) -10° to +10° Random Rotation.
+**Data Augmentation:** Data Augmentation techniques are applied to increasing training accuracy. The applied techniques are:
+  (1) Horizontal flip, 
+  (2) 0-12% Random Crop, 
+  (3) -10° to +10° Random Rotation.
 
 **Generate** A total of 8,540 images are generated after the data augmentation process.
 
 **Training Result:** The model training result has a 74.8% mAP, 79.7% precision, and 70.2% recall.
+
+** Statistics Plot:**
+![](results.png)
