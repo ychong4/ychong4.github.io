@@ -25,3 +25,4 @@
 
 **Result**
 
+![](fire_image1_labeled.jfif)
