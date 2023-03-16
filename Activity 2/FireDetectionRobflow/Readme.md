@@ -25,4 +25,5 @@
 
 **Result**
 
-![](fire_image1_labeled.jfif |=250x250)
+<img src="fire_image1_labeled.jfif" alt= “” width="300" height="250">
+
