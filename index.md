@@ -62,6 +62,9 @@
 		<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/yolov5.ipynb">[Object Detection] YOLOv5_Detecting Cars in images</a></li>
 		
 		<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/car.mp4">[Object Detection] YOLOv5_Detecting Cars in a video</a></li>
+		<li><a href="https://github.com/ychong4/ychong4.github.io/tree/master/Activity%202/FireDetectionRobflow">[Object Detection] YOLOv8 Fire Detection using Roboflow</a></li>
+		
+		
 		
 	</ul>
 		
