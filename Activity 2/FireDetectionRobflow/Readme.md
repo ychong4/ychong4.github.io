@@ -34,4 +34,5 @@
 Best weight: accuracy 0.75997
 
 [Best weights](https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/FireDetectionRobflow/best.pt)
-[Result csv file](/results.csv)
+</br>
+[Result csv file](https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/FireDetectionRobflow/results.csv)
