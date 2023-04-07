@@ -34,4 +34,4 @@
 Best weight: accuracy 0.75997
 
 [Best weights](/best.pt/)
-[Result csv file](Activity%202/FireDetectionRobflow/results.csv)
+[Result csv file](/results.csv)
