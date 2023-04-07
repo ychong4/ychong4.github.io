@@ -31,4 +31,6 @@
 
 ===========================================================================
 <h1>Fire Detection Projection on Yolov8</h1>
-
+Best weight: accuracy 0.75997
+![](best.pt)
+![](results.csv)
