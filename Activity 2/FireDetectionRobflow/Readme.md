@@ -28,3 +28,7 @@
 <img src="fire_image1_labeled.jfif" alt= “” width="500" height="400">
 
 <img src="fire_image2_labeled.jfif" alt= “” width="500" height="400">
+
+=========================================================================================================================================================================
+<h1>Fire Detection Projection on Yolov8</h1>
+
