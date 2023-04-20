@@ -47,7 +47,22 @@
 
 We observe that previously_insured is a relatively stronger correlated variable to Response. Policy_Sales_Channel has a relatively strong correlation with Age. However, there is overall no strong relationship among variables.
 
-**Predictor variable:**
+**Plot Predictor variable:**
 
 ![](predictor.png)
 
+**Plot Categorical variable:**
+
+![](cat_variable.png)
+
+**Plot Numerical variable:**
+
+![](num_variable.png)
+
+**Plot Categorical Bivariate Analysis:**
+
+![](bivariate_cat_analysis.png)
+
+**Plot Numerical Bivariate Analysis:**
+
+![](bivariate_num_analysis.png)
