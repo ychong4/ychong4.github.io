@@ -1,6 +1,6 @@
 ## Health Insurance Cross Sell Prediction
 
-### Section 0: Project Overview
+### Section 1: Project Overview
 
 **Project Goal:** Predict Health Insurance Owners' who will be interested in Vehicle Insurance
 
@@ -37,6 +37,6 @@
 
 </br>
 
-### Section 1: Findings
+### Section 2: Findings
 
 **Correlation Plot
