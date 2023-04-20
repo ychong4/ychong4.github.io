@@ -85,7 +85,7 @@ We observe that people who had vehicle damage are more likely to purchase insura
 
 ![](bivariate_num_analysis.png)
 
-We observe that younger participants tend to reject insurance
+We observe that younger participants tend to reject insurance.
 
 </br>
 
