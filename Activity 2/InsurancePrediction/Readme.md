@@ -28,3 +28,5 @@
 | PolicySalesChannel | Anonymized Code for the channel of outreaching to the customer ie. Different Agents, Over Mail, Over Phone, In Person, etc. |
 | Vintage | Number of Days, Customer has been associated with the company |
 | Response | 1: Customer is interested, 0: Customer is not interested |
+
+**Evaluation Metric:** ROC_AUC score
