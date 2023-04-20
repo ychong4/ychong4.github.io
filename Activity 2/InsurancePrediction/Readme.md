@@ -37,7 +37,7 @@
 
 </br>
 
-### Section 2: Findings
+### Section 2: Exploratory Data Analyis (EDA)
 
 </br>
 
@@ -88,3 +88,19 @@ We observe that people who had vehicle damage are more likely to purchase insura
 We observe that younger participants tend to reject insurance
 
 </br>
+
+### Section 3: Machine Learning Models
+
+We first create baseline models to see which models are doing better. The AUC score of models are shown below:
+
+| ID | Model | AUC Score |
+| --- | --- | --- |
+| 1 | Logistic Regression | 0.7773 |
+| 2 | Random Forest Classifier | 0.9497 |
+| 3 | Gradient Boosting Classifier | 0.8193 |
+| 4 | K Nearest Neighbor (KNN) Classifier | 0.8494 |
+| 5 | XGBoost Classifier | 0.8334 |
+| 6 | ExtraTrees Classifier | 0.9714 |
+| 7 | AdaBoost Classifier | 0.8213 |
+| 8 | Voting Classifier | 0.9637 |
+
