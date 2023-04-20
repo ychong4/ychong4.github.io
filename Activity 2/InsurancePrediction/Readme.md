@@ -4,7 +4,9 @@
 
 ## Data source: https://www.kaggle.com/datasets/anmolkumar/health-insurance-cross-sell-prediction
 
+
 ## Description: This project is to build a model to predict whether a health insurance owner would be interested in purchasing a Vehicle Insurance. The prediction is helpful because company can plan its communication strategy to reach out to those customers and optimize its business model and revenue.
+
 
 ## Data Dictionary:
 
