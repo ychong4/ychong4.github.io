@@ -1,18 +1,18 @@
 ## Health Insurance Cross Sell Prediction
 
-**Project Goal: Predict Health Insurance Owners' who will be interested in Vehicle Insurance**
+**Project Goal:** Predict Health Insurance Owners' who will be interested in Vehicle Insurance
 
 </br>
 
-### Data source: https://www.kaggle.com/datasets/anmolkumar/health-insurance-cross-sell-prediction
+**Data source:** https://www.kaggle.com/datasets/anmolkumar/health-insurance-cross-sell-prediction
 
 </br>
 
-### Description: This project is to build a model to predict whether a health insurance owner would be interested in purchasing a Vehicle Insurance. The prediction is helpful because company can plan its communication strategy to reach out to those customers and optimize its business model and revenue.
+**Description:** This project is to build a model to predict whether a health insurance owner would be interested in purchasing a Vehicle Insurance. The prediction is helpful because company can plan its communication strategy to reach out to those customers and optimize its business model and revenue.
 
 </br>
 
-### Data Dictionary:
+**Data Dictionary:**
 
 | Variable | Definition |
 | --- | --- |
