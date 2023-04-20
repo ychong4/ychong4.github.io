@@ -39,4 +39,4 @@
 
 ### Section 2: Findings
 
-**Correlation Plot
+**Correlation Plot:**
