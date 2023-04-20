@@ -104,3 +104,10 @@ We first create baseline models to see which models are doing better. The AUC sc
 | 7 | AdaBoost Classifier | 0.8213 |
 | 8 | Voting Classifier | 0.9637 |
 
+We decided to perform GridSearch Tuning for three models: (1) Random Forest Classifier, (2) ExtraTrees Classifier, and (3) Voting Classifier. The results are shown below:
+
+| ID | Model | AUC Score |
+| --- | --- | --- |
+| 1 | Random Forest Classifier | 0.7773 |
+| 2 | ExtraTrees Classifier | 0.9497 |
+| 3 | Voting Classifier | 0.8193 |
