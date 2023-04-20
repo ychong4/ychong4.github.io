@@ -29,4 +29,10 @@
 | Vintage | Number of Days, Customer has been associated with the company |
 | Response | 1: Customer is interested, 0: Customer is not interested |
 
+</br>
+
 **Evaluation Metric:** ROC_AUC score
+
+</br>
+
+### Findings:
