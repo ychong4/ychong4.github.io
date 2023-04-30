@@ -23,3 +23,10 @@ RLHF: Reinforcement learning with Human Feedback
      Input: What is the capital of France?
 
      Output: The capital of France is Paris
+     
+     
+## **To install chatGPT**
+
+   !pip install openAI
+
+
