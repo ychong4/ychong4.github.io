@@ -4,11 +4,11 @@
 
 </br>
 
-  Example:
+   Example:
 
-  Input: Once upon a time, there was a unicorn
+    Input: Once upon a time, there was a unicorn
 
-  Output: that lived in a magical forest with all her unicorn friends
+    Output: that lived in a magical forest with all her unicorn friends
 
 </br>
 
