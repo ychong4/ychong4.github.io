@@ -11,6 +11,7 @@ Output: that lived in a magical forest with all her unicorn friends
 </br>
 
 2) **Instruction Tuned LLM:** Tries to follow instructions, fine-tune on instructions and good attempts at following those instructions.
+
 RLHF: Reinforcement learning with Human Feedback 
 
 </br>
