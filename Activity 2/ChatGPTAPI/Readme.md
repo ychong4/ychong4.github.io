@@ -4,11 +4,11 @@
 
 </br>
 
-Example:
+  Example:
 
-Input: Once upon a time, there was a unicorn
+  Input: Once upon a time, there was a unicorn
 
-Output: that lived in a magical forest with all her unicorn friends
+  Output: that lived in a magical forest with all her unicorn friends
 
 </br>
 
@@ -18,8 +18,8 @@ RLHF: Reinforcement learning with Human Feedback
 
 </br>
 
-Example:
+  Example:
 
-Input: What is the capital of France?
+  Input: What is the capital of France?
 
-Output: The capital of France is Paris
+  Output: The capital of France is Paris
