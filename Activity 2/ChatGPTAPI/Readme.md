@@ -27,6 +27,6 @@ RLHF: Reinforcement learning with Human Feedback
      
 ## **To install chatGPT**
 
-   !pip install openAI
+      !pip install openAI
 
 
