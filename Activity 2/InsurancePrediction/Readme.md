@@ -96,18 +96,30 @@ We first create baseline models to see which models are doing better. The AUC sc
 | ID | Model | AUC Score |
 | --- | --- | --- |
 | 1 | Logistic Regression | 0.7773 |
-| 2 | Random Forest Classifier | 0.9497 |
+| 2 | Random Forest Classifier | 0.9488 |
 | 3 | Gradient Boosting Classifier | 0.8193 |
 | 4 | K Nearest Neighbor (KNN) Classifier | 0.8494 |
 | 5 | XGBoost Classifier | 0.8334 |
-| 6 | ExtraTrees Classifier | 0.9714 |
+| 6 | ExtraTrees Classifier | 0.9712 |
 | 7 | AdaBoost Classifier | 0.8213 |
-| 8 | Voting Classifier | 0.9637 |
+| 8 | Voting Classifier | 0.9635 |
 
 We decided to perform GridSearch Tuning for three models: (1) Random Forest Classifier, (2) ExtraTrees Classifier, and (3) Voting Classifier. The results are shown below:
 
 | ID | Model | AUC Score |
 | --- | --- | --- |
-| 1 | Random Forest Classifier | 0.7773 |
-| 2 | ExtraTrees Classifier | 0.9497 |
-| 3 | Voting Classifier | 0.8193 |
+| 1 | Random Forest Classifier | 0.9488 |
+| 2 | ExtraTrees Classifier | 0.9713 |
+| 3 | Voting Classifier | 0.9637|
+
+
+### Section 4: Visualization on Test Set
+
+## Section 5: Conclusion
+
+The winner model is ExtraTrees Classifier with a ROC score of 0.9713. So, we used the algorithm to predict the repsonse on test set. We performed bivariate analysis on the predicted response and found that the algorithm targeted some participant groups for response 1:
+
+(1) Previously insured
+(2) Had vehicle damage
+
+So, these are the participant groups the marketing team should put more focus on.
