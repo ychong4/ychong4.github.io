@@ -112,22 +112,23 @@ We decided to perform GridSearch Tuning for three models: (1) Random Forest Clas
 | 2 | ExtraTrees Classifier | 0.9713 |
 | 3 | Voting Classifier | 0.9637|
 
+</br>
 
 ### Section 4: Visualization on Test Set
 
-**Plot Predictor variable:**
+**Plot Test Predictor variable:**
 
 ![](test_predictor.png)
 
 </br>
 
-**Plot Categorical Bivariate Analysis:**
+**Plot Test Categorical Bivariate Analysis:**
 
 ![](test_bivariate_cat_analysis.png)
 
 </br>
 
-**Plot Numerical Bivariate Analysis:**
+**Plot Test Numerical Bivariate Analysis:**
 
 ![](test_bivariate_num_analysis.png)
 
