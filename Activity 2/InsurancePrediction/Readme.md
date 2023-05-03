@@ -115,11 +115,30 @@ We decided to perform GridSearch Tuning for three models: (1) Random Forest Clas
 
 ### Section 4: Visualization on Test Set
 
+**Plot Predictor variable:**
+
+![](test_predictor.png)
+
+</br>
+
+**Plot Categorical Bivariate Analysis:**
+
+![](test_bivariate_cat_analysis.png)
+
+</br>
+
+**Plot Numerical Bivariate Analysis:**
+
+![](test_bivariate_num_analysis.png)
+
+</br>
+
 ## Section 5: Conclusion
 
 The winner model is ExtraTrees Classifier with a ROC score of 0.9713. So, we used the algorithm to predict the repsonse on test set. We performed bivariate analysis on the predicted response and found that the algorithm targeted some participant groups for response 1:
 
 (1) Previously insured
+</br>
 (2) Had vehicle damage
 
 So, these are the participant groups the marketing team should put more focus on.
