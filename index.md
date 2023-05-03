@@ -46,6 +46,7 @@
 	
 <h2>Kaggle Projects</h2>
 	<ul class ="Unorder">
+		<li><a href="https://github.com/ychong4/ychong4.github.io/tree/master/Activity%202/InsurancePrediction">[Classification] Health Insurance: Cross Sell Prediction</a></li>
 		<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/Titanic.ipynb">[Classification] Titanic: Machine Learning from Disaster</a></li>
 		<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/HousePricePredict.ipynb">[Regression] House Prices: Advanced Regression Techniques</a></li>
 	</ul>
