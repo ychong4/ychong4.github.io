@@ -116,6 +116,8 @@ We decided to perform GridSearch Tuning for three models: (1) Random Forest Clas
 
 ### Section 4: Visualization on Test Set
 
+</br>
+
 **Plot Test Predictor variable:**
 
 ![](test_predictor.png)
