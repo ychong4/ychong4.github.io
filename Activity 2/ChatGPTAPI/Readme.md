@@ -301,8 +301,147 @@ Output: Of course, your name is Isa!
 
 Automate the collection of user prompt and assistant responses to build a OrderBot.
 
+```
+User:
+
+Assistant:
+
+Hello! Welcome to our pizza restaurant. What can I get for you today?
+
+User:
+
+hello I would like to order a p
+
+Assistant:
+
+Hi there! I’m sorry, I didn’t quite catch that. Could you please let me know what you would like to order?
+
+User:
+
+hello I would like to order a p
+
+Assistant:
+
+I’m sorry, I’m still not sure what you’re trying to order. Could you please let me know which item you would like to order from our menu? We have pepperoni pizza, cheese pizza, eggplant pizza, fries, greek salad, and a variety of toppings and drinks.
+
+User:
+
+hello I would like to order a pizza
+
+Assistant:
+
+Great! Which type of pizza would you like to order? We have pepperoni pizza, cheese pizza, and eggplant pizza.
+
+User:
+
+pepperoni pizza with cheese
+
+Assistant:
+
+Sure thing! What size would you like for your pepperoni pizza with cheese? We have small for $7.00, medium for $10.00, and large for $12.95.
+
+User:
+
+large
+
+Assistant:
+
+Got it! Would you like any additional toppings on your large pepperoni pizza with cheese? We have extra cheese for $2.00, mushrooms for $1.50, sausage for $3.00, Canadian bacon for $3.50, AI sauce for $1.50, and peppers for $1.00.
+
+User:
+
+sausage
+
+Assistant:
+
+Great choice! Is there anything else you would like to order or add to your large pepperoni pizza with cheese and sausage? We also have fries, greek salad, and a variety of drinks available.
+
+User:
+
+fries
+
+Assistant:
+
+Sure thing! Would you like a small or large order of fries? Our small fries are $3.50 and our large fries are $4.50.
+
+User:
+
+large
+
+Assistant:
+
+Got it! Is there anything else you would like to order or add to your large pepperoni pizza with cheese and sausage and large fries? We also have greek salad and a variety of drinks available.
+
+User:
+
+nope
+
+Assistant:
+
+Alright then! So, just to confirm, you would like to order a large pepperoni pizza with cheese and sausage, and a large order of fries. Is that correct? Also, would you like to pick up your order or have it delivered?
+
+User:
+
+yes, i would like to pick up
+
+Assistant:
+
+Great! Your total comes out to $20.45. Please come to our restaurant located at 123 Main Street to pick up your order. Thank you for choosing our pizza restaurant!
+```
+
+
+
 ![](orderbot.png)
 
 Summarize the order as a json format and input to the system
+
+```
+{
+  "pizza": [
+    {
+      "type": "pepperoni",
+      "size": "large",
+      "price": 12.95
+    },
+    {
+      "type": "cheese",
+      "size": "medium",
+      "price": 9.25
+    }
+  ],
+  "toppings": [
+    {
+      "type": "extra cheese",
+      "price": 2.00
+    },
+    {
+      "type": "mushrooms",
+      "price": 1.50
+    }
+  ],
+  "drinks": [
+    {
+      "type": "coke",
+      "size": "large",
+      "price": 3.00
+    },
+    {
+      "type": "sprite",
+      "size": "small",
+      "price": 2.00
+    }
+  ],
+  "sides": [
+    {
+      "type": "fries",
+      "size": "large",
+      "price": 4.50
+    }
+  ],
+  "total_price": 35.20
+}
+```
+
+
 
 ![](json_summary.png)
