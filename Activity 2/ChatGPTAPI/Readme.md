@@ -10,12 +10,7 @@
 7. Expanding </br>
 8. Chatbox </br>
 
-</br>
-
 ## Section 1: Introduction
-
-</br>
-
 ### Two types of large language models (LLMs)
 
 1) **Base LLM:** Predicts next word, based on text training data
