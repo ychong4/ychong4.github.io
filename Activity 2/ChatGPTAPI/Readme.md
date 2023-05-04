@@ -101,6 +101,25 @@ Give successful examples of completing task, then ask model to perform the task
 
 ## Section 3: Iterative
 
+### Iterative Prompt Development
+
+Prompt Guidelines:
+```
+- Be clear and specific
+- Analyze why result does not give desired output.
+- Refine the idea and the prompt.
+- Repeat.
+```
+</br>
+
+Iterative Process:
+```
+- Try something.
+- Analyze where the result does not give you what you want.
+- Clarify instructions, give more time to think.
+- Refine prompts with a batch of examples.
+```
+
 
 
 ## Section 4: Summarizing
