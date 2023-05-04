@@ -181,6 +181,78 @@ positive
 </br>
 
 ### Identify types of emotions
+```
+prompt = f"""
+Identify a list of emotions that the writer of the \
+following review is expressing. Include no more than \
+five items in the list. Format your answer as a list of \
+lower-case words separated by commas.
+
+Review text: '''{lamp_review}'''
+"""
+response = get_completion(prompt)
+print(response)
+```
+Output:
+```
+happy, satisfied, grateful, impressed, content
+```
+</br>
+
+### Extract product and company name from customer reviews
+
+```
+prompt = f"""
+Identify the following items from the review text: 
+- Sentiment (positive or negative)
+- Is the reviewer expressing anger? (true or false)
+- Item purchased by reviewer
+- Company that made the item
+
+The review is delimited with triple backticks. \
+Format your response as a JSON object with \
+"Sentiment", "Anger", "Item" and "Brand" as the keys.
+If the information isn't present, use "unknown" \
+as the value.
+Make your response as short as possible.
+Format the Anger value as a boolean.
+
+Review text: '''{lamp_review}'''
+"""
+response = get_completion(prompt)
+print(response)
+```
+Output:
+```
+{
+  "Sentiment": "positive",
+  "Anger": false,
+  "Item": "lamp with additional storage",
+  "Brand": "Lumina"
+}
+```
+</br>
+
+### Inferring Topics
+```
+prompt = f"""
+Determine five topics that are being discussed in the \
+following text, which is delimited by triple backticks.
+
+Make each item one or two words long. 
+
+Format your response as a list of items separated by commas.
+
+Text sample: '''{story}'''
+"""
+response = get_completion(prompt)
+print(response)
+```
+Output:
+```
+government survey, job satisfaction, NASA, Social Security Administration, employee concerns
+```
+
 
 ## Section 6: Transforming
 
