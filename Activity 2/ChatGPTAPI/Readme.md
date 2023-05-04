@@ -147,7 +147,7 @@ Give successful examples of completing task, then ask model to perform the task
 
 
 
-## Section 8: Chatbox
+## Section 8: Chatbot
 
 Three roles in the messages
 ```
@@ -155,6 +155,8 @@ Three roles in the messages
 2. Assistant: Chat model
 3. User: You
 ```
+
+### Chatbot
 
 Example:
 ```
@@ -180,3 +182,8 @@ response = get_completion_from_messages(messages, temperature=1)
 print(response)
 ```
 Output: Of course, your name is Isa!
+
+### Orderbot
+
+Automate the collection of user prompt and assistant responses to build a OrderBot.
+
