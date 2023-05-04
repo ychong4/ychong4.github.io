@@ -10,6 +10,8 @@
 7. Expanding </br>
 8. Chatbox </br>
 
+</br>
+
 ## Section 1: Introduction
 ### Two types of large language models (LLMs)
 
@@ -41,7 +43,8 @@ RLHF: Reinforcement learning with Human Feedback
 ### To install chatGPT
 
       !pip install openai
-      
+
+</br>
 
 ## Section 2: Guidelines
 
@@ -130,7 +133,7 @@ Give successful examples of completing task, then ask model to perform the task
 - Refine prompts with a batch of examples.
 ```
 
-
+</br>
 
 ## Section 4: Summarizing
 
@@ -454,7 +457,7 @@ Output:
 I got this for my daughter's birthday because she keeps taking mine from my room. Yes, adults also like pandas too. She takes it everywhere with her, and it's super soft and cute. However, one of the ears is a bit lower than the other, and I don't think that was designed to be asymmetrical. Additionally, it's a bit small for what I paid for it. I think there might be other options that are bigger for the same price. On the positive side, it arrived a day earlier than expected, so I got to play with it myself before I gave it to my daughter.
 ```
 
-
+</br>
 
 ## Section 7: Expanding
 
@@ -570,7 +573,7 @@ Sincerely,
 
 AI customer agent
 ```
-
+</br>
 
 ## Section 8: Chatbot
 
