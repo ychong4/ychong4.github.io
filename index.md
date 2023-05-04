@@ -61,7 +61,13 @@
 		<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/car.mp4">[Object Detection] YOLOv5_Detecting Cars in a video</a></li>
 		<li><a href="https://github.com/ychong4/ychong4.github.io/tree/master/Activity%202/FireDetectionRobflow">[Object Detection] YOLOv8 Fire Detection using Roboflow</a></li>
 	</ul>
+
+<h2>Note</h2>
+	<ul class ="Unorder">
+		<li><a href="https://github.com/ychong4/ychong4.github.io/tree/master/Activity%202/ChatGPTAPI">ChatGPT API</a></li>
 		
+	</ul>
+	
 <h2>Contact Info</h2>
 	<ul>
 		<li><a href="mailto:ychong@unomaha.com">Email</a></li>
