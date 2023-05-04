@@ -156,6 +156,7 @@ Three roles in the messages
 3. User: You
 ```
 
+Example:
 ```
 messages =  [  
 {'role':'system', 'content':'You are friendly chatbot.'},    
@@ -165,4 +166,17 @@ print(response)
 ```
 Output: Hi Isa! How can I assist you today?
 
+</br>
 
+Example:
+'''
+messages =  [  
+{'role':'system', 'content':'You are friendly chatbot.'},
+{'role':'user', 'content':'Hi, my name is Isa'},
+{'role':'assistant', 'content': "Hi Isa! It's nice to meet you. \
+Is there anything I can help you with today?"},
+{'role':'user', 'content':'Yes, you can remind me, What is my name?'}  ]
+response = get_completion_from_messages(messages, temperature=1)
+print(response)
+'''
+Output: Of course, your name is Isa!
