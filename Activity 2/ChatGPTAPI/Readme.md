@@ -151,10 +151,18 @@ Give successful examples of completing task, then ask model to perform the task
 
 Three roles in the messages
 ```
-1. **System:** Sets behavior of assistant
-2. **Assistant:** Chat model
-3. **User:** You
+1. System: Sets behavior of assistant
+2. Assistant: Chat model
+3. User: You
 ```
 
+```
+messages =  [  
+{'role':'system', 'content':'You are friendly chatbot.'},    
+{'role':'user', 'content':'Hi, my name is Isa'}  ]
+response = get_completion_from_messages(messages, temperature=1)
+print(response)
+```
+Output: Hi Isa! How can I assist you today?
 
 
