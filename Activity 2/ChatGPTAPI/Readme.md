@@ -183,6 +183,8 @@ print(response)
 ```
 Output: Of course, your name is Isa!
 
+</br>
+
 ### Orderbot
 
 Automate the collection of user prompt and assistant responses to build a OrderBot.
