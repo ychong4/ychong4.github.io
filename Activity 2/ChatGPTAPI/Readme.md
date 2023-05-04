@@ -148,3 +148,13 @@ Give successful examples of completing task, then ask model to perform the task
 
 
 ## Section 8: Chatbox
+
+Three roles in the messages
+```
+1. **System:** Sets behavior of assistant
+2. **Assistant:** Chat model
+3. **User:** You
+```
+
+
+
