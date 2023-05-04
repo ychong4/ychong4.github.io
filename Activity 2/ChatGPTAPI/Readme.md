@@ -144,6 +144,7 @@ Give successful examples of completing task, then ask model to perform the task
 ChatGPT is trained with sources in many languages. It can be used for Translation, Tone Transformation, Format Conversion, and Spellcheck/Grammar check.
 
 </br>
+
 ### Translation 
 
 ```
@@ -163,6 +164,7 @@ English pirate: ```I want to order a basketball```
 ```
 
 </br>
+
 ### Tone Transformation
 
 ```
@@ -187,6 +189,7 @@ Joe
 ```
 
 </br>
+
 ### Format Conversion
 
 ```
