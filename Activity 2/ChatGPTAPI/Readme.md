@@ -45,9 +45,9 @@ RLHF: Reinforcement learning with Human Feedback
 
 ## Section 2: Guidelines
 
-### Principles of Prompting
+### Two Principles of Prompting
 
-### Principle 1: Write clear and specific instructions
+#### Principle 1: Write clear and specific instructions
 
 **Tactic 1:** Use delimeters
 
@@ -78,7 +78,7 @@ Check assumptions required to do the task
 Give successful examples of completing task, then ask model to perform the task
 ```
 
-### **Principle 2: Give the model time to think**
+#### **Principle 2: Give the model time to think**
 
 **Tactic 1:** Specify the steps to complete a task
 
@@ -92,7 +92,7 @@ Give successful examples of completing task, then ask model to perform the task
 **Tactic 2:** Instruct the model to work out its own solution before rushing to a conclusion
 
 
-### Model Limitations
+#### Model Limitations
 
 **Hallucination:** Makes statements that sound plausible but are not true
 
