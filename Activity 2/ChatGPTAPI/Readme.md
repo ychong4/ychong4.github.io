@@ -1,6 +1,7 @@
 ## ChatGPT Prompt Engineering for Developers 
 
 </br>
+
 ### Course Sections:
 
 1. Introduction </br>
