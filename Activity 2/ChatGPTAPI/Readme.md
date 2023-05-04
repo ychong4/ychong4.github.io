@@ -231,6 +231,7 @@ Output:
 ```
 
 </br>
+
 ### Spellcheck/Grammar Check
 ```
 text = f"""
@@ -404,7 +405,10 @@ Is there anything I can help you with today?"},
 response = get_completion_from_messages(messages, temperature=1)
 print(response)
 ```
-Output: Of course, your name is Isa!
+Output:
+```
+Of course, your name is Isa!
+```
 
 </br>
 
