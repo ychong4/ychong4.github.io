@@ -1,3 +1,6 @@
+## ChatGPT Prompt Engineering for Developers 
+
+
 ## **Two types of large language models (LLMs)**
 
 1) **Base LLM:** Predicts next word, based on text training data
