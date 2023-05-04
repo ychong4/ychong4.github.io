@@ -178,6 +178,10 @@ Output:
 positive
 ```
 
+</br>
+
+### Identify types of emotions
+
 ## Section 6: Transforming
 
 ChatGPT is trained with sources in many languages. It can be used for Translation, Tone Transformation, Format Conversion, and Spellcheck/Grammar check.
