@@ -38,8 +38,84 @@ RLHF: Reinforcement learning with Human Feedback
      Output: The capital of France is Paris
      
      
-## To install chatGPT
+### To install chatGPT
 
       !pip install openai
+      
+
+## Section 2: Guidelines
+
+### Principles of Prompting
+
+### Principle 1: Write clear and specific instructions
+
+**Tactic 1:** Use delimeters
+
+```
+    Triple quotes: """
+    Triple backticks: ```
+    Triple dashes: ---
+    Angle brackets: <>
+    XML tags: <tag> </tag>
+```
+
+**Tactic 2:** Ask for structured output
+
+```
+HTML, JSON
+```
+
+**Tactic 3:** Check whether conditions are satisfied 
+
+```
+Check assumptions required to do the task
+```
 
 
+**Tactic 4:** Few-shot prompting
+
+```
+Give successful examples of completing task, then ask model to perform the task
+```
+
+### **Principle 2: Give the model time to think**
+
+**Tactic 1:** Specify the steps to complete a task
+
+```
+    Step 1: ...
+    Step 2: ...
+    ...
+    Step N: ...
+```
+
+**Tactic 2:** Instruct the model to work out its own solution before rushing to a conclusion
+
+
+### Model Limitations
+
+**Hallucination:** Makes statements that sound plausible but are not true
+
+**Reducing hallucinations:** First find relevant information, then answer the question based on the relevant information
+
+
+## Section 3: Iterative
+
+
+
+## Section 4: Summarizing
+
+
+
+## Section 5: Inferring
+
+
+## Section 6: Transforming
+
+
+
+## Section 7: Expanding
+
+
+
+## Section 8: Chatbox
