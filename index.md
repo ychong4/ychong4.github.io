@@ -41,7 +41,6 @@
 		<li><a href="Activity 2/ISQA 8700 Group Project.pdf">COVID-19 Data Mining & Analysis Project</a></li>
 		<li><a href="Activity 2/ISQA8750 Individual Research.pdf">Keys factors that afect the severity of road accidents</a></li>
 		<li><a href="Activity 2/sampleEnergyDoc.pdf">Analysis on Australian Energy Household</a></li>
-		<li><a href="https://ychong4.pythonanywhere.com/">Eagle Financial Services</a></li>
 	</ul>	
 	
 <h2>Kaggle Projects</h2>
@@ -65,7 +64,6 @@
 <h2>Note</h2>
 	<ul class ="Unorder">
 		<li><a href="https://github.com/ychong4/ychong4.github.io/tree/master/Activity%202/ChatGPTAPI">ChatGPT API</a></li>
-		
 	</ul>
 	
 <h2>Contact Info</h2>
