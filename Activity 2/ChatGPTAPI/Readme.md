@@ -2,6 +2,7 @@
 
 </br>
 ### Course Sections:
+
 1. Introduction </br>
 2. Guidelines </br>
 3. Iterative </br>
