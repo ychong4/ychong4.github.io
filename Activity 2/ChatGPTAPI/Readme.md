@@ -96,9 +96,8 @@ Give successful examples of completing task, then ask model to perform the task
 **Tactic 2:** Instruct the model to work out its own solution before rushing to a conclusion
 
 </br>
-</br>
 
-#### Model Limitations
+### Model Limitations
 
 </br>
 
