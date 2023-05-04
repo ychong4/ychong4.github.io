@@ -187,3 +187,8 @@ Output: Of course, your name is Isa!
 
 Automate the collection of user prompt and assistant responses to build a OrderBot.
 
+![](orderbot.png)
+
+Summarize the order as a json format and input to the system
+
+![](json_summary.png)
