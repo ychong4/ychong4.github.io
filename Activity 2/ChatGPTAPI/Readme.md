@@ -141,6 +141,117 @@ Give successful examples of completing task, then ask model to perform the task
 
 ## Section 6: Transforming
 
+ChatGPT is trained with sources in many languages. It can be used for Translation, Tone Transformation, Format Conversion, and Spellcheck/Grammar check.
+
+</br>
+### Translation 
+
+```
+prompt = f"""
+Translate the following  text to French and Spanish
+and English pirate: \
+```I want to order a basketball```
+"""
+response = get_completion(prompt)
+print(response)
+```
+Output:
+```
+French pirate: ```Je veux commander un ballon de basket```
+Spanish pirate: ```Quiero pedir una pelota de baloncesto```
+English pirate: ```I want to order a basketball```
+```
+
+</br>
+### Tone Transformation
+
+```
+prompt = f"""
+Translate the following from slang to a business letter: 
+'Dude, This is Joe, check out this spec on this standing lamp.'
+"""
+response = get_completion(prompt)
+print(response)
+```
+Output:
+```
+Dear Sir/Madam,
+
+I am writing to bring to your attention a standing lamp that I believe may be of interest to you. Please find attached the specifications for your review.
+
+Thank you for your time and consideration.
+
+Sincerely,
+
+Joe
+```
+
+</br>
+### Format Conversion
+
+```
+data_json = { "resturant employees" :[ 
+    {"name":"Shyam", "email":"shyamjaiswal@gmail.com"},
+    {"name":"Bob", "email":"bob32@gmail.com"},
+    {"name":"Jai", "email":"jai87@gmail.com"}
+]}
+
+prompt = f"""
+Translate the following python dictionary from JSON to an HTML \
+table with column headers and title: {data_json}
+"""
+response = get_completion(prompt)
+print(response)
+```
+Output:
+```
+<table>
+  <caption>Restaurant Employees</caption>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Email</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Shyam</td>
+      <td>shyamjaiswal@gmail.com</td>
+    </tr>
+    <tr>
+      <td>Bob</td>
+      <td>bob32@gmail.com</td>
+    </tr>
+    <tr>
+      <td>Jai</td>
+      <td>jai87@gmail.com</td>
+    </tr>
+  </tbody>
+</table>
+```
+
+</br>
+### Spellcheck/Grammar Check
+```
+text = f"""
+Got this for my daughter for her birthday cuz she keeps taking \
+mine from my room.  Yes, adults also like pandas too.  She takes \
+it everywhere with her, and it's super soft and cute.  One of the \
+ears is a bit lower than the other, and I don't think that was \
+designed to be asymmetrical. It's a bit small for what I paid for it \
+though. I think there might be other options that are bigger for \
+the same price.  It arrived a day earlier than expected, so I got \
+to play with it myself before I gave it to my daughter.
+"""
+prompt = f"proofread and correct this review: ```{text}```"
+response = get_completion(prompt)
+print(response)
+```
+Output:
+```
+I got this for my daughter's birthday because she keeps taking mine from my room. Yes, adults also like pandas too. She takes it everywhere with her, and it's super soft and cute. However, one of the ears is a bit lower than the other, and I don't think that was designed to be asymmetrical. Additionally, it's a bit small for what I paid for it. I think there might be other options that are bigger for the same price. On the positive side, it arrived a day earlier than expected, so I got to play with it myself before I gave it to my daughter.
+```
+
 
 
 ## Section 7: Expanding
