@@ -1,10 +1,10 @@
 ## Clustering analysis in a Credit Card customer dataset
 
-**Project goal:** The goal of this project is to perform clustering analysis in a credit card customer dataset, which can provide business insight and values by using different marketing strategies to each customer groups.
+**Project goal:** The goal of this project is to perform clustering analysis in a credit card customer dataset, which can provide business insights and values by using different marketing strategies to each customer groups.
 
 ### Columns in dataset
 
-(1) CUST_ID </br>
+(1) CUST_ID <br>
 (2) BALANCE <br>
 (3) BALANCE_FREQUENCY <br>
 (4) PURCHASES <br>
