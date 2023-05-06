@@ -4,7 +4,7 @@
 
 ### Columns in dataset
 
-(1) CUST_ID <br>
+(1) CUST_ID </br>
 (2) BALANCE <br>
 (3) BALANCE_FREQUENCY <br>
 (4) PURCHASES <br>
