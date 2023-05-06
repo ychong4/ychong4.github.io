@@ -2,7 +2,7 @@
 
 **Project goal:** The goal of this project is to perform clustering analysis in a credit card customer dataset, which can provide business insights and values by using different marketing strategies to each customer groups.
 
-</br>
+
 
 ### Columns in dataset
 
@@ -25,13 +25,13 @@
 (17) PRC_FULL_PAYMENT <br>
 (18) TENURE <br>
 
-</br>
+
 
 ### Fill in Missing values
 
 There are some missing values in the credit_limit and minimum payments columns. Due to these columns are numerical variables, I will fill in the mean values in the missing rows.
 
-</br>
+
 
 ### Plotting the columns
 
@@ -39,13 +39,13 @@ There are some missing values in the credit_limit and minimum payments columns. 
 
 We can clearly see outliers in some columns.
 
-</br>
+
 
 ### Removing outliers
 
 I checked the mean and standard deviation of each columns. Then, the upper limit is calculated as [mean + 3 * standard deviation] and the lower limit is calculated as [mean - 3 * standard deviation]. The outliers are the rows that have values either lower than lower limit or higher than upper limit. There are a total of 102 outliers removed from this process.
 
-</br>
+
 
 ### Correlation matrix
 
