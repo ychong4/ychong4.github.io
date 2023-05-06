@@ -25,7 +25,7 @@
 
 ### Fill in Missing values
 
-There are some missing values in the credit_limit and minimum payments columns. Due to these columns are numerical variables, I will just fill in the mean values in the missing rows.
+There are some missing values in the credit_limit and minimum payments columns. Due to these columns are numerical variables, I will fill in the mean values in the missing rows.
 
 ### Plotting the columns
 
