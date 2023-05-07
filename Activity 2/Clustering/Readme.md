@@ -67,6 +67,7 @@ The K Means method is used for the clustering analysis. The elbow method shows t
 ### Cluster Visualization
 
 The customer counts of clusters are shown below: 
+
 ![](cluster_count.png)
 
 |Cluster|Counts|
@@ -81,10 +82,13 @@ The boxplots for each columns are plotted against clusters. This is to studies t
 ![](cluster_boxplot.png)
 
 Moreover, some scatterplots are plotted to show the standing of clusters in:
+
 (1) Purchases/Payments
+
 ![](cluster_scatter1.png)
 
 (1) Balance/Payments
+
 ![](cluster_scatter2.png)
 
 ### Cluster Findings
