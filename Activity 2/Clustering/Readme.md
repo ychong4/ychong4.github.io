@@ -50,9 +50,9 @@ I checked the mean and standard deviation of each columns. Then, the upper limit
 ![](cm.png)
 
 We can see there are some columns highly correlated with others, such as:
-(1) **oneoff purchases** is highly correlated with **purchases**
-(2) **purchases frequency** is highly correlated with **purchases installment frequency**
-(3) **cash advance frequency** is highly correlated with **cash advance trx**
+(1) **oneoff purchases** is highly correlated with **purchases** <br>
+(2) **purchases frequency** is highly correlated with **purchases installment frequency** <br>
+(3) **cash advance frequency** is highly correlated with **cash advance trx** <br>
 
 ### Perform PCA for Dimension Reduction
 
