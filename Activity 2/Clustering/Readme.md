@@ -87,13 +87,14 @@ Moreover, some scatterplots are plotted to show the standing of clusters in:
 
 ![](cluster_scatter1.png)
 
-(1) Balance/Payments
+(2) Balance/Payments
 
 ![](cluster_scatter2.png)
 
 ### Cluster Findings
 
 These findings are from the visualization plots above.
+
 |Cluster| Properties|
 | --- | :--- | 
 | **Cluster 0** | (1) Minimum balance |
