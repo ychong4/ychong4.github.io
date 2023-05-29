@@ -50,12 +50,33 @@ A deviation from expected value
 - E(R) = 5% + 0.5 * (10% - 5%)  <br>
 - E(R) = 7.5% <br>
 
+## Credit Risk
+- Credit Risk is measured by the cost of replacing cash flows if the counterparty or obligor (borrower) defaults. <br>
+- Credit Risk and Market Risk have in many ways converged because of the introduction of new products (securitized products like mortgage-backed securities, credit default swaps) <br>
+- However, credit still requires constructing the distribution of Default Probabilities, Loss Given Default, and of Credit Exposures, all of which contribute to credit losses and should be measured in a portfolio context. <br>
+- Pre-Settlement Risk is the risk of loss due to a counterparty's failure to perform on an obligation during the life of the transaction. Pre-settlement Risk exists for long time periods as it is the life of the transaction from start to settlement. <br>
+- Settlement Risk asrises from the exchange of cash flows and is short-term in comparison. The risk is due to the timing of cash outflow versus inflow and the risk heightens especially due to different time zones.
+- Failure to honor payments can be from default, liquidity constraints or operational issues. <br>
+- Real-time gross settlement systems strive to reduce the time interval between the time an institution can no longer stop a payment and the receipt of the funds from the counterparty. <br>
+- Settle Risk can also be amanged by netting agreements. <br>
+- Bilateral netting is when two banks settle based on the net balance outstanding rather than the notional balance. <br>
+- Multilateral netting system (also called continuous-linked settlements) are when payments are netted for a group of banks that belong to the system). <br>
 
+### Credit-Risk Components
+- **Probability of Default (PD):** The probability of default needs to be estimated
+- **Credit Exposure:** The economic claim on the countrparty and also called Exposure At Default (EAD).
+- **Loss Given Default (LGD):** The fractional loss due to a default.
+- **Maturity:** The effective reamining term of a credit facility.
 
+### Overview of the Credit Risk
+- Expected Loss is the sum of the values of all probable losses, with each multiplied by the probability of that loss occuring. For bank loans, expected loss is shown as the Loan Loss Reserve on the balance sheet.
+- Unexpected Loss is the loss over and above Expected Loss. It is calculated as a number of standard deviations from the mean at a certain confidence interval. Also referred to as Credit Value at Risk.
+- The extension of credit has an embedded short option position because the borrow has the option to default. This embedded option causes lower credit quality borrowers to have higher interest rates.
+- Expected Loss (EL) = PD x LGV x Exposure at Default
+- Exposure at Default is the total value a bank is exposed to when a loan defaults.
+- Economic Capital is the amount of capital, assessed on a risk-adjusted basis, that a firm needs to ensure solvency in a worst-case scenario.
 
-
-
-
+## Operational Risk
 
 
 
