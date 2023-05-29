@@ -94,8 +94,15 @@ A deviation from expected value
 - (1) Deliver risk analysis to influence decision making.
 - (2) Activate role in the governance structure.
 
-
-
+## Enterprise Risk
+- Enterprise Risk Management was introduced in 2004 when the Committee of Sponsored Organizations (COSO) issued its Enterprise Risk Management - Integrated Framework.
+- COSO defined Enterprise Risk Management as a process performed by the Board, management and other personnel, and applied in a strategic setting across the firm.
+- Enterprise Risk Management is intended to have a portfolio view of risk that provides a holistic perspective of the organization and seeks to understand the impact all risks faced by the firm.
+- ERM has a higher level focus on: 
+- (1) Culture and Risk Governance
+- (2) Strategic Risk Framework
+- (3) Emerging Risk Framework
+- (4) Reputation Risk Framework
 
 
 
