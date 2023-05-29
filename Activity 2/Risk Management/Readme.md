@@ -104,9 +104,25 @@ A deviation from expected value
 - (3) Emerging Risk Framework
 - (4) Reputation Risk Framework
 
+## Scenario Analysis
+- Examining and evaluating possible future events
+- Scenarios may be possible but unlikely
+- Need not be derived from historical events
+- History can provide a great starting point
+- Preparedness for unexpected events
+- Identification of key risk exposures, especially emerging risks
+- Explore potential extreme venets
+- Mitigating risk of failure
 
-
-
+### Scenario Example
+- Global financial crisis: Frozen credit markets initiate stock selloff across Asia and Europe continuing into US trading hours on 9/29/2008
+- Greatest cumulative two-week SPX decline of 28.7% since 1990, observed during 9/29/2008 - 10/10-2008
+- Corresponding observed day-over-day VIX changes during 9/29/2008 - 10/10/2008
+- Historical VIX levels during 9/29/2008 - 10/10/2008
+- Geopolitical developments over the weekend result in three consecutive days of sharp SPX moves that trigger two levels of market circuit breakers (7%, 13%)
+- The market triggers a 7% circuit breaker. After the market reopens, the SPX quickly falls to the second circuit breaker level at 13%. Markets reopen after the pause and rebounds but closes on the lows of the days.
+- SPX reverses 15% to the upside on the third day
+- VIX level increases 45%, 60% and closes at 55% on the third day
 
 
 
