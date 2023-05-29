@@ -1,6 +1,6 @@
 ### Risk: A deviation from expected value
 
-
+## Risk Categories
 **Known knowns:** (1) Well known (2) Identified and Measured <br>
 **Known Unknowns:** Risks or information that you know about, but are uncertain as to when the risk will manifest itself <br>
 **Unknown Unknowns:** Risks that are outside the scope of most scenarios because they are random events <br>
