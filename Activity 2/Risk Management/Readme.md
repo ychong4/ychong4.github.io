@@ -5,7 +5,7 @@
 **Known Unknowns:** Risks or information that you know about, but are uncertain as to when the risk will manifest itself <br>
 **Unknown Unknowns:** Risks that are outside the scope of most scenarios because they are random events <br>
 
-## Steps for Risk Management
+## Risk Identification & Risk Management Life Cycle
 1. **Identify Known Risk:** Risks are things that if they manifest themselves could preclude a business from meeting its objectives. <br>
 2. **Determine Probability & Impact:** Assess the likelihood of the risk manifesting itself & its potential impact. <br>
 3. **Accept, Pursue or Avoid:** Management decides what risks to Accept, Pursue or Avoid <br>
