@@ -77,7 +77,22 @@ A deviation from expected value
 - Economic Capital is the amount of capital, assessed on a risk-adjusted basis, that a firm needs to ensure solvency in a worst-case scenario.
 
 ## Operational Risk
+- Operational Risk is very business specific, and it becomes more qualitative.
+- Operational Risk is often called non-financial risk, but an operational risk event can result in both finanical loss and reputational risk.
+- Portfolios of Operational Risk are difficult to identify and control because it is:
+- (1) Embedded in organizations
+- (2) Exists within instruments
+- (3) Impacted by external events and prone to random events
 
+### Operatinal Risk measurmeent tools
+- Loss/Gain Data Capture (backward Looking): Root cause analysis of losses and gains to determine reasons for breakdown.
+- Key Risk Indicator Monitoring (Forward Looking): Analysis of leading, lagging and performance indicators to identify trends and soft spots.
+- Risk/Control Assessments (Cultural): 
+- (1) Management assessment of its own control environment.
+- (2) Overall assessment framework that accounts for all forms of assessment.
+- Reporting/Analysis and Governance
+- (1) Deliver risk analysis to influence decision making.
+- (2) Activate role in the governance structure.
 
 
 
