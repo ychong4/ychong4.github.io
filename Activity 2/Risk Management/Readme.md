@@ -124,7 +124,17 @@ A deviation from expected value
 - SPX reverses 15% to the upside on the third day
 - VIX level increases 45%, 60% and closes at 55% on the third day
 
+## Stress Testing
+- One or multiple risk factors
+- Simple or complex scenarios
+- Extreme but plausible likelihood
 
+### Purpose of Stress Testing
+- Inform risk appetite framework
+- Allows management to set appropriate tisk policies
+- Ensure risk exposure does not exceed capital/liquidity availability
+- Ensure firm can survive an extreme event
+- Identify magnitude of tail risks
 
 
 
