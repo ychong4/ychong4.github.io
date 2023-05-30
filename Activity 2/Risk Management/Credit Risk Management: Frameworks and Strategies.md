@@ -89,3 +89,17 @@
 | Leverage, debt capacity | Overall financial condition |
 | Capital structure| Outlook |
 |Capital cushion and adequacy | | 
+
+## Credit Ratings
+
+### Credit Analysis: Risk Ratings
+
+|Financial Category | RR: 1-10 | Excellent, strong, good, adequate, weak, poor |
+| Profitability and operating cash flows | | |
+| Asset efficiency and productivity| | |
+| Liquidity | | |
+| Capital structure and leverage | | |
+| Debt service and debt capacity | | |
+| Capital adequacy, capital cushion | | |
+| Overall Rating | | |
+| Outlook | | Positive, stable, negative |
