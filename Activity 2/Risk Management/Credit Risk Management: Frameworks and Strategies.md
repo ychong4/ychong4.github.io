@@ -45,6 +45,7 @@
 (2) Secondary sources of payback </br>
 
 | Corporate Balance Sheet |
+| -- | -- |
 | Operating assets | Accrued Expenses |
 |Fixed assets | Short-term debt |
 | Intangible | Long-term debt |
