@@ -104,3 +104,18 @@
 | Capital adequacy, capital cushion | | |
 | Overall Rating | | |
 | Outlook | | Positive, stable, negative |
+
+</br>
+
+### Credit Analysis: Ratings Mappings
+|Financial Ratings (+, -) | Description | comparable Rating-Agency Rating |
+| --- | --- | --- |
+| 1-2 | Excellent, strong | AAA |
+| 3| | AA, A |
+| 4 | Good | BBB |
+| 5 | Adequate | BBB-, BB |
+| 6 | | BB |
+| 7 | Weak, declining | B |
+| 8 | Poor | CCC, CC |
+| 9 | | C |
+| 10 | Default, bankcruptcy | D |
