@@ -119,3 +119,24 @@
 | 8 | Poor | CCC, CC |
 | 9 | | C |
 | 10 | Default, bankcruptcy | D |
+
+## Products and Exposures
+
+### Credit Analysis: Exposures
+
+**Categories of Exposure and Typical Financial Products**
+- Loan Risk
+- Contingent Risk
+- Settlement Risk
+- Pre-settlement Risk
+- Issuer Risk
+
+### Credit Analysis: Credit Exposures
+
+**Degrees of Risk**
+| Low | Medium | High |
+| --  |   ---  |  --- |
+| Intraday | Short Term | Long Term |
+| Secured (Mkt Securities) | Secured (Fixed Assets) | Unsecured |
+| Conditional Contingent | Uncommitted | Committed |
+| Senior | Subordinated |
