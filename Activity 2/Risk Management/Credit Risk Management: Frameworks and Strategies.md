@@ -44,6 +44,7 @@
 (1) Primary sources of payback </br>
 (2) Secondary sources of payback </br>
 
+
 ### Corporate Balance Sheet
 | Asset | Liability |
 | ---- | ---- |
@@ -51,3 +52,38 @@
 |Fixed assets | Short-term debt |
 | Intangible | Long-term debt |
 | | Capital |
+
+
+### Credit Analysis: Debt Purpose and Payback
+- Tracking the purpose of the financing helps explain and highlight the primary source of repayment (e.g. cash from operations).
+- The use and purpose of funds borrowed should be deployed to generate sources of payback: cash from revenues, related asset sales, etc.
+- If the primary source declines or disappears, are there other sources? Is there a secondary source?
+
+### Financial Analysis: Benefits and Deficiencies
+**Benefits:** </br>
+- Measures performance over time
+- Measures financial condition at a point in time
+- Detects trends that indicate or reinforce notions of strategy, business models, long-term growth
+- Highlights vulnerabilities, worst-case scenarios, and company's "readiness" for downturns
+- Provides ways to detect inconsistencies, flaws deceptions by management or possible fraud
+- Used as starting point to project financial performance or the impact of worst-case scenarios
+- Contribute substantially to risk ratings, strategy, and risk decisions
+
+**Deficiencies:** </br>
+- Presents an assessment based on past performance (old numbers)
+- May overlook qualitative factors and current operating environment
+
+### Goal
+- Primary goal in credit analysis is to use information and insight to rate the following to:
+(1) Conclude on the company's financial condition
+(2) Assess whether the company can meet financial obligations.
+
+| Profitability | Management |
+| --- | --- |
+| Operating cash flows | Operations and controls |
+| Asset quality, efficiency, productivity | Crisis preparation |
+| Working capital | Market reputation | 
+| Liquidity and cash reserves | Regulatory and compliance |
+| Leverage, debt capacity | Overall financial condition |
+| Capital structure| Outlook |
+|Capital cushion and adequacy | | 
