@@ -15,11 +15,11 @@
 ### Risk Assessment: Strategy and Decision-Making
 (1) Risk assessment <br>
 - Financial analysis 
-- Financial proposal
+- Financial proposal <br>
 (2) Risk strategy and outlook <br>
 - Long-term exposure outlook
-- Increase, maintain, decrease, withdraw
+- Increase, maintain, decrease, withdraw <br>
 (3) Risk decisions <br>
 - Consistent with risk assessment
 - Consistent with risk strategy
-- Consistent with risk outlook
+- Consistent with risk outlook <br>
