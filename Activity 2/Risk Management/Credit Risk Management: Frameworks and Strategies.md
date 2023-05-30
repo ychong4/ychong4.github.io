@@ -44,8 +44,9 @@
 (1) Primary sources of payback </br>
 (2) Secondary sources of payback </br>
 
-| Corporate Balance Sheet |
-| -- | -- |
+### Corporate Balance Sheet
+| Asset | Liability |
+| ---- | ---- |
 | Operating assets | Accrued Expenses |
 |Fixed assets | Short-term debt |
 | Intangible | Long-term debt |
