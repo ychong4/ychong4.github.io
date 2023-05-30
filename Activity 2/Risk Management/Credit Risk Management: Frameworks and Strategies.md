@@ -16,9 +16,11 @@
 (1) Risk assessment <br>
 - Financial analysis 
 - Financial proposal <br>
+
 (2) Risk strategy and outlook <br>
 - Long-term exposure outlook
 - Increase, maintain, decrease, withdraw <br>
+
 (3) Risk decisions <br>
 - Consistent with risk assessment
 - Consistent with risk strategy
