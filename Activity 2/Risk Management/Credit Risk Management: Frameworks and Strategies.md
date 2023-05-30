@@ -95,6 +95,7 @@
 ### Credit Analysis: Risk Ratings
 
 |Financial Category | RR: 1-10 | Excellent, strong, good, adequate, weak, poor |
+| --- | --- | --- |
 | Profitability and operating cash flows | | |
 | Asset efficiency and productivity| | |
 | Liquidity | | |
