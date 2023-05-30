@@ -139,4 +139,4 @@
 | Intraday | Short Term | Long Term |
 | Secured (Mkt Securities) | Secured (Fixed Assets) | Unsecured |
 | Conditional Contingent | Uncommitted | Committed |
-| Senior | Subordinated |
+| Senior | Senior | Subordinated |
