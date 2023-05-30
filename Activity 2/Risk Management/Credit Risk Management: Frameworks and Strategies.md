@@ -36,6 +36,8 @@
 - Financing needs, proposals, expected credit exposure, transaction structure
 - Conclusions/recommendations, execution plans
 
+</br>
+
 ## Credit and Financial Analysis
 - **Assess creditworthiness:** The ability of the borrower (obligor) to make future contractual payments: interest payments and principal repayments
 - Credit analysis will be used to assess and manage risks arising from many other activities, as well: countryparty trading, financial processing, cash-management activity, etc.
@@ -74,9 +76,9 @@
 - May overlook qualitative factors and current operating environment
 
 ### Goal
-- Primary goal in credit analysis is to use information and insight to rate the following to:
-(1) Conclude on the company's financial condition
-(2) Assess whether the company can meet financial obligations.
+- Primary goal in credit analysis is to use information and insight to rate the following to: </br>
+(1) Conclude on the company's financial condition </br>
+(2) Assess whether the company can meet financial obligations. </br>
 
 | Profitability | Management |
 | --- | --- |
