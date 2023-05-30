@@ -40,6 +40,12 @@
 - **Assess creditworthiness:** The ability of the borrower (obligor) to make future contractual payments: interest payments and principal repayments
 - Credit analysis will be used to assess and manage risks arising from many other activities, as well: countryparty trading, financial processing, cash-management activity, etc.
 - **Establish the lender's (or creditor or debt investor's) position** for repayment vis a vis other lender (senior, junior, subordinated positions; secured, unsecured positions; short-term, long-term exposures)
-- **Determine secondary sources** of repayment or other forms of recourse
-(1) Primary sources of payback <br>
-(2) Secondary sources of payback <br>
+- **Determine secondary sources** of repayment or other forms of recourse </br>
+(1) Primary sources of payback </br>
+(2) Secondary sources of payback </br>
+
+| Corporate Balance Sheet |
+| Operating assets | Accrued Expenses |
+|Fixed assets | Short-term debt |
+| Intangible | Long-term debt |
+| | Capital |
