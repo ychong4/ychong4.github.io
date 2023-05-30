@@ -140,3 +140,65 @@
 | Secured (Mkt Securities) | Secured (Fixed Assets) | Unsecured |
 | Conditional Contingent | Uncommitted | Committed |
 | Senior | Senior | Subordinated |
+
+## Expected Loss
+
+### Credit Risk Management: Expected Loss
+- Financial institutions (banks, investors) manage risk by determining the "Expected Loss" for individual exposures and for an entire portfolio
+- Expected loss is based, in part, on the credit rating derived from credit analysis
+- Institutions and investors manage risks in the portfolio by analyzing trends in expected loss
+- Banks use "Expected Loss" to detemrine loan-loss reserves
+- Institutions and investors will also want to be compensated for risks based on "Expected Loss"
+
+### Why "Expected Loss"?
+- Portfolio management
+- Basis for loan pricing and loan-loss reserves and charge-offs
+- Credit risk management and risk decisions
+- Industry risk management
+- Risk capital allocation
+- Regulatory-capital calculations: From Expected Loss to Unexpected Loss
+- Reconcilliation with credit ratings, ratings assessments
+
+## Understanding Defaults
+
+### Credit Default
+- Non-payment of principal or interest or other form of payment when due
+- Non-payment after remedial, waiver, or cure period
+- Non-payment after breach of financial covenant
+- Non-performance (pledge of collateral, e.g.) as required by document
+- Cross-default: Default applicable to separate third party lender/counterparty
+- Exchange of debt: Exchange of one debt instrument for another with reduced value
+
+### Credit Risk Management: Default Probability
+- Probability of Default is based on Credit rating and Outlook Industry
+
+
+### Credit Risk Management: Loss Given Default
+- Loss Given Default = (1 - Recovery Rate)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
