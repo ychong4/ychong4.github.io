@@ -194,7 +194,7 @@
 - Investors and analysts will translate ratings-agency ratings into credit spreads to determine risk-based loan and bond pricing
 | Rating | Default frequency | Default Probabiltiy |
 | --  |   ---  |  --- |
-| Fitch, S&P, Moody's | - The rating and the tenor of the exposure can be mapped into an historical default frequency for that rating | - The analyst can use the default frequency of that rating as a basis to derive probability of default for a defined tenor |
+| Fitch, S&P, Moody's | The rating and the tenor of the exposure can be mapped into an historical default frequency for that rating | The analyst can use the default frequency of that rating as a basis to derive probability of default for a defined tenor |
 
 
 
