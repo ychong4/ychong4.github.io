@@ -346,10 +346,39 @@
 
 ## Risk Mitigation
 
+### Credit Risk Mitigation
 
+**Credit Risk Management involves managing the risk of a portfolio of loans and/or debt investments. The goals of risk manaement may include:**
+- Limiting or reducing, or hedging the risk accepted
+- Requesting adequate compensation for the risk accepted, often known as risks-vs, -rewards analysis
+- Transferring or mitigating risk in specific transactiosn, industries or across a portfolio
 
+**Steps:**
+(1) Risk capacity, tolerance, and appetite
+(2) Risk decisions, Risk management
+(3) Risk reduction, Risk transfer or sales, Risk hedging
 
+### Various Risk-mitigation Tools
 
+**Portfolio Risk Management: Risk Mitigation**
+- Analyze default risks thoroughly, regularly
+- Establish policy and guidelines
+- Set limits and benchmarks
+- Sell off exposures 
+- Seek third-party support
+- Securitize exposures
+- Purchase credit insurance (derivatives)
+
+**Methods or techniques to reduce risks or exposures**
+|Method, tool, technique | Observation |
+| -- | -- |
+| Discipline at origination | Requires objective, in-depth financial analysis, awareness of borrower vulnerability and industry downturn |
+| Concentration limits | Must manage business-growth objectives, market opportunities |
+| Loan sales | Requires active secondary-market trading unit, subject to market demand and pricing, risk-retention rules |
+| Single-name CDS | Requires CDS hedging, trading group, subject to MTM and collateral requirements, counterparty risks, subject to brokerage and settlement margin requirements (central depositary, e.g.). |
+| Financial guarantees | Depends on risk and asset and support providers, subject to legal interpretation of guarantee of payment, support or reimbursement |
+| Securitization | Depends on asset class, industries, subject to channels for securitization, subject to Basel III and accounting rules for risk retention, VIE consolidations, and implied support |
+| Index CDS, index tranche CDS, credit insurance | Requires CDS trading unit, subject to MTM exposures and counterparty risks, subject to collateral and margining, subject to basis risks and correlations |
 
 
 
