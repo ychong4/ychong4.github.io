@@ -196,8 +196,8 @@
 
 | Rating | Default frequency | Default Probabiltiy |
 | --  |   ---  |  --- |
-| Fitch, S&P, Moody's | - The rating and the tenor of the exposure can be mapped into an historical default frequency for that rating
-- Based on past data, what percentage of debt outstanding in that ratings group defaulted over the defined tenor? | - The analyst can use the default frequency of that rating as a basis to derive probability of default for a defined tenor  - A credit spread accounts for "expected loss" or [Probability of default] x [Loss-given-default] |
+| Fitch, S&P, Moody's | The rating and the tenor of the exposure can be mapped into an historical default frequency for that rating | The analyst can use the default frequency of that rating as a basis to derive probability of default for a defined tenor |
+| | Based on past data, what percentage of debt outstanding in that ratings group defaulted over the defined tenor? | A credit spread accounts for "expected loss" or [Probability of default] x [Loss-given-default] |
 
 
 
