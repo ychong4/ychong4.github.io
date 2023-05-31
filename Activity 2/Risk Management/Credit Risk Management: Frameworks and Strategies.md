@@ -200,7 +200,18 @@
 | | Based on past data, what percentage of debt outstanding in that ratings group defaulted over the defined tenor? | A credit spread accounts for "expected loss" or [Probability of default] x [Loss-given-default] |
 
 
+## Understanding Default Trends
 
+### Default Rates: Trends
+**General trends: Global probability of default**
+- Default rates, based on outstanding debt in selected years
+- Using historical default rates to project "probability of default" going forward
+- Determining "through the cycle" or "point in time" default rates
+- Investment-grade names continue to perform as expected, deserving the ratings they earned.
+- Non-investment trends show no discernible pattern yet.
+- Overall default statistics may also reflect the declining performance of one or two significant, large borrowers.
+- Statistics show ratings are fairly good predictors of probabilities of default.
+- Defaults of AA-rated names occured in 1999 and 2008.
 
 
 
