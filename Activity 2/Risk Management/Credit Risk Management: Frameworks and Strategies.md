@@ -281,7 +281,11 @@
 - **Unconditional:** Default rates remain the same
 - **Intensity or Reduced Form:** Inferring default rates from market indicators (CDS, bond spreads)
 
+## Portfolio Management Concepts
 
+
+
+## Risk Mitigation
 
 
 
