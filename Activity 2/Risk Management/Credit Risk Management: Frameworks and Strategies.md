@@ -177,10 +177,24 @@
 - Loss Given Default = (1 - Recovery Rate)
 
 
+## Risks vs Rewards
+
+**Loan and  Debt Pricing**
+- Base rate: (1) Cost of funding, (2) Risk-free rate
+- Credit Spread: (1) Expected Loss = PD x LGD
+
+## Debt Investors
+
+### Credit Analysis: Debt Investors
+- Debt investors include those who have made private-placement investments (notes) and those who have purchased public debt sucurities (bond, notes, debentures, convertible bonds, etc.).
+- Debt investors seek to be paid interest and principal and want to protect themselves against default, while earning a return that compensate them for risks they endure.
 
 
-
-
+## Assigning Ratings
+- Investors and analysts will translate ratings-agency ratings into credit spreads to determine risk-based loan and bond pricing
+| Rating | Default frequency | Default Probabiltiy |
+| --  |   ---  |  --- |
+| Fitch, S&P, Moody's | - The rating and the tenor of the exposure can be mapped into an historical default frequency for that rating | - The analyst can use the default frequency of that rating as a basis to derive probability of default for a defined tenor |
 
 
 
