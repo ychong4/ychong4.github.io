@@ -369,6 +369,8 @@
 - Securitize exposures
 - Purchase credit insurance (derivatives)
 
+</br>
+
 **Methods or techniques to reduce risks or exposures**
 |Method, tool, technique | Observation |
 | -- | -- |
@@ -380,8 +382,16 @@
 | Securitization | Depends on asset class, industries, subject to channels for securitization, subject to Basel III and accounting rules for risk retention, VIE consolidations, and implied support |
 | Index CDS, index tranche CDS, credit insurance | Requires CDS trading unit, subject to MTM exposures and counterparty risks, subject to collateral and margining, subject to basis risks and correlations |
 
+### Credit Mitigation: Securitization & Credit-Default Swap
 
+**Credit Mitigation: Securitization**
+- The bank can sell the portfolio to an SPV (CLO, e.g.), but must ensure the sale does not require the bank to repurchase the portfolio if credit quality declines
 
+**Credit Mitigation: Credit-Default Swap**
+- **Referenced credit asset:** (1) Company, (2) Sovereign, (3) Index
+- **Bank, lender or investor:** (1) Buying protection against default of credit asset, (2) Transferring risk
+- **Counterparty:** (1) Selling protection, (2) Accepting Risk
+- Bank pays Counterparty the credit premium
 
 
 
