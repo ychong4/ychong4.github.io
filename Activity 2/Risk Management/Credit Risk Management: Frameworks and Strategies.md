@@ -304,12 +304,45 @@
 | Loan 8 | 265 | 2% | 15% | 0.795 |
 |TOTAL | 1,125 |    |     | 5.320 or 0.47% |
 
-**Concepts in Portfolio Management
+**Concepts in Portfolio Management**
 - Default and recovery risks
 - Concetration risk
 - Correlation risk
 - Incremental or Marginal risk
 - Pricing risks
+
+**Porfolio Management: Unexpected Loss**
+- Unexpected loss for each loan accounts for losses beyond expected loss and is based on historical variance (volatility) in default frequencies/probabilities for each rating 
+- For bank regulation, Basel III quantifies unexpected loss, based on 99% confidence ranges (2.33 SDs)
+
+**Porfolio Management: Concentration Risks**
+- Concentration may be measured based on individual loans or groupings of loans by industries, currencies or geographies.
+- The HHI (Herfindahl-Herschmann Index) can be used to measured trends in concentration
+- 0 > HHI > 1
+- HHI = 100%, if there is one loan in the portfolio; HHI = 1%, if there are 100 loans, each with 1% portion
+- HHI above 20.7% and can be measured over time and compared to peer firms
+
+**Porfolio Management: Default Correlation**
+- The performance of individual loans can be correlated. Defaults on certain individual loans can occur at the same time, if they are highly correlated.
+- If probability of default can be derived or determined and if expected loss and unexpected loss are calculated, then how must default correlation be treated? Portfolio managers address effective methods of addressing correlation
+
+### Value at Risk: Market VaR to Credit VaR
+- Portfolio of securities and derivatives position subject to **market** risk
+- **Market VaR:** Defined worst-case loss in market value over defined time period based on market factors
+- Portfolio of investments, loans and credit exposures subject to **credit** risks
+- **Credit VaR:** Defined worst-case loss in value over defined time period based on deteriorating creditworthiness or decline in credit rating
+- In the way that market risk amangers seek to compute a "Value at Risk" (worst-case loss), credit portfolio managers consider computing a Credit VaR
+- With access to selected data over time, they seek to measure what the market VaR provides - a calculation of maximum loss (unpected), due to credit deterioration, with a certain degree of confidence (95%, 99%)
+- How will loss distributions be determined? How will confidence ranges be determined? (Percentiles, standard deviations)
+- Credit vaR is maximum loss based on credit deterioration. Contrast with "Unexpected Loss, " based on events of default
+
+**Credit VaR**
+- Ratings-migration data can be used to determine with a certain level of confidence how far company's issuer rating can deteriorate over a defined timeframe
+- If the rating declines, then the market value of the bond or loan will decline (to account for the higher credit spread)
+- Based on prior data and a confidence level (95%-99%), the analyst determines the greatest migration or lowest bond rating over, say, one year and computes the expected price of the bond one year from now
+- The loss in value over the time frame would be considered the "Credit VaR"(also referred to as "unexpected loss") 
+
+
 
 ## Risk Mitigation
 
