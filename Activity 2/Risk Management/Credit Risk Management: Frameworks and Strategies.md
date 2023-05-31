@@ -213,6 +213,77 @@
 - Statistics show ratings are fairly good predictors of probabilities of default.
 - Defaults of AA-rated names occured in 1999 and 2008.
 
+**Default vs. Credit Deterioration**
+- Credit analysts often try to analyze markets, industries and financial information to determine a probability of default for a specific borrower
+- Analyst will also try to use the same to determine not just default probability, but the likelihood that the borrower will decline or deteriorate in performance from year to year
+- Analysts measure the probability that credit ratings "migrate" or "transition" to lower grades - thus causing increases in borrowing costs or credit spreads.
+- They measure "time to default" or "path to default". Companies with high ratings may default but will have declined over an extended period.
+
+## Market Indicators and Credit Models
+
+### Default Rates: Market Indicators
+
+**Market indicators and indices**
+- Examples: KMV, CDS, bonds spreads, CreditSights, BondScore, CreditGrades, Credit Risk Monitor
+- Based on equity and bond markets, investor sentiment, market behavior
+- Implied ratings and projected default rates fluctuate regularly
+- Not often based on financial-analysis rigor, conventions
+- Use some historical default statistics
+- Useful as convenient input, tool to estimate forward default rates
+- Rating, scores, or grades translate into projected default rate
+
+**KMV, CDS, bonds spreads, CreditSights, BondScore, CreditGrades**
+- 1. Company information, Company performance, Company financial reports
+- 2. Market perceptions/interpretations of company information, Market assessment and analysis of creditworthiness
+- 3. **Market indicator and indices, Implied default probability**
+- Market metrics and indices are used to provide updated, implied credit ratings, risks and default probabilities
+
+**Market indicators from credit spreads (bonds, loans, derivatives) can be used to infer a market-implied probability of default**
+
+| Product| Credit spread | Implied probability of default |
+| --- | --- | --- |
+| Bond CDS | Credit spread = PD x LGD | PD = [Credit spread]/LGD |
+
+- Based on historical defaults and bankruptcies, assume LGD = 0.40
+- PD = [Credit spread]/0.4
+- Map the implied probability to a credit rating
+- Examine default-frequency data provided by ratings agencies
+
+**KMV Model**
+- Structural Models, Merton Models
+- Equity prices
+- Options model
+- Market values of assets
+- Liabilities
+- MV-assets - Liabilities
+- Implied default probabilitis
+- Implied ratings
+
+**CDS Spreads**
+- Risk spreads
+- Market values
+- Expected Loss
+- Implied default probabilities
+
+**Bond Spreads**
+- Credit spreads
+- Expected Loss
+- Implied default probabilities
+
+**Credit Portfolio Risk Models**
+- Some credit-risk models use historical data and market prices to attempt to compute a current perception of probability of default. Models can be classified in different types.
+- **Top Down:** Macro approach
+- **Bottom up :** Each obligor assessed
+- **Default:** Examining default events and default probabilities
+- **MTM (Credit "VaR):** Examining credit deterioration or migration
+- **Structural:** Assessment of balance-sheet assets > liabilities (distance to default), examining market volatility of assets
+- **Conditional:** Updating or tying default rates to a defined scenario
+- **Unconditional:** Default rates remain the same
+- **Intensity or Reduced Form:** Inferring default rates from market indicators (CDS, bond spreads)
+
+
+
+
 
 
 
