@@ -283,7 +283,33 @@
 
 ## Portfolio Management Concepts
 
+### Credit Risk Portfolio Management
 
+**Objective: Determine the expected loss for a portfolio of credit exposures**
+- Credit portfolio managers attempt to measure and manage the expected loss for an entire portfolio of credit exposures - including loan exposure and/or corporate-bond exposures (and other types of credit risks - including committed exposures or counterparty trading exposures).
+- For banks, portfolio expected loss will be used as benchmark to determine credit provisions and loan-loss-allowances.
+- Banks and credit managers will also attempt to compute unexpected loss - based on determinations of expected loss. (Unexpected loss is the basis for bank regulatory capital requirements)
+- Portfolio expected and unexpected losses must consider the impact of loan maturities (tenors) and loan correlations.
+
+**Porfolio Management: Expected Loss**
+| Loan | Exposure ($ millions) | Default Probability | Loss given Default | Expected Loss |
+| --- | --- | --- | --- | --- |
+| Loan 1 | 100 | 2% | 5% | 0.100 |
+| Loan 2 | 150 | 3% | 25% | 1.125 |
+| Loan 3 | 75 | 1% | 10% | 0.075 |
+| Loan 4 | 100 | 4% | 10% | 0.400 |
+| Loan 5 | 200 | 1% | 75% | 1.500 |
+| Loan 6 | 135 | 2% | 10% | 0.270 |
+| Loan 7 | 100 | 3% | 35% | 1.050 |
+| Loan 8 | 265 | 2% | 15% | 0.795 |
+|TOTAL | 1,125 |    |     | 5.320 or 0.47% |
+
+**Concepts in Portfolio Management
+- Default and recovery risks
+- Concetration risk
+- Correlation risk
+- Incremental or Marginal risk
+- Pricing risks
 
 ## Risk Mitigation
 
