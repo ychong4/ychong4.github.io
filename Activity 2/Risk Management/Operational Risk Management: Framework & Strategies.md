@@ -96,7 +96,81 @@ The Tools of Operational Risk Management:
 - Design Capital program as a dynamic tool to measure and manage
 - Provide the basis for clear actions with respect to: (1) Business Strategy, (2) Business Process, (3) Remediation priorities across business lines
 
+## Risk and Control Self-Assessment (RCSA)
+- RSCA is a critical component for risk management framework
 
+**Main Operational Risk Management Tools**
+(1) **Risk and Control Self-Assessment**
+- Interviews, surveys
+- Qualitative assessment
+- Risk mapping
+- Priorities setup
+
+(2) **Loss event Database**
+- Standardized Registration
+- Centralized storage
+- RCSA approval
+- Quantitative assessment
+
+(3) **Scenario Modeling & Analysis**
+- Process descriptions
+- Weaknesses search
+- Op Risk testing
+- Analysis (KRI, limits)
+- Re-engineering
+
+(4) **Key Risk Indicators**
+- Risk monitoring
+- Trend analysis
+- Comparisons
+- Reasoning
+- Proactive management
+
+**RCSA: Proactive Risk Identification & Management Tool
+- Business lines & support functions assess controls in their area;
+- RCSA provides systematic means to identify: (1) Risk clusters (concentrations), (2) Control duplications/gaps or over-controls
+- and to set up: (1) prevention & control measures and (2) corrective action plans
+- Was originally an Internal Audit tool, facilitates a risk-focused approach to Internal Audit;
+- RCSA proactive as opposed to Op Loss Reporting
+- Allocates front line responsibility for ORM directly with management -> corrective actions are more effective & timelier.
+
+**RCSA Objectives**
+- **Identify** Op Risks
+- **Asess** and quantify the institution's exposure to Op Risks
+- **Evaluate** the prevention & control system
+- **Mitigate** the risks
+
+**Risk and Control Self-Assessment WORKFLOW**
+- (1) Define the implementation mode / Document the process
+- (2) Identify & Assess Op Risks (including risk scoring)
+- (3) Identify Controls (Preventative & Detective)
+- (4) Assess & rate the controls (exante & ex-post)
+- (5) Controls improper or are Non-existent
+- (6) Update KRIs, adjust scenario analysis, enhance controls & training 
+- (7) Follow-up on Implementation
+- (8) Report Results/Analyze Residual Risks
+
+**Management Results Reporting Tools**
+- Unless RCSA results are relevant for management decision making, the exercise is no more than an expensive awareness tool
+- Management Reporting through dashboards / heat maps / scorecards
+
+**Heat Mapping**
+- Facilitates the assessment of the likelihood and impact of the risk materializing; Can aslo be used to help determining the "top" risks
+- E.g. Frequency-Severity Matrix, Frequency-Severity-Control Matrix
+
+**RCSA Follow Up**
+- RCSA results ought to be used in conjunction with other components of ORM Framework.
+- **Internal Event Data:** (1) Highlight areas susceptible to Op Risk loss events, (2) Reassures quality of RCSA
+- **External loss data:** (1) RCSA identifies areas of vulnerability that may benefit from considering fas-track external data, (2) Data helps determining potential weaknesses / inherent risks for RCSA
+- **Scenario analysis:** (1) RCSA results serve a valuable input source; (2) Defining risk scenarios leads to identifying risk factors failed to be captured within RCSA.
+
+## Key Risk Performance and Control Indicators
+
+
+
+
+
+## Risk-based Business Process Management
 
 
 
