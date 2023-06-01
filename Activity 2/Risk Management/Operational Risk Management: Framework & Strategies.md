@@ -79,6 +79,14 @@ The Tools of Operational Risk Management:
 - Loss severity distributions are fat-tailed.
 - Capital need is driven by the risk of infrequent but extremely large events
 
+**Op Risk Management Equation**
+| Inherent Risk | - | Mitigation or 'Hedge' | = | Residual Risk | < or = | Risk Appetite |
+| --- | --- | --- | --- | --- | --- | --- |
+| Identified & Classified | | Controls, Designed & Implemented | | Informed by Losses, Metrics, Scenarios | | Top-Down Quantitative & Qualitative |
+| Basel with bespoke, Adjustments | | Assess & Test Design AND Effectivness | | Assessed and Independently Tested | | Re-tested against Scenarios, Capital |
+| Jointly determined - Business & Risk | | Primary role of Business Management | | Primary role of Operation Risk Management | | Board, Senior Management, Risk Management
+
+
 **The Cost-Benefit Proposition in Op Risk**
 - Process-focus and optimization, integrated with Business Objectives
 - Entire Approach oriented towards Risk with respect to Appetite
