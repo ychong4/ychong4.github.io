@@ -166,15 +166,78 @@ The Tools of Operational Risk Management:
 
 ## Key Risk Performance and Control Indicators
 
+**Risk and Performance Indicators**
+- Risk and performance indicators are risk metrics and/or statistics that provide insight into a bank's risk exposure.
+- Risk indicators, often referred to as Key Risk Indicators (KRIs), are used to monitor the main drivers of exposure associated with key risks.
+- Performance indicators, often referred to as Key Performance Indicators (KPIs), provide insight into the status operational processes, which may in turn provide insight into operational weaknesses, failures, and potential losses.
 
+**Indicators Approach to Monitoring Op Risk**
+- Quantitative analysis without risk event collection
+- Early checkup and qualitative projections
+- Benchmarking of risk owners
+- Targeted decision-making
+- Validation of other identification tools
 
+**Key Risk Indicators (KRIs)
+- KRIs measure the frequency, severity, and impact of Op Risk events or corporate actions that occured during a reporting period.
+
+|Risk Dimension | Idicators Type |
+| -- | -- |
+| Severity | (1) Volume of risk events, (2) Average risk losses, (3) Maximum duration of disruptions |
+| Impact | (1) Total amount of risk losses, (2) Cost of mitigations |
+
+**Qualities of Good Key Risk Indicators**
+Qualities of Good KRIs:
+- Ability to measure the right thing (e.g., supports the decisions that need to be made)
+- Quantifiable (e.g. dmaages in dollars of profit loss)
+- Capability to be measured precisely and accurately
+- Ability to be validated against ground truth, and confidence level you have in the assertions made within the framework of the metric
+
+**Key Performance Indicators (KPIs)**
+KPIs are the measures that evaluate scale of banking acitivities.
+- **Extension Risk:** (1) Gross Income, (2) Total Assets, (3) Book Value of Fixed Assets, (4) Cost to Income
+- **People Risk:** (1) Number of Employees, (2) Staff Payroll, (3) Income per Employee, (4) Cost per Employee
+- **Customer / Reputational Risk:** (1) Number of client accounts, (2) Volume of client accounts, (3) Average balance of single client account
+- **Process Risk:** (1) Volume of transactions, (2) Number of transactions, (3) Average amount of single transaction
+
+**Key Control Indicators (KCIs)**
+KCIs are the measures to monitor the effectiveness of established Op Risk management procedures, collected from business units, Risk Management, Internal Audit reports, and Regulators
+- **Business Units:** (1) Number of breaches identified by the staff, (2) Number of disciplinary actions taken, (3) Percentage of loss mitigation
+- **Risk Management:** (1) Number of days before breaches are identified, (2) Number of action plans introduced, (3) Number of action plans failed to implement
+- **Internal Audit:** (1) Number of breaches in processes identified by internal audit, (2) Number of breaches eliminated
+- **Regulators:** (1) Number of claims on the Bank in the area of Op Risk made by the regulator, (2) Number of errors eliminated
+
+**Key Control Indicators (KCIs)**
+- A Key Control indicator quantifies how effectively a specific control tool, approach, or methodology is working.
+- Key Control Indicators (KCIs) are used to define the company wide controls to and monitor the achievement of the set objectives.
+- Managers define the related desired tolerances for controls before measuring.
+- The KCIs role is to ensure that adequate responses and monitoring have been provided to a risk situation identified by KRIs.
 
 
 ## Risk-based Business Process Management
 
+**Business Process Mapping**
+- Business Process Mapping is a tool that may be used for identifying and assessing operation risk
+- Business process mappings identify the key steps in business processes, acitivities and organizational functions. They also identify the key risk points in the overall business process.
+- Process maps can reveal individual risks, risk interdependencies, and areas of control or risk management weakness. They also can help prioritize subsequent management action.
+- Senior management should ensure that there is an approval process for all new products, activities, processes and systems that fully assesses operational risk.
 
+**Business Process Mapping**
+The review and approval process should consider:
+- Inherent risks in the new product, service, or activity
+- Changes to the bank's operational risk profile and appetite and tolerance, including the risk of existing products or activities
+- Necessary controls, risk management processes, and risk mitigation strategies
+- Residual risk
+- Changes to relevant risk thresholds or limits
+- Procedures and metrics to measure, monitor, and manage the risk of the new product or activity
 
+**Process Risk Map**
+- Process risk map is composed and monitored by Risk Management based on key workflows with the idea to identify and control inherent Op Risks 
 
+**Control Objectives,  Procedures and Configuration**
+- **Pre Event:** Design, Process Vulnerability, Compensating Control, Control Environment, People & Technology
+- **Monitoring:** Monitoring, RCSA plan and checklists, Span of control, Residual risk indicators, Control effectiveness
+- **Post Event:** Incident Management, Detection, Mitigation, Escalation, Prevention
 
 
 
