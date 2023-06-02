@@ -85,7 +85,7 @@
 - (3) Value-at-Risk (VaR)
 
 ### 3. Derivaties
-- Derivatives are traded in both the over-the-counter-marekt and on organized exchanges.
+- Derivatives are traded in both the over-the-counter-market and on organized exchanges.
 - They are private contracts whose value is derived from an underlying asset, reference rate or index.
 - In contrast to securities, such as stocks and bonds, which are issued to raise capital, derivatives are private contracts between two parties. 
 
