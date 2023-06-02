@@ -125,16 +125,53 @@
 - A future contract is a commitment to buy or sell at a specified future settlement date a designated amount of a commodity.
 - The seller (short) of the futures contract agrees to make delivery, and the buyer (long) of the contract agrees to take delivery at a currently detemrined market price.
 
+**Futures Contracts Specifications**
+- Futures contracts are standardized, negotiable, and exchange-traded contracts to buy or sell an underlying asset. They differ from forward contracts in the following ways:
+- 1. Futures trade on exchanges, while forwards are over-the-counter.
+- 2. Futures contracts are standardized with limited choice of expiration dates
+- 3. Clearinghouses act as the central counterparty between buyers and sellers of futures
+- 4. They use a daily mark-to-market to manage and margin requirements to manage credit risk.
+
 **Financial Futures Market Pariticipants**
 - Financial futures give investors more of an opportunity to fine-tune the risk and return characteristics of their portfolios.
 - Participants in the future market have been classified as either hedgers or speculators:
 - (1) Hedgers buy or sell futures contracts in order to offset the risk in a cash position. Hedgers must make timing decisions as to when to initiate and end the process, and, as conditions change, hedgers must adjust their hedge strategy.
 - (2) Speculators buy or sell futures contracts in an attempt to earn a return. Speculators are willing to accept the risk of price fluctuations in order to profit from them.
 
-**Hedging with Futures**
+**Hedging a Long Bond Position with Futures**
+- **Short Hedge:** Assume an investor has a bond portfolio and wants to protect the value of the position.
+- To protect this position, the investor would hedge by going short (selling) contracts in the bond futures market for a date in the future.
 
+**Hedging with Futures: Long Hedge**
+- **Long Hedge:** Assume a bond portfolio manager expects to receive an inflow of funds from investors in 30 days.
+- The manager's view is that rates are more likely to decline than increase and so she wants to lock-in the current long-term yields on the funds she will have available to invest in 30 days.
+- One strategy could be is for the investor to buy bond futures contracts maturing in 30 days, this will lock-in the prevailing long-term bond yield
 
+**Hedging a Stock Portfolio with Equity Index Futures**
+- A fund manager manages a portfolio of $20 million in stocks with a beta = 1.2 relative to a large cap stock index.
+- The spot index level is 4010 and the observed futures prices is 4000 for a contract expiring in 3 months.
+- The fund manager is concerned that the stock market will decline due to geopolitical tensions, sometime over the next 90 days
+- She does not wish to incur the commission costs and market impact costs (slippage) of selling her stocks and then repurchasing them after the anticipated decline.
+- What is the risk-minimizing position she can take using index futures?
+- Assume the futures contract has a 'multiplier' of $50 per index point
+- The fund manager would have to sell:
+- $20,000,000 / (4000 x $50) = 100 contracts to match the exposure of the portfolio if the portfolio had a beta = 1, relative to the index
+- However, beta = 1.2, so the optimal number of futures contracts to sell is 100 x 1.2 = 120 contracts
+- Suppose that the manager is correct in her view; the index declines by 4% over the next 90 days.
+- If the estimate of the portfolio beta proves to be accurate, the portfolio value declines by:
+- 1.2 x 0.04 = 0.048 resulting in a loss of $960,000
+- If the futures price falls by 4% (160 points) as well, the gain on a single short futures contract is:
+- 160 x 50 = $8,000; For 120 contracts, the gain is: $8,000 x 120 = $960,000
+- Note that if instead the index had appreciated in value, the future position would have offset the gains on the portfolio, provide that the change in portfolio value was consistent with the beta = 1.2 relative to the index
+- The manager has succeeded in temporarily adjusting the beta of the portfolio to zero (relative to the index).
 
+**Options Basics**
+- Options are instruments that give their holder the right to buy or sell an asset at a specified price until a specified expiration date.
+- The specified delivery price is also called the exercise price or the strike price, X.
+- Call options are an option to buy; Put options are an option to sell.
+- Options confer to a right to the buyer, but not an obligation.
+- European option can be exercised at maturity only.
+- American option can be exercised at any time.
 
 
 
