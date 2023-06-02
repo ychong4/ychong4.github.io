@@ -424,7 +424,7 @@ Scenario creators can ensure the integrity and consistency their estimates using
 - 8. Process that is responsive to internal and external changes
 - 9. Mechanisms for mitigating biases inherent in scenario processes
 
-**Operational Risk Framework**
+## Operational Risk Framework
 
 **Stages of ORM Development in a Bank**
 
@@ -492,9 +492,20 @@ ORM must be an embedded process!
 
 
 
-**Operational Risk Corporate Governance**
+## Operational Risk Corporate Governance
 
+**Op Risk Corporate Governance**
+- Clear Org Structure with defined lines of responsibility
+- Hierarchical decision-making process
+- Adequate internal control structures proportionate to the scale of Org's activities
+- Output of RM system must be integrated into the control of operational risk profile
+- Internal & External Assessment to ensure the ORM framework serves its purpose
 
+**Risk Governance: 4 Lines of Defense**
+1. **Business Manager** have primary responsibility for managing their risks (Risk-takers)
+2. **Independent Corporate ORM fucntion** - supports the line management, responsible for risk oversight and guidance
+3. **Independent assurance**, consists of **verification** (tests the efficiency of the overall framework) and **validation** (ensures the robustness of quantification) - **internal/external audit**
+4. **Board of Directors**
 
 
 
