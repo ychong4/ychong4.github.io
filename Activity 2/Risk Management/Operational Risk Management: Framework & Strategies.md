@@ -298,7 +298,7 @@ Report aggregates frequency and loss amount by business/risk types
 
 ## Capital Requirements
 
-**Operational Risk in Regulatory Capital Requirements
+**Operational Risk in Regulatory Capital Requirements**
 - Complex in causes, sources and manifestations
 - No well-established quantitative approaches
 - Multiple skills required (technical knowledge, self-learning capacity)
@@ -323,18 +323,93 @@ Minimum qualifying criteria for the Standardized Approach:
 
 ## Scenario Analysis
 
+**Scneario Analysis Procedure**
+(1) Scenario risk drivers
+- Business areas
+- Risk types
+- Data sources
+- Management + Expert Groups
+(2) Assumptions formulation
+- Frequency
+- Severity
+- Loss Amount
+- Recovery
+- Return time
+- Risk Owners + Data sources
+(3) Scenario selection
+- Worst case
+- Baseline
+- Best case
+- Validation Team + Audit Integrity Check
+(4) Capital planning
+- AMA model 
+- Provisions
+- Risk management + Audit Integrity Check
+(5) Follow-up
+- Controls
+- Mitigations 
+- Early warning signals
+- Continuity plans
+- Expert Groups + OR Committee
 
+**Writing Scenario Algorithms**
+- Defining and structuring the task, specifying the area of interest and identifying the major relevant features of this area.
+- Describing important external factors and their influence on the area of interest. These factors form the influence fields.
+- Identifying major descriptors for each field and making assumptions about their future trends.
+- Checking the consistency of possible combinations of alternative assumptions regarding the critical descriptors and identifying assumption bundles.
+- Combining assumptions with the trend assumptions regarding the uncritical depicters, resulting in a scenario for each field. 
+- Making assumptions with respect to possible interfering events and their probabilities as well as their impacts on the field.
+- Assessing the impact of the field scenarios on the area of interest and its depicters. Respective scenarios are contructed.
+- Identifying strategies that could promote or impede the developments described in the scenarios.
 
+**What Scnearios Are Relevant?**
+- Scenario requirements: Low frequency, High severity, Realistic to the Bank
+- If low frequency, low severity: Internal Loss Data
+- If high frequency, low severity: RCSA, Key risk indicators, Audit findings
 
+**Forward-looking Focus**
+- Scneario data provides a forward-looking view of potential operational risk exposures, based on historical or judgmental estimations.
 
+**Data Collection**
+- **Data sources:** (1) External loss data, (2) Internal loss data, (3) KRI/KPI, (4) RCSA, (5) Expert opinions
+- **Data types/updates:** (1) Major changes, (2) Extreme losses, (3) At least annually revised
+- **Collection process:** (1) Workshops (expert group), (2) Interviews (business lines), (3) Questionnaires (business lines), (4) Regular meetings (ORCom), (5) Voting (expert group)
+- **Data scope:** (1) Bank-wide scenarios, (2) Busienss line scenarios, (3) Subgroup scenarios
 
+**Scenario Risk Drivers**
+- RCSA may help to identify the business lines and event types of high impact
 
+**High Severity Scenario Examples**
+- Large loan or card fraud (internal/external)
+- High-scale unauthorized trading
+- Legislation non-compliance or incomplete disclosure (banking, tax, AML regulation)
+- Massive technology failure or new system migration
+- Server disruptions/network shutdown that cause outages and loss of information 
+- Mergers and acquisitions with other banks
+- Doubling the bank's maximum historical loss amount
+- Increase of loss frequency by 20%
+- Increase of loss severity by 50%/100%
 
+**Scenario Biases**
+- **Overconfidence:** Underestimation of risk due to the number of observed events being small
+- **Availability:** Overestimation of events that respondents had closer or more recent contact with as personally experienced events are usually more prominent, as are recent events
+- **Anchoring:** When people are asked to estimate range for uncertain events, they use a starting point (anchor), and this may create a tendency for experts to overestimate success and underestimate failures.
+- **Motivation:** Misrepresentation of information due to respondents' interests in conflict with the goals and consequences of the assessment.
+- **Partition dependence:** Refers to whether the respondents' knowledge was distorted by discrete choices of responses had to be represented, which may lead to underestimation of low frequency events and overestimation of high frequency events depending on expert experience.
+- **Framing:** Outcomes from questionnaires are sensitive to the phrasing and the order of questions used. 
+- Banks are likely to deviate from true risk estimate due to low frequency of events, too much reliance on recent data, and conflicts of interest
 
-
-
-
-
+**Robust Scenario Framework**
+Scenario creators can ensure the integrity and consistency their estimates using the following practices:
+- 1. Clearly defined and repeatable process
+- 2. Good quality background preparation of the participants
+- 3. Qualified and experienced facilitators
+- 4. Representatives of the business, subject matter experts and risk managers
+- 5. Structured process for the selection of data for scenario parameters
+- 6. High quality documentation of the scenario formulation and outputs
+- 7. Robust independent challenge process and oversight by risk management
+- 8. Process that is responsive to internal and external changes
+- 9. Mechanisms for mitigating biases inherent in scenario processes
 
 
 
