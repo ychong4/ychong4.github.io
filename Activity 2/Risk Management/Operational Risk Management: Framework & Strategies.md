@@ -323,28 +323,28 @@ Minimum qualifying criteria for the Standardized Approach:
 
 ## Scenario Analysis
 
-**Scneario Analysis Procedure**
+**Scneario Analysis Procedure** </br>
 (1) Scenario risk drivers
 - Business areas
 - Risk types
 - Data sources
-- Management + Expert Groups
+- Management + Expert Groups </br>
 (2) Assumptions formulation
 - Frequency
 - Severity
 - Loss Amount
 - Recovery
 - Return time
-- Risk Owners + Data sources
+- Risk Owners + Data sources </br>
 (3) Scenario selection
 - Worst case
 - Baseline
 - Best case
-- Validation Team + Audit Integrity Check
+- Validation Team + Audit Integrity Check </br>
 (4) Capital planning
 - AMA model 
 - Provisions
-- Risk management + Audit Integrity Check
+- Risk management + Audit Integrity Check </br>
 (5) Follow-up
 - Controls
 - Mitigations 
