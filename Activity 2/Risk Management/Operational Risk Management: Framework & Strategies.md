@@ -416,6 +416,74 @@ Scenario creators can ensure the integrity and consistency their estimates using
 - 8. Process that is responsive to internal and external changes
 - 9. Mechanisms for mitigating biases inherent in scenario processes
 
+**Operational Risk Framework**
+
+**Stages of ORM Development in a Bank**
+- (1) **Starting Point:** Internal Audit, Predominantly Reactive Measures, Safety Mindedness, Error Avoidance, Risk Aversion
+- (2) **Creating the Basis:** Op Risk Unit, Proactive Control, Framework and Strategy
+- (3) **Implementation:** Self-Assessment, Collection of Loss Data, Database
+- (4) **Enhancements, Ongoing, Adaptation:** Key Risk Indicators, Business process analysis, Scenario Analysis, op Risk Reporting, Op VaR
+- (5) **Integration:** Bank-wide Allocation, Enterprise Risk Management
+
+**Goals of Operational Risk Management**
+- Understand How Op Risk is Incurred, Op Risk Potential Impact, Level of Control, Allocate Budgets for Risk Reduction Capital
+- Leads to: Increase Results, Reduce Risks, Improve Product Quality
+
+**Risk Culture**
+Includes
+- Integrity and ethical values
+- Management philosophy & operating style
+- Organizational structure
+- Delegation of authority & responsibility
+- HR policies and practices
+- Staff competencies
+
+Driven by:
+- BOD & senior management commitment
+- HR practices
+- OR training and awareness compaigns
+- Working environment
+- Communication style (internal as well as disclosure to stakholders of ORM practices and position)
+
+**Managing Op Risk through a Framework**
+How Ops Risk has been managed in the past:
+- 4-eyes principles
+- Separation of functions
+- Allocation of responsibilities and limits
+- Internal controls and their review by auditors
+
+ORM must be an embedded process!
+- Prevention ahead of correction 
+- Ongoing questioning of 6Ss - Strategy, Structure, Systems, Safety, Simplicity, Speed
+- Risk awareness for everyone
+- Promote a risk culture rather than controlling numbers
+
+**Op Risk Management Framework Implementation**
+1. Identification 
+- Start loss collection infrastruture (internal losses, external losses)
+- Describe potential losses by structured info: - preventive measures for high-risk areas, - disseminate information via internal communication channels
+2. Assessment
+- Find quantifiable means to track
+- Create Reporting mechanism
+- Involve business units
+- Invest in automated data gathering & workflow technologies
+3. Measurement
+- Developing & refining modeling approach
+- Create Op Risk Data
+- Technology Development
+- Implement advanced tools: - risk indicators, - scneario analyses, -business process analyses
+4. Integration
+- Integrate OR exposure data into management process
+- Engage senior management
+- Manage exposure
+- Invest in processes (limited tech & manual processes)
+
+
+
+**Operational Risk Corporate Governance**
+
+
+
 
 
 
