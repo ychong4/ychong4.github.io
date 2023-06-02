@@ -178,22 +178,112 @@ Risk measurement systems combine 3 steps:
 
 ## Downside Risk Measures
 
+**Downside Risk Measures: VaR**
+1. **VaR: Historical Simulation**
+- Simulates the current portfolio using recent history.
+- Use market data to construct a frequency distribution (histogram) of daily returns. This is based on ordered losses from worst to best.
+- The goal is to summarize the distribution by one number, the level of loss that will not be exceeded at some confidence level.
+2. **VaR: Monte Carlo**
+- Monte Carlo simulations assume particular density for the distribution of risk factors and then draw random samples from these distributions to generate returns on the portfolio.
+3. **VaR: Caveats**
+- VaR does not describe the worst possible loss. It bases its calculation on a confidence level.
+- VaR is measured with some error and is subject to normal sampling variation.
+- VaR does not describe the losses in the left tail since it represents the area under curve between the mean and the confidence interval.
+
+**Conditional VaR: Expected Shortfall**
+- Expected Shortfall
+- How much can we expect to lose once the VaR loss is exceeded?
+- Measures the average loss givent the VaR loss has been exceeded!
+- Average loss in left tail.
+
+**VaR Parameters: Confidence Level**
+- VaR requires 2 quantitative parameters: The confidence level and the time horizon.
+- **Confidence level:**
+- The choice of the confidence level depends on the use of VaR. Typically, VaR is used to measure downside risk, so what matters most is consistency of the VaR confidence levels across trading desks and time.
+- If VaR is used to decide how much capital to set aside to avoid bankcruptcy then a higher confidence level would be required.
+- VaR models should also be back-tested to determine the frequency of losses that exceeded VaR at a specific confidence level over a given time period.
+- **TimeHorizon/Liquidity Horizon**
+- The longer the time horizon the greater the VaR measure.
+- Time horizon is also called liquidity horizon because when a VaR loss (or bigger is made) it is likely that part of the portfolio will have to be sold off to limit losses and reduce risk.
+- If the portfolio contains illiquid assets, it may take several days to sell them off.
+- VaR can be extended from a one-day horizon to more days by multiplying VaR by the square root of time. This adjustment is valid with independent and identically distributed returns that have a normal distribution.
+
+**VaR Parameters: Basel Committee Rules**
+- Before adopting Expected Shortfall as their preferred risk measure, the Basel Committee on Banking Supervision laid out minimum capital requirements for banks to cover market risk of their trading portfolios.
+- The rules define a market risk charge based on the bank's internal VaR measures and require:
+1. A horizon of 10 trading days or 2 calendar weeks,
+2. A 99% confidence level, and
+3. An observation period based on at least a year of historical data and updated at least once a quarter.
+- The rules allow the 10-day VaR to be calculated from the 1-day VaR:
+- VaR(99%,10-Day) = VaR(99%,1-Day) * sqrt(10)
+
 
 ## Stress Testing and Scenario Analysis
 
+**Stress Testing Definition**
+- A Stress Test is a projection of the financial condition of a firm or economy under a specific set of severely adverse conditions
+- One or multiple risk factors
+- Simple or complex scenarios
+- Extreme but plausible likelihood
 
+**Stress Testing after Financial Crisis of 2007-08**
+- During the recession that started in 2007 risk management systems failed at many firms, and many firms realized losses that were far greater and more frequent than what they had anticipated.
+- VaR is a very good measure but like many other measures it has limitations. The lesson learned from the 2007 recession is that relying on recent data may not be sifficient to assess risks, which is why VaR models need to be supplemented by stress tests.
+- Stress tests strive to identify events that could cause extreme but plausible losses. By adding assumptions, however, stress tests are more subjective than VaR measures.
 
+**Stress Testing: Purpose**
+- Inform risk appetite framework
+- Allow management to set appropriate risk policies
+- Ensure risk exposure does not exceed capital and liquidity availability
+- Ensure a firm can survive an extreme but plausible event
+- Identify and assess magnitude of tail risks
 
+**Stress Testing Components and Considerations**
+- **Stress testing includes**
+- Stressing models, volatilities, and correlations
+- Developing responses
+- **Considerations**
+- Scenario Generation
+- Identify risk drivers
+- Data availability and quality
+- Modeling capability
+- Stress test calculation
+- Results aggregation and reporting
 
+**Stress Testing Scenarios**
+- Stress tests are best deployed for high severity scenarios that have fewer risk factors, while scenario analysis has multiple risk factors that could be triggered as volatility catalysts. However, both should focus on extreme but plausible events.
 
+**Stress Testing: Event Risk**
+- Stress testing is useful to guard against event risk, which often arises from emerging risks and strategic risks. The nature of these risks is that they do not occur frequently and may be difficult to anticipate but when they do occur the results are often catastrophic. These risks can come from:
+- Monetary or fiscal policies
+- Environmental changes and extreme weather
+- Marketplace disruptions from new technology or participants
+- Geo-political risks
 
+**Stress Testing: Design and Construction**
+- Scneario Analysis and Stress tests are not easy to design and build, but recent years have shown that colatility is increasing, and markets can be taken by surprise.
+- The goal of both is to ensure the firm can withstand extreme but lausible scenarios without going bankcrupt.
 
+**Scenario Analysis: Definition**
+- Scenario analysis is a systematic process of obtaining expert opinions from business managers and risk management experts to derive resoned assessments of the likelihood and loss impact of plausible high-severity operational losses. 
+- Examines and evaluates possible future events
+- Scenarios may be possible but unlikely
+- Need not be derived from historical events
+- History can provide a great starting point
 
+**Scenario Analysis: Purpose**
+- Prepare for unexpected events
+- Identify key risk exposures, especially emerging risks and strategic risks
+- Explore potential extreme events
+- Mitigate risk of liquidity and solvency
 
-
-
-
-
+**Scneario analysis: Design**
+- A scenario analysis puts a portfolio through a test that has large movements in financial market variables. These scenarios can be created by using various methods:
+- Moving key variables one at a time because it is not likely that all variables move all at once.
+- Using historical scenarios, such as the 1987 market crash.
+- Or the February-March 2020 Covid global market selloff.
+- Creating possible scenarios, by assessing the worst thing that could happen to existing positions.
+- Reserve stress tests, assuming a large loss and then explore those situations that would give rise to that loss.
 
 
 
