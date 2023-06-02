@@ -239,7 +239,89 @@ The review and approval process should consider:
 - **Monitoring:** Monitoring, RCSA plan and checklists, Span of control, Residual risk indicators, Control effectiveness
 - **Post Event:** Incident Management, Detection, Mitigation, Escalation, Prevention
 
+## Risk Event Data Collection
 
+**Losss Data Collection**
+- **Internal Loss Data Collection and Analysis:** Internal operational loss data provides meaningful information for assessing a bank's exposure to operational risk and the effectiveness of internal controls. Analysis of loss events can provide insight into the causes of large losses and information on whether control failures are isolated or systematic.
+- **External Data Collection and Analysis:** External data elements consist of gross operational loss amounts, dates, recoveries, and relevant causal information for operational loss events occurring at organizations other than the bank. External loss data can be compared with internal loss data, or used to explore possible weaknesses in the control environment or consider previously unidentified risk exposures. 
+
+**Why Collect Data?**
+- Immediate Actions
+- Risk Reporting
+- ORCom Decision Making
+- Key Risk and Control Indicators
+- Verifying Audit Reports
+- Advanced Measurment Approaches
+
+**5 Steps in Developing Database**
+- (1) Classify business lines, risk, loss types
+- (2) Define risk relevant data and data sources
+- (3) Make database, reporting templates
+- (4) Management buy-in, assign roles
+- (5) Test the process
+
+**Database Classifications**
+(1) Business Areas </br>
+- Corporate Finance
+- Trading & Sales
+- Retail Banking
+- Commercial Banking
+- Payment and Settlement
+- Agency Services
+- Asset Management
+- Retail Brokerage
+
+(2) Risk event types </br>
+- Internal fraud
+- External fraud
+- Employment Practices and Workplace Safety
+- Clients, Products & Business Practices
+- Damage to Physical Assets 
+- Business disruption and system failures
+- Execution, Delivery & Process Management
+
+(3) Loss Types </br>
+- Direct: Client compensations, Staff payments, Replacement costs, Fees and penalties, Write-offs
+- Pending
+- Losses
+- Provisions
+- Indirect: Timing losses, Opportunity costs, Enhancement costs, Insurance premiums
+
+**External Loss Data**
+Lack of internal observations -> No data integrity and granularity -> Low confidence level for measuring risk -> Incorrect decision making -> Need for external data
+
+**Key Risk Reports: Severity Distribution**
+Report shows distribution of frequency and loss amount by loss severity brackets
+
+**Key Risk Reports: Summary Report**
+Report aggregates frequency and loss amount by business/risk types 
+
+## Capital Requirements
+
+**Operational Risk in Regulatory Capital Requirements
+- Complex in causes, sources and manifestations
+- No well-established quantitative approaches
+- Multiple skills required (technical knowledge, self-learning capacity)
+- Op Risk capital ranges from 18-45% of total regulatory capital for large U.S. banks
+
+**BCBS Operational Risk Capital**
+Operational RWA: a component of the capital ratio denominator
+- (Adjusted Common Equity*)/(Credit RWA + Market RWA + Operational RWA) = Common Equity%
+
+**The Standardized Approach**
+- More accurate approach sensitive to business line segmentation 
+- **Advantages:** (1) Fairly simple, (2) Specific to business type
+- **Shortcomings:** (1) Linear relationship with risk driver, (2) Exposure indicator is distorted with business cycle (lower in downturn, higher in upturn)
+
+**The Standardized Approach: Requirements**
+Minimum qualifying criteria for the Standardized Approach:
+- Management oversight of ORM framework
+- Soundness and integrity of ORM system
+- Sufficient resources in ORM across major business lines, control and audit
+- Specific policies developed and criteria documented for mapping gross income for current business lines and activities
+
+
+## Scenario Analysis
 
 
 
