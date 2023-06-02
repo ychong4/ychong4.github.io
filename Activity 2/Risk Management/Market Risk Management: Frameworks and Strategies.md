@@ -144,6 +144,47 @@
 
 
 
+## Managing and Modeling Market Risk
+
+
+## Market Risk Measurement Systems
+
+**Introduction**
+- Risk maangement has moved from return-based to position-based. **Posititon-based risk measures are more informative** because they can be used to manage portfolios/
+- **Value at Risk (VaR)** is a statistical measure of how much a portfolio might lose within a specified confidence interval over a set time horizon.
+- **Stress testing**, in comparison, identidies possible losses under extreme market conditions that may not show up in the recent history.
+
+**Weaknesses of Notional Limits and Sensitivity Measures**
+- **Financial exposure** can be related to either market, credit or operational risk but often these 3 categories interact with each other.
+- In the past risk managers used to use **notional limits and sensitivity measures**. These measures though do not provide consistent estimates of the potential for downside loss across a portfolio.
+- **Duration is an example of a sensitivity meausre**, and it measures the sensitivity of a bond to interest rates, but duration does not answer the question of what is the probability of a change in interest rates.
+- **Sensitivity measures** also do not allow positions to be aggregated across all markets.
+- **VaR provides information on all weaknesses of notional and sensitivity measures**. Notional and sensitivity measures continue to be usefil to set limits and to control risk.
+- **Stop losses** are another tool used by risk maangers to control risk. Stop losses are **rules enforcing position cuts after losses occur**.
+
+**Risk Measurement Systems**
+Risk measurement systems combine 3 steps:
+1. Collect portfolio positions and map the positions to risk factors
+2. From market data, construct the distribution of risk factors
+3. Construct the distribution of portfolio returns using 1 of 3 methods (parametric, historical, Monte Carlo), and summarize the downside risk with VaR
+
+- The **true level of risk** can be **greater or lower than the VaR** measure.
+- Risk factors need to be chosen, and risk factors represent a subset of all market variables that adequately span the risks of the portfolio.
+- The key is to choose market forces that are adequate for the portfolio. In general, the more complex the strategy the greater the number of risk factor that should be used.
+- Risk managers must make reasonable approximations to develop a cost-efficient measure of risk.
+
+
+
+
+## Downside Risk Measures
+
+
+## Stress Testing and Scenario Analysis
+
+
+
+
+
 
 
 
