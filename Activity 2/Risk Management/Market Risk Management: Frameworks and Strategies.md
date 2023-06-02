@@ -173,18 +173,86 @@
 - European option can be exercised at maturity only.
 - American option can be exercised at any time.
 
+## Measuring and Analyzing Market Risk
+
+### Determining Probability of a Loss
+
+**Overview**
+- Probability measurse the distribution of random variables.
+- These variables are financial "risk factors" that include changes in the following: equity prices, bond prices, foreign exchange rates, and commodity prices.
+- These risk factors help to determine profit or loss in investment portfolios, which is called a probability distribution function.
+
+**Probability Distributions: Density Functions
+- The density function is a function whose value at any given sample in the sample space can be interpreted as providing a relative likelihood that the value of the random variable would equal that sample.
+- A random variable is a variable whose values depend on outcomes of a random phenomenon. Equity prices, bond prices, foreign exchange rates, and commodity prices are all random variables.
+
+**Probability Density Function of Rolling a Pair of Dice**
+- Probability Density Function of rolling a pair of dice
+- There are 11 possible outcomes
+- Frequency is how often the outcome could occur
+- Probability is a function of Frequency divided by total Frequency of combinations (36)
+- Cumulative Probability is the sum of the probability of the current outcome plus all lower outcomes.
+
+**Discrete and Continuous Variables**
+- Discrete variables are variables where the values can be obtained by counting. Recall the example of adding up rolls of two dice that you saw before
+- Continuous variables are the random variables that measure something like a price or a return.
+- Discrete variables assume distinct values, whereas continuous variables assume any value in a given range.
+
+**Univariate Distribution Functions**
+- Univariate distribution is a probability distribution of only one random variable.
+- A random variable X is characterized by a cumulative distribution function, which is the probability that the random variable X is less than or equal to the given number X.
+- Cumulative Distribution of a random variable is the probability that it will take a value that is less than or equal to its current value.
+- Frequency Function (Probability Density Function) calculates how often values occur within a range of values.
+- X(t) is a random variable from the perspective of today
+- Distributional properties of risk factors determine distribution of X(t)
+
+**Normal Portfolio Distribution**
+- Normal distribution, also called the Gaussian distribution, plays a key role in finance because it approximates the behavior of many financial variables.
+- Limitations of a Normal Distribution are that is symmetric around the mean and can range from negative infinity to positive infinity.
+- Most asset prices cannot be ngative and have a zero-lower bound.
+
+**Normal Distribution 90% VaR**
+- Assume standard deviation is 50% and current stock price is $100:
+- About 10% of the distribution falls below a potential stock price of $36 (this is the VaR90%)
+- This means 10% of the time your losses will be greater than $64.
+- 90% of the time your losses will be less than $64.
+- Problem is your stock cannot be worth less than zero!
+
+**Lognormal Portfolio Distribution**
+- Lognormal Distribution is a continuous probability distribution of a random variable whose logarithm is normally distributed.
+- A lognormal distribution is commonly used to describe distributions of financial data because asset prices cannot be negative (returns, in contrast, can be negative but still have a lower bound of --100%).
+- Lognormal distributions are skewed to the right with a zero-lower bound.
+
+**Lognormal Distribution 90% VaR**
+- Assuming standard deviation of 50% and a mean of $100:
+- About 10% of the distribution falls below $53.
+- This means 10% of the time your losses will be greater than $47.
+- 90% of the time your losses will be less than $47 or you will make a gain.
 
 
+### Statistical Measures
 
+**Describing and Summaruzing Data: Graphs**
+- **Scatter Plot:** Graphical way of showing data that graphs two variables to see if there is a relationship. This is a visual observation and while there may be a relationship, we cannot determine that one variable causes the other.
+- An **Outlier** is a value that falls far from the rest of the data.
+- Histogram: An estimate of the probability distribution of a conditional variable.
+- A historgram's x-axis represents bins corresponding to ranges of data, while the y-axis indicates frequency of observations in each bin.
+- Here we see portfolio return data superimposed on a normal histogram.
 
+**Random variable Parameters: Skewness**
+- Skewness is a measure of the asymmetry of a probability distribution of a random variable around the mean. Skewness can be positive or negative.
+- Skew matters because it allows us to see if the array of probable outcomes are in positive or negative territory.
 
-
-
+**Random variable Parameters: Kurtosis**
+- Skewness is also used with kurtosis to determine the likelihood of events falling in the tails of a probability distribution.
+- Mesokurtic (kutosis = 3) is considered average-tailed like the normal distribution.
+- Leptokurtic (kurtosis > 3) is fat-tailed.
+- Platykurtic (kurtosis < 3) is thin-tailed
 
 ## Managing and Modeling Market Risk
 
 
-## Market Risk Measurement Systems
+### Market Risk Measurement Systems
 
 **Introduction**
 - Risk maangement has moved from return-based to position-based. **Posititon-based risk measures are more informative** because they can be used to manage portfolios/
@@ -213,7 +281,7 @@ Risk measurement systems combine 3 steps:
 
 
 
-## Downside Risk Measures
+### Downside Risk Measures
 
 **Downside Risk Measures: VaR**
 1. **VaR: Historical Simulation**
@@ -255,7 +323,7 @@ Risk measurement systems combine 3 steps:
 - VaR(99%,10-Day) = VaR(99%,1-Day) * sqrt(10)
 
 
-## Stress Testing and Scenario Analysis
+### Stress Testing and Scenario Analysis
 
 **Stress Testing Definition**
 - A Stress Test is a projection of the financial condition of a firm or economy under a specific set of severely adverse conditions
