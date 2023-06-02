@@ -358,6 +358,7 @@ Minimum qualifying criteria for the Standardized Approach:
 - Expert Groups + OR Committee
 
 **Writing Scenario Algorithms**
+
 - Defining and structuring the task, specifying the area of interest and identifying the major relevant features of this area.
 - Describing important external factors and their influence on the area of interest. These factors form the influence fields.
 - Identifying major descriptors for each field and making assumptions about their future trends.
@@ -368,23 +369,28 @@ Minimum qualifying criteria for the Standardized Approach:
 - Identifying strategies that could promote or impede the developments described in the scenarios.
 
 **What Scnearios Are Relevant?**
+
 - Scenario requirements: Low frequency, High severity, Realistic to the Bank
 - If low frequency, low severity: Internal Loss Data
 - If high frequency, low severity: RCSA, Key risk indicators, Audit findings
 
 **Forward-looking Focus**
+
 - Scneario data provides a forward-looking view of potential operational risk exposures, based on historical or judgmental estimations.
 
 **Data Collection**
+
 - **Data sources:** (1) External loss data, (2) Internal loss data, (3) KRI/KPI, (4) RCSA, (5) Expert opinions
 - **Data types/updates:** (1) Major changes, (2) Extreme losses, (3) At least annually revised
 - **Collection process:** (1) Workshops (expert group), (2) Interviews (business lines), (3) Questionnaires (business lines), (4) Regular meetings (ORCom), (5) Voting (expert group)
 - **Data scope:** (1) Bank-wide scenarios, (2) Busienss line scenarios, (3) Subgroup scenarios
 
 **Scenario Risk Drivers**
+
 - RCSA may help to identify the business lines and event types of high impact
 
 **High Severity Scenario Examples**
+
 - Large loan or card fraud (internal/external)
 - High-scale unauthorized trading
 - Legislation non-compliance or incomplete disclosure (banking, tax, AML regulation)
@@ -396,6 +402,7 @@ Minimum qualifying criteria for the Standardized Approach:
 - Increase of loss severity by 50%/100%
 
 **Scenario Biases**
+
 - **Overconfidence:** Underestimation of risk due to the number of observed events being small
 - **Availability:** Overestimation of events that respondents had closer or more recent contact with as personally experienced events are usually more prominent, as are recent events
 - **Anchoring:** When people are asked to estimate range for uncertain events, they use a starting point (anchor), and this may create a tendency for experts to overestimate success and underestimate failures.
@@ -405,6 +412,7 @@ Minimum qualifying criteria for the Standardized Approach:
 - Banks are likely to deviate from true risk estimate due to low frequency of events, too much reliance on recent data, and conflicts of interest
 
 **Robust Scenario Framework**
+
 Scenario creators can ensure the integrity and consistency their estimates using the following practices:
 - 1. Clearly defined and repeatable process
 - 2. Good quality background preparation of the participants
@@ -419,6 +427,7 @@ Scenario creators can ensure the integrity and consistency their estimates using
 **Operational Risk Framework**
 
 **Stages of ORM Development in a Bank**
+
 - (1) **Starting Point:** Internal Audit, Predominantly Reactive Measures, Safety Mindedness, Error Avoidance, Risk Aversion
 - (2) **Creating the Basis:** Op Risk Unit, Proactive Control, Framework and Strategy
 - (3) **Implementation:** Self-Assessment, Collection of Loss Data, Database
@@ -430,6 +439,7 @@ Scenario creators can ensure the integrity and consistency their estimates using
 - Leads to: Increase Results, Reduce Risks, Improve Product Quality
 
 **Risk Culture**
+
 Includes
 - Integrity and ethical values
 - Management philosophy & operating style
@@ -446,6 +456,7 @@ Driven by:
 - Communication style (internal as well as disclosure to stakholders of ORM practices and position)
 
 **Managing Op Risk through a Framework**
+
 How Ops Risk has been managed in the past:
 - 4-eyes principles
 - Separation of functions
@@ -459,6 +470,7 @@ ORM must be an embedded process!
 - Promote a risk culture rather than controlling numbers
 
 **Op Risk Management Framework Implementation**
+
 1. Identification 
 - Start loss collection infrastruture (internal losses, external losses)
 - Describe potential losses by structured info: - preventive measures for high-risk areas, - disseminate information via internal communication channels
