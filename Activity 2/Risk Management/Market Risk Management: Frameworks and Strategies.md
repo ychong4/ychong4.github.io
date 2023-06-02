@@ -64,7 +64,7 @@
 - Bond managers can also profit from expected changes in interest rates by using bond futures and interest rate swaps to adjust the duration of their portfolio.
 
 
-### Equities
+### 2. Equities
 - Common stock represents ownership in a corporation
 - Unlike bonds, equities have uncertain cash flows because dividends are at the discretion of the Board of Directors of a company
 - This uncertainty makes equities more difficult to value than bonds
@@ -84,7 +84,7 @@
 - (2) Beta which is also called Market Risk, Systematic Risk or Undiversifiable Risk
 - (3) Value-at-Risk (VaR)
 
-### Derivaties and Managing Market Risk
+### 3. Derivaties
 - Derivatives are traded in both the over-the-counter-marekt and on organized exchanges.
 - They are private contracts whose value is derived from an underlying asset, reference rate or index.
 - In contrast to securities, such as stocks and bonds, which are issued to raise capital, derivatives are private contracts between two parties. 
