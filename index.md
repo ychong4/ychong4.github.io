@@ -45,7 +45,7 @@
 
 <h2>Actuarial Models</h2>
 	<ul class ="Unorder">
-		<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/Intel_Image_Classification.ipynb">[Image Classification] Natural Scene Image Classification</a></li>
+		<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/Actuarial%20Model/TermLifeInsurancePricing.xlsm">[Life] 10-year Term Life Pricing Model</a></li>
 	</ul>
 	
 <h2>Note</h2>
