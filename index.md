@@ -1,31 +1,13 @@
 <body>
 <h1>Yaow Hui Chong</h1>
-<img src="Activity 2/image.png" alt="Yaow Hui Chong" class="img">
 
 <h3><a href="Activity 2/Resume-act-newest.pdf">Resume</a></h3>
 	
 <br>
 	
 <h2>My story</h2>
-<p>I am currently working in the Utility Plant in University of Nebraska-Lincoln as a Data analyst. I received my Master's degree with a major in Management Information System (MIS) and a concentration in data analytics. I was an undergraduate student majoring in Actuarial Sscience in UNL from 2015 - 2018. After that, I worked in Kingsbay Group, LLC for a year. Kingsbay Group is an E-commerce retailer. They mainly retail products on the Amazon Seller Portal. I worked as a Purchasing Analyst to predict the sales quantities of merchandize in the following months to purchase the amount accordingly from the manufacturers. I love the job because it is full of analytics and challenges. </p>
+<p>I am currently working as a Data Analyst in the University of Nebraska-Lincoln. I received my Master's degree with a major in Management Information System (MIS) and a concentration in data analytics from UNO. I was an undergraduate student majoring in Actuarial Sscience in UNL from 2015 - 2018. After that, I worked for a year in Kingsbay Group. Kingsbay Group is an E-commerce retailer and I worked as a Purchasing Analyst to predict the sales quantities of merchandize in the following months and replenish items accordingly. My goal is to provide high-quanlity analysis and create values to the company. </p>
 
-<h2>Goal</h2>
-<p>Apply my knowledge in Machine Learning/AI to help building a better community</p>
-
-<h2>Hobbies</h2>
-	<ul class="Unorder">
-		<li>Sports: Badminton, Basketball, Tennis, Swimming, Jogging</li>
-		<li>Brain games: Puzzle, Chinese Chess</li>
-		<li>Data analytic weekend projects: Kaggle!</li>
-	</ul>
-
-<h2>Languages</h2>
-	<ul class ="Unorder">
-		<li> English </li>
-		<li> Chinese </li>
-		<li> Malay </li>
-		<li> Cantonese </li>
-	</ul>
 <h2>Top 5 Gallup Strengths</h2>
 	<ul class ="Unorder">
 		<li> Relator </li>
