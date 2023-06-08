@@ -43,6 +43,11 @@
 		<li><a href="https://github.com/ychong4/ychong4.github.io/tree/master/Activity%202/FireDetectionRobflow">[Object Detection] YOLOv8 Fire Detection using Roboflow</a></li>
 	</ul>
 
+<h2>Actuarial Models</h2>
+	<ul class ="Unorder">
+		<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/Intel_Image_Classification.ipynb">[Image Classification] Natural Scene Image Classification</a></li>
+	</ul>
+	
 <h2>Note</h2>
 	<ul class ="Unorder">
 		<li><a href="https://github.com/ychong4/ychong4.github.io/tree/master/Activity%202/ChatGPTAPI">ChatGPT API</a></li>
