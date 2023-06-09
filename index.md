@@ -61,7 +61,7 @@
 	</ul>
 <h3>&copy; Yaow Hui Chong 2023 </h3>
 
-![Analytics](github.com/ychong4/ychong4.github.io/tree/master/Activity%202/InsurancePrediction)
-![Analytics](github.com/ychong4/ychong4.github.io)
+[![Analytics](https://ga-beacon.appspot.com/G-M688YC0MBN/ychong4/index)](https://github.com/ychong4/ychong4.github.io)
+
 
 </body>
