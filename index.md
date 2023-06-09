@@ -60,4 +60,8 @@
                 <li><a href="https://www.linkedin.com/in/yaow-hui-chong/">LinkedIn</a></li>	
 	</ul>
 <h3>&copy; Yaow Hui Chong 2023 </h3>
+
+![Analytics](github.com/ychong4/ychong4.github.io/tree/master/Activity%202/InsurancePrediction)
+![Analytics](github.com/ychong4/ychong4.github.io)
+
 </body>
