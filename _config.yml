@@ -1,1 +1,8 @@
 theme: jekyll-theme-midnight
+
+# Analytics
+analytics:
+  provider               : "google-gtag"
+  google:
+    measurement_id          : G-M688YC0MBN
+    anonymize_ip         : # true, false (default)
