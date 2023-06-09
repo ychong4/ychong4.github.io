@@ -1,7 +1,7 @@
 <body>
 <h1>Yaow Hui Chong</h1>
 
-<h3><a href="Activity 2/Resume-act-newest.pdf">Resume</a></h3>
+<h3><a href="Activity 2/Resume.pdf">Resume</a></h3>
 	
 <br>	
 <h2>My story</h2>
