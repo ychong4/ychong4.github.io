@@ -61,7 +61,6 @@
 	</ul>
 <h3>&copy; Yaow Hui Chong 2023 </h3>
 
-[![](https://ga-beacon.appspot.com/G-M688YC0MBN/ychong4/index?pixel)](https://ychong4.github.io)
-
-
 </body>
+
+[![](https://ga-beacon.appspot.com/G-M688YC0MBN/ychong4/index?pixel)](https://ychong4.github.io)
