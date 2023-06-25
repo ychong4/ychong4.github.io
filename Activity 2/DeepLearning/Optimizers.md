@@ -30,7 +30,7 @@
 - Instead of summing up all the past squared gradients from 1 to "t" time steps, we restrict the window size.
 - For example, computing the squared gradient of the past 10 gradients and average out. This can be achieved using Exponentially Weighted Averages over Gradient.
 
-### Adam optimizer
+### Adam 
 - Adam optimizer is by far the most preferred optimizers.
 - The idea behind Adam optimizer is to utilize the momentum concept from "SGD with momentum" and adaptive learning rate from "Ada delta".
 - Advantage: Straightforward to implement, computationally efficient, little memory requirmeents, appropritate for problems with very noisy/or sparse gradients, hyper-parameters have intuitive interpretation and typically require a little tuning.
