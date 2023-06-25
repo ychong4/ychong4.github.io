@@ -16,4 +16,4 @@
 - In SGD with momentum, we have added momentum in a gradient function. This accelerates SGD to converge faster and reduce the oscillation.
 - It always works better than the normal Stochastic Gradient Descent Algorithm.
 
-- ![](https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/DeepLearning/sgd_momentum.webp)
+![](https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/DeepLearning/sgd_momentum.webp)
