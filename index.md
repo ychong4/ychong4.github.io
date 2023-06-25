@@ -30,8 +30,7 @@
 		<li><a href="https://github.com/ychong4/ychong4.github.io/tree/master/Activity%202/Clustering">[Clustering] Clustering Analysis on Credit Card Customers Dataset</a></li>
 		<li><a href="https://github.com/ychong4/ychong4.github.io/tree/master/Activity%202/Recommender%20System">[Recommender Sytem] Recommendation engines for Amazon products and movie datasets</li>
 		<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/Titanic.ipynb">[Classification] Titanic: Machine Learning from Disaster</a></li>
-		<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/HousePricePredict.ipynb">[Regression] House Prices: Advanced Regression Techniques</a></li>
-		
+		<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/HousePricePredict.ipynb">[Regression] House Prices: Advanced Regression Techniques</a></li>	
 	</ul>
 	
 	
