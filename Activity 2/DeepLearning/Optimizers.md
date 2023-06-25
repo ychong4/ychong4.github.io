@@ -14,6 +14,24 @@
 ### SGD with momentum
 - SGD with momentum applies Exponentially Weighted Averages to compute Gradient and used this Gradient to update parameter.
 - In SGD with momentum, we have added momentum in a gradient function. This accelerates SGD to converge faster and reduce the oscillation.
+- The learning rate is constant.
 - It always works better than the normal Stochastic Gradient Descent Algorithm.
 
 ![](https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/DeepLearning/sgd_momentum.webp)
+
+### Adagrad (Adaptive Gradient Algorithm)
+- Adagrad uses different learning rates for each parameter base on iteration.
+- The learning rate for sparse features parameters needs to be higher compare to the dense features parameter because the frequency of occurence of sparse features is lower.
+- In Adagrad optimizer equation, the learning rate has been modified in such a way that it will automatically decrease because the summation of the previous gradient square will always keep on increasing after every time step.
+- Disadvantage: Due to constantly decreasing learning rates, at some point in time step, the model will stop learning as the learning rate is almost close to 0.
+
+### Adadelta
+- Adadelta is an extension of Adagrad that attempts to solve its radically diminishing learning rates.
+- Instead of summing up all the past squared gradients from 1 to "t" time steps, we restrict the window size.
+- For example, computing the squared gradient of the past 10 gradients and average out. This can be achieved using Exponentially Weighted Averages over Gradient.
+
+### Adam optimizer
+- Adam optimizer is by far the most preferred optimizers.
+- The idea behind Adam optimizer is to utilize the momentum concept from "SGD with momentum" and adaptive learning rate from "Ada delta".
+- Advantage: Straightforward to implement, computationally efficient, little memory requirmeents, appropritate for problems with very noisy/or sparse gradients, hyper-parameters have intuitive interpretation and typically require a little tuning.
+
