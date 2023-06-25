@@ -11,3 +11,10 @@
 ![](https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/DeepLearning/Gradient%20descent.webp)
 
 
+### SGD with momentum
+- SGD with momentum applies Exponentially Weighted Averages to compute Gradient and used this Gradient to update parameter.
+- In SGD with momentum, we have added momentum in a gradient function. This accelerates SGD to converge faster and reduce the oscillation.
+- It always works better than the normal Stochastic Gradient Descent Algorithm.
+
+- ![](https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/DeepLearning/sgd_nomomentum.webp)
+- ![](https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/DeepLearning/sgd_momentum.webp)
