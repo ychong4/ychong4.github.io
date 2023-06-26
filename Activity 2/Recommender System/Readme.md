@@ -20,6 +20,12 @@ Recommender systems are the algorithms that aimed at suggesting relevant product
 2. Scoring: Then, another model scores and ranks the candidates in order to select the set of items to display to the user. This model evaluates a relatively small subset of items and can use a more precise model relying on additonal queries.
 3. Re-ranking: The system will take into account additional constraints for the final tanking. For example, remove items that the user explicitly disliked or boosts the score of fresher content. Re-ranking can help ensure diversity, freshness, and fairness.
 
+**Embedding Types**
+1. Matrix Factorization: Matrix factorization involves factorizing the user-item iteraction matrix into two lower-rank matrices, which can be used to generate embeddings for the users and items.
+2. Autoencoder: Autoencoders are neural networks that learn to compress and decompress data, and can be used to generate embeddings for users or items by training the network to reconstruct the input data. 
+3. GNN: GNNs are a more recent approach to embedding that leverages graph structures to capture the relationships between items and users. GNNs are message passing algorithms to propagade information across the graph and generate embeddings for the nodes in the graph. It is effective for capturing complex dependencies between items and users, as well as for handling heterogeneous types of data.
+
+
 **Similarity Measures**
 1. Cosine: The cosine of the angle between the two vectors.
 2. Dot product: The dot product of two vectors.
