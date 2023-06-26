@@ -15,6 +15,16 @@ Recommender systems are the algorithms that aimed at suggesting relevant product
 5. Hybrid approach: Combination of collaborative filtering, content-based filtering, and other approaches.
 6. Association rule mining: Association rules capture the relationships between items based on their patterns of co-occurrence across transactions.
 
+**Components of Recommendation System**
+1. Candidate Generation: The system generates smaller subset of candidates from a huge corpus of items.The model needs to evaluate quickly given the enormous size of the corpus. A given model may provide multiple candidate generators, each nominating different subset of candidates.
+2. Scoring: Then, another model scores and ranks the candidates in order to select the set of items to display to the user. This model evaluates a relatively small subset of items and can use a more precise model relying on additonal queries.
+3. Re-ranking: The system will take into account additional constraints for the final tanking. For example, remove items that the user explicitly disliked or boosts the score of fresher content. Re-ranking can help ensure diversity, freshness, and fairness.
+
+**Similarity Measures**
+1. Cosine: The cosine of the angle between the two vectors.
+2. Dot product: The dot product of two vectors.
+3. Euclidean distance: The usual distance in Euclidean space. A smaller distance means higher similarity.
+
 **Notebooks Information:**
 1. **Recommender system for Amazon product:** This notebook introduces the use of popularity-based recommendation system and collaborative filtering recommendation. Popularity-based recommendation is the engine to recommend items to customers based on the hot trend in the item database, which means more ratings counts from users. Collaborative filtering recommends items to customer based on the item they rated previously. The recommender engine lookup for items that have similar ratings from users and recommend them to the specific user based on his/her activity.
 2. **Recommender-System-movies:** In this notebook, the deep learning libraries for recommendation system, Tensorflow Recommender System (TFRS) is explored and used to build a recommendation system. This notebook only includes the shallow model, while deeper model can be added into future research list.
