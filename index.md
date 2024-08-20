@@ -49,11 +49,6 @@
 		<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/Actuarial%20Model/TermLifeInsurancePricing.xlsm">[Life] 10-year Term Life Pricing Model</a></li>
 	</ul>
 	
-<h2>Note</h2>
-	<ul class ="Unorder">
-		<li><a href="https://github.com/ychong4/ychong4.github.io/tree/master/Activity%202/ChatGPTAPI">ChatGPT API</a></li>
-		<li><a href="https://github.com/ychong4/ychong4.github.io/tree/master/Activity%202/Risk%20Management">Risk Management</a></li>
-	</ul>
 	
 <h2>Contact Info</h2>
 	<ul>
@@ -61,7 +56,7 @@
               	<li><a href="https://www.facebook.com/chong.terry.31">Facebook</a></li>
                 <li><a href="https://www.linkedin.com/in/yaow-hui-chong/">LinkedIn</a></li>	
 	</ul>
-<h3>&copy; Yaow Hui Chong 2023 </h3>
+<h3>&copy; Yaow Hui Chong 2024 </h3>
 
 </body>
 
