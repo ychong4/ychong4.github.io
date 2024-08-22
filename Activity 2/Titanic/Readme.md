@@ -84,11 +84,17 @@ Also, we examined the correlation of 'Survived' variable with other variables:
 </br>
 
 A few plots are created to examine the relationship betweent the survival rate and the variables:</br>
+
 (1) Survived vs Age
+
 ![](survival_age.png)
 
 (2) Survived vs Price
+
 ![](survival_price.png)
 
 (3) Survived vs Family members
+
 ![](survival_family.png)
+
+Lastly, 
