@@ -2,7 +2,7 @@
 
 **Overview**
 
-This is a dataset from Kaggle where data professionals are required to training machine learning models to predict if the passengers in the test set will survive from the disaster. 
+This is a dataset from Kaggle where data professionals are requested to training machine learning models to predict if the passengers in the test set will survive from the disaster. 
 
 </br>
 
