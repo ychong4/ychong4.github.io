@@ -1,6 +1,10 @@
 ## Titanic: Machine Learning from Disaster
 
+**Overview**
+
 This is a dataset from Kaggle where data professionals are required to training machine learning models to predict if the passengers in the test set will survive from the disaster. 
+
+</br>
 
 **Data Dictionary**
  
@@ -81,6 +85,8 @@ Also, we examined the correlation of 'Survived' variable with other variables:
 | Age | -0.070 |
 | Pclass | -0.338 |
 
+We can see there are a few variables that have some correlation with the survival rate. For example, Pclass, Price, and Fare.
+
 </br>
 
 A few plots are created to examine the relationship betweent the survival rate and the variables:</br>
@@ -89,12 +95,32 @@ A few plots are created to examine the relationship betweent the survival rate a
 
 ![](survival_age.png)
 
+We observe that the survival rate for children and senior are much higher compare to the age group from 15-35.
+
+
 (2) Survived vs Price
 
 ![](survival_price.png)
+
+We observe that the survival rate for price > 15 are much higher than the passenger with lower price ticket. 
 
 (3) Survived vs Family members
 
 ![](survival_family.png)
 
-Lastly, 
+We did not have meaningful conclusion from the plot.
+
+</br>
+
+**Machine Learning Model** </br>
+
+We train a few machine learning models with cross-validation method used. The conclusion are shown below:
+
+| Model | Train_Set_Accuracy | Dev_Set_Accuracy |
+| --- | --- | --- |
+| Random Forest | 0.860 | 0.860 |
+| Gradient Boosting Classifier | 0.992 | 0.782 |
+| Support Vector Kernel | 0.836 | 0.849 |
+| Cat Boost Classifier | 0.881 | 0.838 |
+
+It appears that the Gradient Boosting Classifier is overtrained. Also, it appears that the best performing model for this dataset prediction is the Random Forest model.
