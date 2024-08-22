@@ -65,3 +65,30 @@ Interestingly, the cabin groups with its survival rate is shown below:
 | F | 21 | 0.615 |
 | G | 5 | 0.500 |
 | T | 1 | 0.000 |
+
+</br>
+
+Also, we examined the correlation of 'Survived' variable with other variables:
+
+| Survived | Correlation |
+| --- | --- |
+| Survived | 1.000 |
+| Price | 0.270 |
+| Fare | 0.252 |
+| Parch | 0.082 |
+| FamilyOnBoard | 0.017 |
+| SibSp | -0.035 |
+| Age | -0.070 |
+| Pclass | -0.338 |
+
+</br>
+
+A few plots are created to examine the relationship betweent the survival rate and the variables:</br>
+(1) Survived vs Age
+![](survival_age.png)
+
+(2) Survived vs Price
+![](survival_price.png)
+
+(3) Survived vs Family members
+![](survival_family.png)
