@@ -18,6 +18,7 @@ This is a dataset from Kaggle where data professionals are required to training 
 | embarked | Port of Embarkation C=Cherbourg, Q=Queenstown, S=Southampton |
 
 **Variable Notes** </br>
+
 pclass: A proxy for socio-economic status (SES) </br>
 1st = Upper </br>
 2nd = Middle </br>
