@@ -3,7 +3,7 @@
 This is a dataset from Kaggle where data professionals are required to training machine learning models to predict if the passengers in the test set will survive from the disaster. 
 
 **Data Dictionary:**
-
+ 
 | Variable | Definition |
 | --- | --- |
 | survival | Survival 0=No, 1=Yes |
@@ -18,16 +18,19 @@ This is a dataset from Kaggle where data professionals are required to training 
 | embarked | Port of Embarkation C=Cherbourg, Q=Queenstown, S=Southampton |
 
 **Variable Notes**
-pclass: A proxy for socio-economic status (SES)
-1st = Upper
-2nd = Middle
-3rd = Lower
-age: Age is fractional if less than 1. If the age is estimated, is it in the form of xx.5
-sibsp: The dataset defines family relations in this way...
-Sibling = brother, sister, stepbrother, stepsister
-Spouse = husband, wife (mistresses and fiancés were ignored)
-parch: The dataset defines family relations in this way...
-Parent = mother, father
-Child = daughter, son, stepdaughter, stepson
-Some children travelled only with a nanny, therefore parch=0 for them.
+
+</br>
+
+pclass: A proxy for socio-economic status (SES) </br>
+1st = Upper </br>
+2nd = Middle </br>
+3rd = Lower </br>
+age: Age is fractional if less than 1. If the age is estimated, is it in the form of xx.5 </br>
+sibsp: The dataset defines family relations in this way... </br>
+Sibling = brother, sister, stepbrother, stepsister </br>
+Spouse = husband, wife (mistresses and fiancés were ignored) </br>
+parch: The dataset defines family relations in this way... </br>
+Parent = mother, father </br>
+Child = daughter, son, stepdaughter, stepson </br>
+Some children travelled only with a nanny, therefore parch=0 for them. </br>
 
