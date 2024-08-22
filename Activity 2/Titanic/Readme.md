@@ -2,7 +2,7 @@
 
 This is a dataset from Kaggle where data professionals are required to training machine learning models to predict if the passengers in the test set will survive from the disaster. 
 
-**Data Dictionary:**
+**Data Dictionary**
  
 | Variable | Definition |
 | --- | --- |
@@ -16,6 +16,8 @@ This is a dataset from Kaggle where data professionals are required to training 
 | fare | Passenger fare |
 | cabin | Cabin number |
 | embarked | Port of Embarkation C=Cherbourg, Q=Queenstown, S=Southampton |
+
+</br>
 
 **Variable Notes** </br>
 
@@ -32,3 +34,6 @@ Parent = mother, father </br>
 Child = daughter, son, stepdaughter, stepson </br>
 Some children travelled only with a nanny, therefore parch=0 for them. </br>
 
+**Data Visualization** </br>
+
+![](plots.png)
