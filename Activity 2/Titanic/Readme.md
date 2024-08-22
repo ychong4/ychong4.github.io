@@ -34,6 +34,34 @@ Parent = mother, father </br>
 Child = daughter, son, stepdaughter, stepson </br>
 Some children travelled only with a nanny, therefore parch=0 for them. </br>
 
+
 **Data Visualization** </br>
 
 ![](plots.png)
+
+The plots show the distributions of the variables. We observe the right skew on the passenger age. Also, there is an outlier in the ticket fare variable.
+
+**Data Transformation** </br>
+A few data transformation is done on this dataset. </br>
+1. Fill Age missing values </br>
+2. Create column CabinGroup using first letter of Cabin </br>
+3. Examine the survival rate of Cabin Groups
+4.  Create column price = ticket number / number of passenger with same number
+5.  Imputed fare price outliers with mean price
+6.  Create column FamilyOnBoard to calculate the number to family members
+
+</br>
+
+Interestingly, the cabin groups with its survival rate is shown below:
+
+| Cabin Group | Value Count | Survival Rate |
+| --- | --- | -- |
+| N | 1014 | 0.300 |
+| C | 94 | 0.593 |
+| B | 65 | 0.745 |
+| D | 46 | 0.758 |
+| E | 41 | 0.750 |
+| A | 22 | 0.467 |
+| F | 21 | 0.615 |
+| G | 5 | 0.500 |
+| T | 1 | 0.000 |
