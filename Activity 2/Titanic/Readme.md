@@ -45,6 +45,7 @@ Some children travelled only with a nanny, therefore parch=0 for them. </br>
 
 The plots show the distributions of the variables. We observe the right skew on the passenger age. Also, there is an outlier in the ticket fare variable.
 
+
 **Data Transformation** </br>
 A few data transformation is done on this dataset. </br>
 1. Fill Age missing values </br>
