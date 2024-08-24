@@ -47,6 +47,8 @@ our target variable is "REVENUE". Therefore, we will plot to understand the dist
 
 The statistics for the dataset is shown below:
 
+![](statistic_1.png)
+
 The revenue distribution for the entire dataset is shown below:
 
 ![](scenario_1.png)
@@ -67,6 +69,10 @@ The p-value of the test is 0.5292. Since the p-value > 0.05, we failed to reject
 
 Then, we filter out the users with positive revenue. We want to study if the control is effective for this user group.
 
+The statistics for the dataset is shown below:
+
+![](statistic_2.png)
+
 The revenue distribution for the dataset is shown below:
 
 ![](scenario_2.png)
@@ -86,6 +92,11 @@ The p-value of the test is 0.1015. Since the p-value > 0.05, we failed to reject
 ## Section 3. Analyze the user group with multiple visits
 
 Then, we filter out the users with multiple visits. We want to study if the control is effective for this user group.
+
+
+The statistics for the dataset is shown below:
+
+![](statistic_3.png)
 
 The revenue distribution for the dataset is shown below:
 
