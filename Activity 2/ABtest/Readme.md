@@ -19,6 +19,16 @@
 
 </br>
 
+**Data Dictionary**
+
+| Variable | Definition |
+| --- | --- |
+| USER_ID | Unique ID for the customer |
+| VARIANT_NAME | {variant, control} represent different user group |
+| REVENUE | Numeric data, with number range from 0 to a positive number |
+
+</br>
+
 In this dataset, we will perform test on three perspectives:
 
 (1) **All users:** The whole dataset
@@ -29,3 +39,10 @@ In this dataset, we will perform test on three perspectives:
 
 </br>
 
+## Section 1. Analyze the entire dataset
+
+We want to first analyze the entire dataset. We found no missing value from the dataset. However, there are some users that have multiple records in the dataset. It indicates the users might visited the website multiple times before making purchases.
+
+our target variable is "REVENUE". Therefore, we will plot to understand the distribution of the revenue in different user groups.
+
+![](corr.png)
