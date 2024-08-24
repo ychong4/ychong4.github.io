@@ -17,6 +17,8 @@
 - Make inferences
 - Recommend business decision to your customer/director/ceo etc.
 
+</br>
+
 In this dataset, we will perform test on three perspectives:
 
 (1) **All users:** The whole dataset
@@ -24,3 +26,6 @@ In this dataset, we will perform test on three perspectives:
 (2) **Paid users:** Filter the dataset with only paid user
 
 (3) **Multiple visit users:** Filter the dataset with users that have multiple visits
+
+</br>
+
