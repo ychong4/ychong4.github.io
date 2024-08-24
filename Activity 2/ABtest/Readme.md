@@ -45,6 +45,8 @@ We want to first analyze the entire dataset. We found no missing value from the 
 
 our target variable is "REVENUE". Therefore, we will plot to understand the distribution of the revenue in different user groups. We first remove the extreme outlier value, which is near $200 revenue for a single user.
 
+The statistics for the dataset is shown below:
+
 The revenue distribution for the entire dataset is shown below:
 
 ![](scenario_1.png)
@@ -59,6 +61,8 @@ We perform a hypothesis test for the entire dataset:
 
 Both group A and group B are not normally distributed, therefore, we use a non-parametric test (Mann-Whitney U test method). 
 
+The p-value of the test is 0.5292. Since the p-value > 0.05, we failed to reject H0. 
+
 ## Section 2. Analyze the paid user group dataset
 
 Then, we filter out the users with positive revenue. We want to study if the control is effective for this user group.
@@ -67,7 +71,7 @@ The revenue distribution for the dataset is shown below:
 
 ![](scenario_2.png)
 
-As we can see, there control group looks like having a higher mean and third quantile as compared to the variant group. We will perform a hypothesis testing on them.
+As we can see, the control group seems having a higher mean and third quantile as compared to the variant group. We will perform a hypothesis testing on them.
 
 ### A/B Test on the paid user group 
 
@@ -77,15 +81,17 @@ We perform a hypothesis test for the paid user group:
 
 Both group A and group B are not normally distributed, therefore, we use a non-parametric test (Mann-Whitney U test method). 
 
+The p-value of the test is 0.1015. Since the p-value > 0.05, we failed to reject H0. 
+
 ## Section 3. Analyze the user group with multiple visits
 
-Then, we filter out the users with multiple visit. We want to study if the control is effective for this user group.
+Then, we filter out the users with multiple visits. We want to study if the control is effective for this user group.
 
 The revenue distribution for the dataset is shown below:
 
 ![](scenario_3.png)
 
-As we can see, there revenue distribution looks alike with the entire dataset.
+As we can see, the revenue distribution looks alike with the entire dataset.
 
 ### A/B Test on the multiple visit user group 
 
@@ -94,3 +100,5 @@ We perform a hypothesis test for the multiple visit user group:
 - 𝐻𝐴: There is a difference in the mean revenue between variant and control.
 
 Both group A and group B are not normally distributed, therefore, we use a non-parametric test (Mann-Whitney U test method). 
+
+The p-value of the test is 0.6958. Since the p-value > 0.05, we failed to reject H0. 
