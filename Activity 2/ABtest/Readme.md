@@ -113,3 +113,17 @@ We perform a hypothesis test for the multiple visit user group:
 Both group A and group B are not normally distributed, therefore, we use a non-parametric test (Mann-Whitney U test method). 
 
 The p-value of the test is 0.6958. Since the p-value > 0.05, we failed to reject H0. 
+
+</br>
+
+## Section 4. Conclusion
+
+The result is summarized in the table below:
+
+| Scenario | Test Type | P value | Result | Remark |
+| --- | --- | --- | --- | --- |
+| Test on the entire user group | Non-parametric | 0.529197 | Failed to reject H0 | A/B groups are similar |
+| Test on the paid user group	 | Non-parametric | 0.101459 | Failed to reject H0 | A/B groups are similar |
+| Test on the user group with multiple visits | Non-parametric | 0.695758 | Failed to reject H0 | A/B groups are similar |
+
+In all three scenarios, our hypothesis tests show results of failed to reject H0. Therefore, we can conclude that in all scenarios, A/B groups are similar, and the controls are not effective.
