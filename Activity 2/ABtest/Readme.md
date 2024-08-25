@@ -6,7 +6,7 @@
 - It takes a control (A) version against a variant (B) version to measure which one is most successful based on your key metrics.
 - A/B testing plays an important role in campaign management since it helps determine what is and isn't working. It allows you to compare and contrast the performance of two different approaches to identify the better one.
 
-**AB Testing Steps:**
+**A/B Testing Steps:**
 - Understanding business problem & data
 - Detect and resolve problems in the data (Missing Value, Outliers, Unexpected Value)
 - Look summary stats and plots
@@ -102,7 +102,7 @@ The revenue distribution for the dataset is shown below:
 
 ![](scenario_3.png)
 
-As we can see, the revenue distribution looks alike with the entire dataset.
+As we can see, the revenue distribution looks alike with the dataframe in the first section.
 
 ### A/B Test on the multiple visit user group 
 
