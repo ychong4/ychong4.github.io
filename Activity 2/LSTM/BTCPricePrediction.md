@@ -35,9 +35,7 @@ In this dataset, we have data for 1-minute interval from 8/17/2017 04:00:00 up t
 The original dataset is in 1-minute interval. We created 5min, hourly, daily, weekly, and monthly datasets.
 
 </br>
-The dataset length is shown below:
-
-</br>
+The dataset length is shown below: </br>
 
 - 5_min dataset length: 740725
 - Hourly dataset length: 61728
