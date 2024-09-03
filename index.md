@@ -37,9 +37,11 @@
 	
 <h2>Computer Vision</h2>
 	<ul class ="Unorder">
-		<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/Intel_Image_Classification.ipynb">[Image Classification] Natural Scene Image Classification</a></li>
-			<li><a href="https://github.com/ychong4/ychong4.github.io/tree/master/Activity%202/Intel%20Image%20Classification">Project Overview</a></li>
-			<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/Intel_Image_Classification.ipynb">Notebook</a></li>
+		<li>Natural Scene Image Classification</li>
+			<ul>
+				<li><a href="https://github.com/ychong4/ychong4.github.io/tree/master/Activity%202/Intel%20Image%20Classification">Project Overview</a></li>
+				<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/Intel_Image_Classification.ipynb">Notebook</a></li>
+			</ul>
 		<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/TransferLearning_MobileNet_v2.ipynb">[Image Classification] Transfer Learning on MobileNetV2</a></li>
 		<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/FineTune_MobileNetV2.ipynb">[Image Classification] Fine tuning MobileNetV2</a></li>
 		<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/yolov5.ipynb">[Object Detection] YOLOv5_Detecting Cars in images</a></li>
