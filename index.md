@@ -37,7 +37,7 @@
 	
 <h2>Computer Vision</h2>
 	<ul class ="Unorder">
-		<li>Natural Scene Image Classification</li>
+		<li>1. Natural Scene Image Classification</li>
 			<ul>
 				<li><a href="https://github.com/ychong4/ychong4.github.io/tree/master/Activity%202/Intel%20Image%20Classification">Project Overview</a></li>
 				<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/Intel_Image_Classification.ipynb">Notebook</a></li>
