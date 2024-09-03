@@ -63,3 +63,9 @@ Also, the percentage return against timestamp plots are created as shown below. 
 Also, the percentage return histograms are created as shown below. We can see that the price change for 5-minute, daily, and weekly intervals are in normal distribution. The monthly percentage return chart looks like slightly right-skewed.
 
 ![](percentage_change_histogram.png)
+
+## Section 3. LSTM model prediction
+
+In this model, the predictors variables are: Close, Volume, MA20, MA50, and MA200. We use the historical data of these variables to predict the future BTC close price.
+predictor_list = ['Close', 'Volume', 'MA20', 'MA50', 'MA200']
+
