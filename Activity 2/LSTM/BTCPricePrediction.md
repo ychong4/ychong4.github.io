@@ -28,6 +28,8 @@
 
 In this dataset, we have data for 1-minute interval from 8/17/2017 04:00:00 up to 09/01/2024 03:00:00.
 
+</br>
+
 ## Section 1. Data Transformation
 
 The original dataset is in 1-minute interval. We created 5min, hourly, daily, weekly, and monthly datasets.
@@ -45,6 +47,7 @@ The dataset length is shown below:
 Also, we created 20, 50, 200 moving average variables in the datasets, and a percentage change variable to calculate the change of close price between timestamps.
 
 </br>
+
 
 ## Section 2. Data Visualization
 
