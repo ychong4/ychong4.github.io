@@ -1,6 +1,6 @@
 ## CNN for Image Classification
 
-This is a practice of building a Convolutional Neural Network (CNN) model to perform image classification task. There are 24k images in the dataset: For 14k images in training set, 3k images in test set, 7k images in prediction set. The images are about the natural scenes around the world. The images are 150x150 and are distributed under 6 categories:
+This is a practice for building a Convolutional Neural Network (CNN) model to perform image classification task. There are 24k images in the dataset: For 14k images in training set, 3k images in test set, 7k images in prediction set. The images are about the natural scenes around the world. The images are 150x150 and are distributed under 6 categories:
 
 </br>
 
