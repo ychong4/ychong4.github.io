@@ -32,4 +32,4 @@ The image classification steps are shown below:
 
 The prediction are shown below:
 
-![](prediction_image.png)
+![](predict_image.png)
