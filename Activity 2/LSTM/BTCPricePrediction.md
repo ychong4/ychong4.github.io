@@ -44,4 +44,18 @@ Then, we created a percentage change variable to calculate the change of close p
 
 ## Section 2. Data Visualization
 
-The daily, weekly, and monthly BTC charts are created.
+The daily, weekly, and monthly BTC charts are created. On these charts, 20ma is plotted in green line, 50ma is plotted in purple line, and 200ma is plotted in red line. 
+
+![](daily_price.png)
+
+![](weekly_price.png)
+
+![](monthly_price.png)
+
+</br>
+
+Also, the percentage return against timestamp plots are created as shown below. We can see that BTC is a volatile assets, as in some extreme days, BTC has percentage change of 20-40% in price.
+
+![](percentage_return_vs_timestamp.png)
+
+Also, the percentage return against timestamp plots are created as shown below. We can see that BTC is a volatile assets, as in some extreme days, BTC has percentage change of 20-40% in price.
