@@ -1,4 +1,4 @@
-# LSTM Time series neural network model
+# LSTM Time-series recurrent neural network (RNN) model
 
 ## Overview
 
@@ -37,5 +37,11 @@ The dataset length is shown below:
 - Monthly dataset length: 86
 
 </br>
-Also, we created a moving ave
+Also, we created 20, 50, 200 moving average variables in the datasets.
 
+</br>
+Then, we created a percentage change variable to calculate the change of close price between timestamps.
+
+## Section 2. Data Visualization
+
+The daily, weekly, and monthly BTC charts are created.
