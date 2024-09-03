@@ -24,9 +24,11 @@
 
 </br>
 
+In this dataset, we have data for 1-minute interval from 8/17/2017 04:00:00 up to 09/01/2024 03:00:00.
+
 ## Section 1. Data Transformation
 
-The original dataset is in 1-minute interbal. We created 5min, hourly, daily, weekly, and monthly datasets.
+The original dataset is in 1-minute interval. We created 5min, hourly, daily, weekly, and monthly datasets.
 
 </br>
 The dataset length is shown below:
@@ -58,4 +60,6 @@ Also, the percentage return against timestamp plots are created as shown below. 
 
 ![](percentage_return_vs_timestamp.png)
 
-Also, the percentage return against timestamp plots are created as shown below. We can see that BTC is a volatile assets, as in some extreme days, BTC has percentage change of 20-40% in price.
+Also, the percentage return histograms are created as shown below. We can see that the price change for 5-minute, daily, and weekly intervals are in normal distribution. The monthly percentage return chart looks like slightly right-skewed.
+
+![](percentage_change_histogram.png)
