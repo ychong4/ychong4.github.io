@@ -40,10 +40,9 @@ The dataset length is shown below:
 - Monthly dataset length: 86
 
 </br>
-Also, we created 20, 50, 200 moving average variables in the datasets.
+Also, we created 20, 50, 200 moving average variables in the datasets, and a percentage change variable to calculate the change of close price between timestamps.
 
 </br>
-Then, we created a percentage change variable to calculate the change of close price between timestamps.
 
 ## Section 2. Data Visualization
 
