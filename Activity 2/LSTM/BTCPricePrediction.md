@@ -93,6 +93,12 @@ After that, we split the trainval dataset to 95% train and 5% val. The dataset l
 
 The Predicted vs Actual vs Predicted plots are shown below. The model has a mean absolute error (MAE) of x for validation set and x for test set.
 
+![](actual_vs_predicted_values.png)
+
+![](btc_actual_vs_price_index.png)
+
+![](btc_actual_vs_price_index_enlarge.png)
+
 ## Section 3. Conclusion
 
 - In this notebook, we used LSTM model for the 5-minute interval prediction for Bitcoin price.
