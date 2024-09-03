@@ -5,6 +5,8 @@
 - LSTM, long short-term memory, is a type of recurrent neural network (RNN) that is capable of learning long-term dependencies.
 - It is developed to overcome the limitations of traditional RNNs, such as the vanishing gradient problem, which makes it difficult for RNNs to learn from long sequences.
 
+</br>
+
 **Data Dictionary**
 
 | Variable | Definition |
