@@ -33,3 +33,5 @@ The image classification steps are shown below:
 The prediction are shown below:
 
 ![](predict_image.png)
+
+As we can see, there is one bad prediction in the first row (In the second picture, it is supposed to be building, but the model predicted it as street) and one bad prediction in the second row (In the first picture, it is supposed to be sea but the model predicted it as mountain). The model will need further fine-tuning to improve the prediction performance. 
