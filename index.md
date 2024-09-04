@@ -67,7 +67,7 @@
      		<ul>
 				<li><a href="https://github.com/ychong4/ychong4.github.io/tree/master/Activity%202/ABtest">Project Overview</a></li>
 				<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/ABtest/abtest.ipynb">Notebook</a></li>
-		</ul>
+			</ul>
 	
 			
 	
