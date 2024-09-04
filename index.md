@@ -26,42 +26,49 @@
 	
 <h2>Kaggle Projects</h2>
 	<ul class ="Unorder">
+		
 		<li>1. [Classification] Health Insurance: Cross Sell Prediction</li>
 			<ul>
 				<li><a href="https://github.com/ychong4/ychong4.github.io/tree/master/Activity%202/InsurancePrediction">Project Overview</a></li>
     				<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/InsurancePrediction/Predicting_insurance.ipynb">Project Overview</a></li>
 			</ul>
+		
 		<li>2. [Classification] Titanic: Machine Learning from Disaster</li>
 			<ul>
 				<li><a href="https://github.com/ychong4/ychong4.github.io/tree/master/Activity%202/Titanic">Project Overview</a></li>	
 				<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/Titanic/Titanic.ipynb">Project Overview</a></li>
 			</ul>
+		
 		<li>3. [Regression] House Prices: Advanced Regression Techniques</li>
 			<ul>
 				<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/HousePricePredict.ipynb">Notebook</a></li>
 			</ul>
+		
 		<li>4. [Time-series] Bitcoin Price prediction using LSTM model</li>
 			<ul>
 				<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/LSTM/BTCPricePrediction.md">Project Overview</a></li>
 				<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/LSTM/btc.ipynb">Notebook</a></li>
 			</ul>
+   
 		<li>5. [Clustering] Clustering Analysis on Credit Card Customers Dataset</li>
 			<ul>
 				<li><a href="https://github.com/ychong4/ychong4.github.io/tree/master/Activity%202/Clustering">Project Overview</a></li>
     				<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/Clustering/Clustering.ipynb">Notebook</a></li>
 			</ul>
-		<li>6. [Recommender System] Recommendation engines for Amazon products and movie datasets
+   
+		<li>6. [Recommender System] Recommendation engines for Amazon products and movie datasets</li>
 			<ul>
 				<li><a href="https://github.com/ychong4/ychong4.github.io/tree/master/Activity%202/Recommender%20System">Project Overview</a></li>
 				<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/Recommender%20System/Recommender%20system%20for%20Amazon%20products.ipynb">Notebook: Amazon Product</a></li>
     				<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/Recommender%20System/Recommender-System-movies.ipynb">Notebook: Movies recommendation</a></li>
 			</ul>
+   
    		<li>7. [A/B Test] Example the effect of control/variant groups on revenue</li>
      			<ul>
 				<li><a href="https://github.com/ychong4/ychong4.github.io/tree/master/Activity%202/ABtest">Project Overview</a></li>
 				<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/ABtest/abtest.ipynb">Notebook</a></li>
 			</ul>
-			
+	</ul>
 			
 	
 	
