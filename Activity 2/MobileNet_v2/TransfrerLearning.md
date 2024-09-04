@@ -28,14 +28,16 @@ The training images are shown below:
 The image classification steps are shown below:
 
 
-At first, data augmentation is performed.
-Then, we include the MobileNetV2 architecture and weights as our base model.
-We train the topmost layer to improve the model accuracy.
-The model is used to perform prediction.
-Our model show an accuracy rate of 90.7% on the test set.
+- At first, data augmentation is performed.
+- Then, we include the MobileNetV2 architecture and weights as our base model.
+- We train the topmost layer to improve the model accuracy.
+- The model is used to perform prediction.
+- Our model show an accuracy rate of 90.7% on the test set.
 
 </br>
 
 The prediction are shown below:
 
 ![](transferlearning_predict_images.png)
+
+
