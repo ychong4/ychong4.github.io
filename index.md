@@ -25,7 +25,7 @@
 	</ul>	
 	
 <h2>Kaggle Projects</h2>
-	<ul class ="Unorder">
+	
 		
 		<li>1. [Classification] Health Insurance: Cross Sell Prediction</li>
 			<ul>
