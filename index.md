@@ -54,9 +54,9 @@
 			</ul>
 		<li>4. [Object Detection] YOLOv5 Car Prediction on road</li>
 			<ul>
-				<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/yolov5/Readme.md">[Object Detection] YOLOv5_Detecting Cars in images</a></li>
-				<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/yolov5.ipynb">[Object Detection] YOLOv5_Detecting Cars in images</a></li>
-				<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/car.mp4">[Object Detection] YOLOv5_Detecting Cars in a video</a></li>
+				<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/yolov5/Readme.md">Project Overview</a></li>
+				<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/yolov5.ipynb">Notebook</a></li>
+				<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/car.mp4">[Object Detection] Video</a></li>
 			</ul>
 		<li>5. [Object Detection] YOLOv8 Fire Detection using Roboflow</li>
 			<ul>
