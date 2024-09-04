@@ -87,6 +87,16 @@
 		</ul>
 	</ul>
 
+<h2>Tableau Portfolio</h2>
+<ul class ="Unorder">
+		<li><a href="https://public.tableau.com/app/profile/yaow.chong/vizzes">Tableau Public Page</a></li>
+	</ul>
+ 
+<h2>Actuarial Models</h2>
+	<ul class ="Unorder">
+		<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/Actuarial%20Model/TermLifeInsurancePricing.xlsm">[Life] 10-year Term Life Pricing Model</a></li>
+	</ul>
+	
 <h2>University Data Projects</h2>
 	<ul class ="Unorder">
 		<li><a href="Activity 2/ISQA 8156 Group project.pdf">Statistical Analysis of participation surveys for "Omaha Girls Rock"</a></li>
@@ -94,16 +104,9 @@
 		<li><a href="Activity 2/ISQA8750 Individual Research.pdf">Keys factors that afect the severity of road accidents</a></li>
 		<li><a href="Activity 2/sampleEnergyDoc.pdf">Analysis on Australian Energy Household</a></li>
 	</ul>	
-
-<h2>Actuarial Models</h2>
-	<ul class ="Unorder">
-		<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/Actuarial%20Model/TermLifeInsurancePricing.xlsm">[Life] 10-year Term Life Pricing Model</a></li>
-	</ul>
-	
-	
+ 
 <h2>Contact Info</h2>
 	<ul>
-		<li><a href="https://public.tableau.com/app/profile/yaow.chong/vizzes">Tableau Public Page</a></li>
 		<li><a href="mailto:yaowhuichong54312@gmail.com">Email</a></li>
               	<li><a href="https://www.facebook.com/chong.terry.31">Facebook</a></li>
                 <li><a href="https://www.linkedin.com/in/yaow-hui-chong/">LinkedIn</a></li>	
