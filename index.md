@@ -30,13 +30,13 @@
 		<li>1. [Classification] Health Insurance: Cross Sell Prediction</li>
 			<ul>
 				<li><a href="https://github.com/ychong4/ychong4.github.io/tree/master/Activity%202/InsurancePrediction">Project Overview</a></li>
-    				<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/InsurancePrediction/Predicting_insurance.ipynb">Project Overview</a></li>
+    				<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/InsurancePrediction/Predicting_insurance.ipynb">Notebook</a></li>
 			</ul>
 		
-		<li>2. [Classification] Titanic: Machine Learning from Disaster</li>
+  		<li>2. [Classification] Titanic: Machine Learning from Disaster</li>
 			<ul>
 				<li><a href="https://github.com/ychong4/ychong4.github.io/tree/master/Activity%202/Titanic">Project Overview</a></li>	
-				<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/Titanic/Titanic.ipynb">Project Overview</a></li>
+				<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/Titanic/Titanic.ipynb">Notebook</a></li>
 			</ul>
 		
 		<li>3. [Regression] House Prices: Advanced Regression Techniques</li>
