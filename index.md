@@ -64,10 +64,10 @@
 			</ul>
    
    		<li>7. [A/B Test] Example the effect of control/variant groups on revenue</li>
-     			<ul>
+     		<ul>
 				<li><a href="https://github.com/ychong4/ychong4.github.io/tree/master/Activity%202/ABtest">Project Overview</a></li>
 				<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/ABtest/abtest.ipynb">Notebook</a></li>
-			</ul>
+		</ul>
 	
 			
 	
