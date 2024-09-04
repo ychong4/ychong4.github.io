@@ -68,30 +68,31 @@
 <h2>Computer Vision</h2>
 	<ul class ="Unorder">
 		<li>1. [Image Classification] Natural Scene Image Classification -- CNN</li>
-			<ul>
-				<li><a href="https://github.com/ychong4/ychong4.github.io/tree/master/Activity%202/Intel%20Image%20Classification">Project Overview</a></li>
-				<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/Intel_Image_Classification.ipynb">Notebook</a></li>
-			</ul>
+		<ul>
+			<li><a href="https://github.com/ychong4/ychong4.github.io/tree/master/Activity%202/Intel%20Image%20Classification">Project Overview</a></li>
+			<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/Intel_Image_Classification.ipynb">Notebook</a></li>
+		</ul>
 		<li>2. [Image Classification] Transfer Learning on MobileNetV2</li>
-			<ul>
-				<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/MobileNet_v2/TransfrerLearning.md">Project Overview</a></li>
-				<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/TransferLearning_MobileNet_v2.ipynb">Notebook</a></li>
-			</ul>
+		<ul>
+			<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/MobileNet_v2/TransfrerLearning.md">Project Overview</a></li>
+			<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/TransferLearning_MobileNet_v2.ipynb">Notebook</a></li>
+		</ul>
 		<li>3. [Image Classification] Fine Tuning on MobileNetV2</li>
-			<ul>
-				<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/MobileNet_v2/FineTune.md">Project Overview</a></li>
-				<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/FineTune_MobileNetV2.ipynb">Notebook</a></li>
-			</ul>
+		<ul>
+			<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/MobileNet_v2/FineTune.md">Project Overview</a></li>
+			<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/FineTune_MobileNetV2.ipynb">Notebook</a></li>
+		</ul>
 		<li>4. [Object Detection] YOLOv5 Car Prediction on road</li>
-			<ul>
-				<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/yolov5/Readme.md">Project Overview</a></li>
-				<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/yolov5.ipynb">Notebook</a></li>
-				<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/car.mp4">[Object Detection] Video</a></li>
-			</ul>
+		<ul>
+			<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/yolov5/Readme.md">Project Overview</a></li>
+			<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/yolov5.ipynb">Notebook</a></li>
+			<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/car.mp4">[Object Detection] Video</a></li>
+		</ul>
 		<li>5. [Object Detection] YOLOv8 Fire Detection using Roboflow</li>
-			<ul>
-				<li><a href="https://github.com/ychong4/ychong4.github.io/tree/master/Activity%202/FireDetectionRobflow">Project Overview</a></li>
-			</ul>
+		<ul>
+			<li><a href="https://github.com/ychong4/ychong4.github.io/tree/master/Activity%202/FireDetectionRobflow">Project Overview</a></li>
+		</ul>
+	</ul>
 
 <h2>Actuarial Models</h2>
 	<ul class ="Unorder">
