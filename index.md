@@ -103,7 +103,8 @@
 	
 <h2>Contact Info</h2>
 	<ul>
-		<li><a href="mailto:ychong@unomaha.com">Email</a></li>
+		<li><a hred="https://public.tableau.com/app/profile/yaow.chong/vizzes">Tableau Public Page</a></li>
+		<li><a href="mailto:yaowhuichong54312@gmail.com">Email</a></li>
               	<li><a href="https://www.facebook.com/chong.terry.31">Facebook</a></li>
                 <li><a href="https://www.linkedin.com/in/yaow-hui-chong/">LinkedIn</a></li>	
 	</ul>
@@ -111,4 +112,3 @@
 
 </body>
 
-[![](https://ga-beacon.appspot.com/G-M688YC0MBN/ychong4/index?pixel)](https://ychong4.github.io)
