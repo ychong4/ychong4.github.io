@@ -63,7 +63,7 @@
 			</ul>
 			
 			
-	</ul>
+	
 	
 	
 <h2>Computer Vision</h2>
