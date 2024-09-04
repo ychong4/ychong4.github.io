@@ -87,7 +87,7 @@
 		</ul>
 	</ul>
 
-<h2>University Projects</h2>
+<h2>University Data Projects</h2>
 	<ul class ="Unorder">
 		<li><a href="Activity 2/ISQA 8156 Group project.pdf">Statistical Analysis of participation surveys for "Omaha Girls Rock"</a></li>
 		<li><a href="Activity 2/ISQA 8700 Group Project.pdf">COVID-19 Data Mining & Analysis Project</a></li>
