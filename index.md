@@ -45,6 +45,17 @@
 			<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/LSTM/BTCPricePrediction.md">Project Overview</a></li>
 			<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/LSTM/btc.ipynb">Notebook</a></li>
 		</ul>
+		<li>5. [Clustering] Clustering Analysis on Credit Card Customers Dataset</li>
+		<ul>
+			<li><a href="https://github.com/ychong4/ychong4.github.io/tree/master/Activity%202/Clustering">Project Overview</a></li>
+    			<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/Clustering/Clustering.ipynb">Notebook</a></li>
+		</ul>
+		<li>6. [Recommender System] Recommendation engines for Amazon products and movie datasets</li>
+		<ul>
+			<li><a href="https://github.com/ychong4/ychong4.github.io/tree/master/Activity%202/Recommender%20System">Project Overview</a></li>
+			<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/Recommender%20System/Recommender%20system%20for%20Amazon%20products.ipynb">Notebook: Amazon Product</a></li>
+    			<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/Recommender%20System/Recommender-System-movies.ipynb">Notebook: Movies recommendation</a></li>
+		</ul>
 	</ul>
 		
   		
@@ -53,18 +64,9 @@
 		
 		
    
-		<li>5. [Clustering] Clustering Analysis on Credit Card Customers Dataset</li>
-			<ul>
-				<li><a href="https://github.com/ychong4/ychong4.github.io/tree/master/Activity%202/Clustering">Project Overview</a></li>
-    				<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/Clustering/Clustering.ipynb">Notebook</a></li>
-			</ul>
+		
    
-		<li>6. [Recommender System] Recommendation engines for Amazon products and movie datasets</li>
-			<ul>
-				<li><a href="https://github.com/ychong4/ychong4.github.io/tree/master/Activity%202/Recommender%20System">Project Overview</a></li>
-				<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/Recommender%20System/Recommender%20system%20for%20Amazon%20products.ipynb">Notebook: Amazon Product</a></li>
-    				<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/Recommender%20System/Recommender-System-movies.ipynb">Notebook: Movies recommendation</a></li>
-			</ul>
+		
    
    		<li>7. [A/B Test] Example the effect of control/variant groups on revenue</li>
      		<ul>
