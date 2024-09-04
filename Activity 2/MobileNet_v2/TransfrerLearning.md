@@ -2,6 +2,7 @@
 
 - MobileNetV2 is a convolutional neural network architecture designed for efficient mobile and embedded vision applications. It was introduced by Google in 2018 as an improvement over the original MobileNet architecture, with a focus on reducing computational complexity while maintaining high accuracy.
 - MobileNetV2 is designed to run on devices with limited computational resources, such as smartphones and IoT devices. It achieves a good balance between accuracy and efficiency.
+- Transfer learning is a machine learning technique where a model developed for a particular task is reused as the starting point for a model on a second, related task. This approach leverages pre-trained models, which have already been trained on a large dataset (often on a task like image classification on the ImageNet dataset) and fine-tunes them on a new task with typically less data. In our case, we freeze the weights of pre-trained model and only adding the topmost layer for re-training.
 
 </br>
 
