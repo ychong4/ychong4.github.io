@@ -36,20 +36,22 @@
 			<li><a href="https://github.com/ychong4/ychong4.github.io/tree/master/Activity%202/Titanic">Project Overview</a></li>	
 			<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/Titanic/Titanic.ipynb">Notebook</a></li>
 		</ul>
+		<li>3. [Regression] House Prices: Advanced Regression Techniques</li>
+		<ul>
+			<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/HousePricePredict.ipynb">Notebook</a></li>
+		</ul>
+		<li>4. [Time-series] Bitcoin Price prediction using LSTM model</li>
+		<ul>
+			<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/LSTM/BTCPricePrediction.md">Project Overview</a></li>
+			<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/LSTM/btc.ipynb">Notebook</a></li>
+		</ul>
 	</ul>
 		
   		
 		
-		<li>3. [Regression] House Prices: Advanced Regression Techniques</li>
-			<ul>
-				<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/HousePricePredict.ipynb">Notebook</a></li>
-			</ul>
 		
-		<li>4. [Time-series] Bitcoin Price prediction using LSTM model</li>
-			<ul>
-				<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/LSTM/BTCPricePrediction.md">Project Overview</a></li>
-				<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/LSTM/btc.ipynb">Notebook</a></li>
-			</ul>
+		
+		
    
 		<li>5. [Clustering] Clustering Analysis on Credit Card Customers Dataset</li>
 			<ul>
