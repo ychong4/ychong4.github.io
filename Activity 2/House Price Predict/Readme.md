@@ -90,5 +90,11 @@ The goal of this project is to predict the sales price for each house based on t
 </br>
 
 ## Data Preprocessing
-In this section, we performed a few 
-1. 
+In this section, we performed a few data transformation: </br>
+- 1. There is one error entry in GarageYrBlt variable, we changed it from 2207 to 2007.
+- 2. Create 'NA' group for categorical columns that contain missing values.
+- 3. Impute values for numerical columns that contain missing values.
+
+## Data Visualization
+
+![](results.png)
