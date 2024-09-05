@@ -31,6 +31,7 @@
 		</ul>
 		<li>3. [Regression] House Prices: Advanced Regression Techniques</li>
 		<ul>
+			<li><a href="https://github.com/ychong4/ychong4.github.io/tree/master/Activity%202/House%20Price%20Predict">Project Overview</a></li>
 			<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/HousePricePredict.ipynb">Notebook</a></li>
 		</ul>
 		<li>4. [Time-series] Bitcoin Price prediction using LSTM model</li>
