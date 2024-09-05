@@ -97,4 +97,35 @@ In this section, we performed a few data transformation: </br>
 
 ## Data Visualization
 
-![](results.png)
+![](sales_price_histogram.png)
+
+It shows that the sales price of houses are right-skewed. With that, we will perform a log transformation to the sales price and drop the original column.
+
+</br>
+
+![](corr_plot.png)
+
+We will drop columns that have low correlation with sales price to prevent model overfitting:
+- Id
+- BsmtFinSF2
+- LowQualFinSF
+- BsmtHalfBath
+- 3SsnPorch
+- MiscVal
+- MoSold
+- YrSold
+
+## Modeling
+Before building machine learning models, we use label encoder on the categorical variables and use normalization on the numerical variables.
+
+</br>
+We did cross-validation on training the Random Forest, Light GBM (LGBM), Gradient Boosting Regression (GBR), and Support Vector Machine (SVM). The result are shown in the table below:
+
+| Model | RMSE Train | RMSE Test |
+| -- | -- | -- |
+| Random Forest | 0.064257 | 0.126209 |
+| LGBM | 0.072096 | 0.111192 |
+| GBR | 0.058665 | 0.115827 |
+| SVM | 0.098863 | 0.096081 |
+
+The result shows that SVM is the best performing model in this case. Therefore, we perform prediction on the test set using SVM model.
