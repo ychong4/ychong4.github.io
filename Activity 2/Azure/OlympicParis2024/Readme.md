@@ -16,8 +16,15 @@ In this part, we use Azure Data Factory to ingest data from the source. We creat
 
 ## 2. Azure Data Lake Storage Gen2
 
+We set up a raw and a transformed folders in the container. The raw folder is used to store the raw data, while the transformed folder is used to store the cleaned data.
+
 ![](image/Azure_Data_Lake_Storage_Gen2_Container.png)
 
-We set up a raw and a transformed folders in the container. The raw folder is used to store the raw data, while the transformed folder is used to store the cleaned data.The files in the raw data folder is shown below:
+The files in the raw data folder is shown below:
 
 ![](image/Azure_Data_Lake_Storage_Gen2_Raw.png)
+
+
+## 2. Azure Databricks
+
+In this part, we load the raw data into Azure databricks environment and perform data cleaning and data transformation.
