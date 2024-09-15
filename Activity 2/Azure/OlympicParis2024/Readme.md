@@ -25,6 +25,11 @@ The files in the raw data folder is shown below:
 ![](image/Azure_Data_Lake_Storage_Gen2_Raw.png)
 
 
-## 2. Azure Databricks
+## 3. Azure Databricks
 
 In this part, we load the raw data into Azure databricks environment and perform data cleaning and data transformation.
+
+![](image/Azure_Databricks_1.png)
+![](image/Azure_Databricks_2.png)
+![](image/Azure_Databricks_3.png)
+![](image/Azure_Databricks_4.png)
