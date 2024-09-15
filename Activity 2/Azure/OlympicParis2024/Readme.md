@@ -1,7 +1,7 @@
 
 # Overview: Azure data engineering project for Olympic Paris 2024 dataset 
 
-### Goal: The goal of this project is to demonstrate using tools on Microsoft Azure portal to build end-to-end data pipeline. The process is shown in the image below.
+**Goal: The goal of this project is to demonstrate using tools on Microsoft Azure portal to build end-to-end data pipeline. The process is shown in the image below.**
 
 ![](image/Azure.png)
 
