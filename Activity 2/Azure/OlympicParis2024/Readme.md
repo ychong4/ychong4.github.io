@@ -3,4 +3,5 @@
 
 
 
-![](Azure map.png)
+
+![](Azure.png)
