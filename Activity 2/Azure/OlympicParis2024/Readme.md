@@ -43,4 +43,6 @@ After the data cleaning and data transformation is completed for all the dataset
 
 ## 5. Azure Synapse Analytics
 
+In this part, we built three external tables in the SQL database in Azure Synapse Analytics. Then, we are able to perform SQL-based anlytics to get analytics insights.
 
+![](image/Azure_Synapse_Analytics.png)
