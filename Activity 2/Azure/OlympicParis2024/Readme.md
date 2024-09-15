@@ -39,3 +39,4 @@ After the data cleaning and data transformation is completed for all the dataset
 ## 4. Azure Data Lake Storage Gen2
 
 ![](image/Azure_Data_Lake_Storage_Gen2_Cleaned.png)
+![](image/Azure_Data_Lake_Storage_Gen2_Athletes.png)
