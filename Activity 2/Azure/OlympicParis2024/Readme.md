@@ -32,4 +32,6 @@ In this part, we load the raw data into Azure databricks environment and perform
 ![](image/Azure_Databricks_1.png)
 ![](image/Azure_Databricks_2.png)
 ![](image/Azure_Databricks_3.png)
+
+After the data cleaning and data transformation is completed for all the dataset, they are saved in the transformed folder in the Azure Data Lake Storage Gen2 in parquet format.
 ![](image/Azure_Databricks_4.png)
