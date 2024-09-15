@@ -46,3 +46,9 @@ After the data cleaning and data transformation is completed for all the dataset
 In this part, we built three external tables in the SQL database in Azure Synapse Analytics. Then, we are able to perform SQL-based anlytics to get analytics insights.
 
 ![](image/Azure_Synapse_Analytics.png)
+
+## 6. PowerBI
+
+In this part, we build dashboard for reporting using PowerBI  
+
+![](image/powerbi_medalcount.png)
