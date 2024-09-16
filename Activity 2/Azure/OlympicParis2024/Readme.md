@@ -54,3 +54,7 @@ In this part, we build dashboard for reporting using PowerBI. The visualization 
 ![](image/powerbi_medalcount.png)
 
 ![](image/powerbi_athletes.png)
+
+## Conclusion
+
+The Azure Data Engineering project successfully demonstrated the capabilities of Azure's ecosystem to design and implement a scalable, secure, and efficient data pipeline. By leveraging **Azure Data Factory** for data ingestion, **Azure Data Lake Storage Gen2** for scalable data storage, **Azure Databricks** for data transformation, **Azure Synapse Analytics** for analysis, and **PowerBI** for dashboard and reporting, the project provided a robust framework for ingesting, processing, and visualizing large datasets in near real-time.
