@@ -49,6 +49,8 @@ In this part, we built three external tables in the SQL database in Azure Synaps
 
 ## 6. PowerBI
 
-In this part, we build dashboard for reporting using PowerBI  
+In this part, we build dashboard for reporting using PowerBI. The visualization dashboard helps us to bring insights from the dataset.
 
 ![](image/powerbi_medalcount.png)
+
+![](image/powerbi_athletes.png)
