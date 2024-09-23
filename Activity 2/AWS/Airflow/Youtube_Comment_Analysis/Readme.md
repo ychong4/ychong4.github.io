@@ -5,7 +5,7 @@
 </br>
 
 **API Link:** https://developers.google.com/youtube/v3/getting-started
-* This project uses the comments api in the link.
+* This project uses the Youtube comments api in the link.
 
 </br>
 
