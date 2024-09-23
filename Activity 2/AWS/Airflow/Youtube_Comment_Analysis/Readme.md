@@ -12,6 +12,8 @@
 **Youtube Video Link:** https://www.youtube.com/watch?v=ndAQfTzlVjc
 * We will be using Mr. Beast's video of 7 days stranded in a cave.
 
+</br>
+
 **Project File Links:**
 - <a href="etl.py">etl.py</a>
 - <a href="dag.py">dag.py</a>
