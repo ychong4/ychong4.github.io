@@ -12,6 +12,10 @@
 **Youtube Video Link:** https://www.youtube.com/watch?v=ndAQfTzlVjc
 * We will be using Mr. Beast's video of 7 days stranded in a cave.
 
+**Project File Links:**
+- <a href="Activity 2/AWS/Airflow/Youtube_Comment_Analysis/etl.py">etl.py</a>
+- <a href="Activity 2/AWS/Airflow/Youtube_Comment_Analysis/dag.py">dag.py</a>
+
 </br>
 
 **Project Steps:**
