@@ -61,6 +61,7 @@ In this step, we will connect to the EC2 instance, then we will install and conf
 
 ### Step 5. Run the Pipeline
 We will run the Airflow on the EC2 instance. The image shows the Airflow interface and the DAG graph:
+
 ![](airflow_interface.png)
 ![](airflow_graph.png)
 
