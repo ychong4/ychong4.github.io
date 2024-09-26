@@ -21,11 +21,14 @@
 </br>
 
 **Project Steps:**
-1. Set up an etl.py to scrape the youtube comments data using REST API.
+1. Set up an etl.py, include:
+- Web scraping for youtube comments data using API.
+- Data Cleaning for text.
+- Integrate a hugging face LLM model for sentiment analysis/
 2. Set up a dag.py to configure the DAG on Airflow.
 3. Create EC2 instance (ubuntu) and S3 bucket.
-4. Connect to EC2 instance, install and configure Airflow.
-5. Run the pipeline.
+4. Connect to EC2 instance, install and configure Airflow, import libraries.
+7. Run the pipeline.
 
 </br>
 
