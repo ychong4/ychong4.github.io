@@ -25,7 +25,7 @@ def youtube_data_scraping():
 
     api_service_name = "youtube"
     api_version = "v3"
-    DEVELOPER_KEY = "AIzaSyChRV4Vsu1Srvr1JUCYSBqkglXzo13GGds"
+    DEVELOPER_KEY = "------- DEVELOPER KEY ------------"
     next_page_token = None
 
     # Build YouTube API service
