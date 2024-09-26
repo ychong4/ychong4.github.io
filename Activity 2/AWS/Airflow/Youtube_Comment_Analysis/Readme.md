@@ -37,6 +37,12 @@
 
 </br>
 
+**Project Mapflow:**
+![](process.png)
+
+
+</br>
+
 ### Step 1. Set up etl.py
 In this step, we will configure the api to scrape the youtube comments data. We are particularly interested to the **aurthor name**, **comment**, and **publish time**. Then, we will create a dataframe to insert the data, and import them to a csv file.
 
