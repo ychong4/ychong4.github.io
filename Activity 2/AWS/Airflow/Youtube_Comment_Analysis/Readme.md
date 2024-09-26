@@ -75,4 +75,5 @@ Once we run the pipeline, the results will show on S3 bucket with a comments.csv
 ![](csv_result.png)
 
 We can now understand the sentiment of the comments on the Youtube videos:
+
 ![](stat_result.png)
