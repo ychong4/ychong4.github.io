@@ -1,6 +1,6 @@
 ## Youtube Comments Scraping ETL Project
 
-**Project Overview:** This project is to demonstrate the ability to set up the ETL pipeline on Airflow on AWS cloud to automate scraping youtube comments using API.
+**Project Overview:** This project is to to set up the ETL pipeline on Airflow on AWS cloud console to automate scraping youtube comments using API. Then, a sentiment analysis and emotion analysis will be performed on these comments using a pretrained BERT LLM model. The result will be shown using a Tableau Dashboard.
 
 </br>
 
