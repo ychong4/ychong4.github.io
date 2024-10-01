@@ -111,6 +111,27 @@
 		<li><a href="Activity 2/ISQA8750 Individual Research.pdf">Keys factors that afect the severity of road accidents</a></li>
 		<li><a href="Activity 2/sampleEnergyDoc.pdf">Analysis on Australian Energy Household</a></li>
 	</ul>	
+
+<h2 onclick="this.nextElementSibling.style.display='block'; this.style.display='none';" style="cursor: pointer;">University Data Projects</h2>
+<ul id="strengthsList" style="display: none;">
+    <li><a href="Activity 2/ISQA 8156 Group project.pdf">Statistical Analysis of participation surveys for "Omaha Girls Rock"</a></li>
+    <li><a href="Activity 2/ISQA 8700 Group Project.pdf">COVID-19 Data Mining & Analysis Project</a></li>
+    <li><a href="Activity 2/ISQA8750 Individual Research.pdf">Keys factors that afect the severity of road accidents</a></li>
+    <li><a href="Activity 2/sampleEnergyDoc.pdf">Analysis on Australian Energy Household</a></li>
+</ul>
+
+<script>
+document.querySelector('h2').onclick = function() {
+    var list = document.getElementById("strengthsList");
+    if (list.style.display === "none") {
+        list.style.display = "flex"; // Show list
+    } else {
+        list.style.display = "none"; // Hide list
+    }
+}
+</script>
+
+
  
 <h2>Contact Info</h2>
 <p><a href="mailto:yaowhuichong54312@gmail.com">Email</a>  |  <a href="https://www.linkedin.com/in/yaow-hui-chong/">LinkedIn</a></p>
