@@ -1,6 +1,6 @@
 ## Titanic: Machine Learning from Disaster
 
-![](overview-Titanic.webp)
+![](image/overview-Titanic.webp)
 
 **Overview**
 
@@ -43,7 +43,7 @@ Some children travelled only with a nanny, therefore parch=0 for them. </br>
 
 **Data Visualization** </br>
 
-![](plots.png)
+![](image/plots.png)
 
 The plots show the distributions of the variables. We observe the right skew on the passenger age. Also, there is an outlier in the ticket fare variable.
 
@@ -96,20 +96,20 @@ A few plots are created to examine the relationship betweent the survival rate a
 
 (1) Survived vs Age
 
-![](survival_age.png)
+![](image/survival_age.png)
 
 We observe that the survival rate for children and senior are much higher compare to the age group from 15-35.
 
 
 (2) Survived vs Price
 
-![](survival_price.png)
+![](image/survival_price.png)
 
 We observe that the survival rate for price > 15 are much higher than the passenger with lower price ticket. 
 
 (3) Survived vs Family members
 
-![](survival_family.png)
+![](image/survival_family.png)
 
 We did not have meaningful conclusion from the plot.
 
