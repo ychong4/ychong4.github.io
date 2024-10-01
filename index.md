@@ -94,15 +94,20 @@
 		</ul>
 	</ul>
 
-<h2>Tableau Portfolio</h2>
-<ul class ="Unorder">
-		<li><a href="https://public.tableau.com/app/profile/yaow.chong/vizzes">Tableau Public Page</a></li>
-	</ul>
- 
-<h2>Actuarial Models</h2>
-	<ul class ="Unorder">
-		<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/Actuarial%20Model/TermLifeInsurancePricing.xlsm">[Life] 10-year Term Life Pricing Model</a></li>
-	</ul>
+<h2 id="toggleButton" style="cursor: pointer;">
+    Tableau Public <span id="toggleIcon">&#9656;</span>
+</h2>
+<ul id="strengthsList" style="display: none;">
+    <li><a href="https://public.tableau.com/app/profile/yaow.chong/vizzes">Tableau Public Page</a></li>
+</ul>
+
+<h2 id="toggleButton" style="cursor: pointer;">
+    Actuarial Models <span id="toggleIcon">&#9656;</span>
+</h2>
+<ul id="strengthsList" style="display: none;">
+    <li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/Actuarial%20Model/TermLifeInsurancePricing.xlsm">[Life] 10-year Term Life Pricing Model</a></li>
+</ul>
+	
 	
 <h2 id="toggleButton" style="cursor: pointer;">
     University Data Projects <span id="toggleIcon">&#9656;</span>
@@ -128,20 +133,6 @@ document.getElementById('toggleButton').onclick = function() {
 }
 </script>
 
-<h2 id="toggleButton" style="cursor: pointer;">University Data Projects <small>(Click to expand)</small></h2>
-<ul id="strengthsList" style="display: none;">
-    <li><a href="Activity 2/ISQA 8156 Group project.pdf">Statistical Analysis of participation surveys for "Omaha Girls Rock"</a></li>
-    <li><a href="Activity 2/ISQA 8700 Group Project.pdf">COVID-19 Data Mining & Analysis Project</a></li>
-    <li><a href="Activity 2/ISQA8750 Individual Research.pdf">Keys factors that afect the severity of road accidents</a></li>
-    <li><a href="Activity 2/sampleEnergyDoc.pdf">Analysis on Australian Energy Household</a></li>
-</ul>
-
-<script>
-document.getElementById('toggleButton').onclick = function() {
-    var list = document.getElementById('strengthsList');
-    list.style.display = list.style.display === 'none' ? 'block' : 'none'; // Toggle visibility
-}
-</script>
 
 
  
