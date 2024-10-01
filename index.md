@@ -94,43 +94,48 @@
 		</ul>
 	</ul>
 
-<h2 id="toggleButton" style="cursor: pointer;">
+<h2 class="toggleButton" style="cursor: pointer;">
     Tableau Public <span id="toggleIcon">&#9656;</span>
 </h2>
-<ul id="strengthsList" style="display: none;">
+<ul class="strengthsList" style="display: none;">
     <li><a href="https://public.tableau.com/app/profile/yaow.chong/vizzes">Tableau Public Page</a></li>
 </ul>
 
-<h2 id="toggleButton" style="cursor: pointer;">
+<h2 class="toggleButton" style="cursor: pointer;">
     Actuarial Models <span id="toggleIcon">&#9656;</span>
 </h2>
-<ul id="strengthsList" style="display: none;">
+<ul class="strengthsList" style="display: none;">
     <li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/Actuarial%20Model/TermLifeInsurancePricing.xlsm">[Life] 10-year Term Life Pricing Model</a></li>
 </ul>
 	
 	
-<h2 id="toggleButton" style="cursor: pointer;">
+<h2 class="toggleButton" style="cursor: pointer;">
     University Data Projects <span id="toggleIcon">&#9656;</span>
 </h2>
-<ul id="strengthsList" style="display: none;">
+<ul class="strengthsList" style="display: none;">
     <li><a href="Activity 2/ISQA 8156 Group project.pdf">Statistical Analysis of participation surveys for "Omaha Girls Rock"</a></li>
     <li><a href="Activity 2/ISQA 8700 Group Project.pdf">COVID-19 Data Mining & Analysis Project</a></li>
     <li><a href="Activity 2/ISQA8750 Individual Research.pdf">Key factors that affect the severity of road accidents</a></li>
     <li><a href="Activity 2/sampleEnergyDoc.pdf">Analysis on Australian Energy Household</a></li>
 </ul>
 
+
 <script>
-document.getElementById('toggleButton').onclick = function() {
-    var list = document.getElementById('strengthsList');
-    var icon = document.getElementById('toggleIcon');
-    if (list.style.display === 'none') {
-        list.style.display = 'block';
-        icon.innerHTML = '&#9662;'; // Down arrow
-    } else {
-        list.style.display = 'none';
-        icon.innerHTML = '&#9656;'; // Right arrow
-    }
-}
+// Get all the headers and lists
+var buttons = document.querySelectorAll('.toggleButton');
+var lists = document.querySelectorAll('.toggleList');
+
+// Loop through all buttons and attach event listeners
+buttons.forEach(function(button, index) {
+    button.addEventListener('click', function() {
+        var list = lists[index]; // Get the corresponding list
+        if (list.style.display === 'none') {
+            list.style.display = 'block'; // Show the list
+        } else {
+            list.style.display = 'none'; // Hide the list
+        }
+    });
+});
 </script>
 
 
