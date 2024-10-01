@@ -34,7 +34,7 @@ There are some missing values in the credit_limit and minimum payments columns. 
 
 ### Plotting the columns
 
-![](univariate_analysis.png)
+![](image/univariate_analysis.png)
 
 We can clearly see outliers in some columns.
 
@@ -47,7 +47,7 @@ I checked the mean and standard deviation of each columns. Then, the upper limit
 
 ### Correlation matrix
 
-![](cm.png)
+![](image/cm.png)
 
 We can see there are some columns highly correlated with others, such as: <br>
 (1) **oneoff purchases** is highly correlated with **purchases** <br>
@@ -62,13 +62,13 @@ In this clustering analysis, the PCA is used along to reduce the dimension of th
 
 The K Means method is used for the clustering analysis. The elbow method shows that n=4 performs the best result.
 
-![](elbow.png)
+![](image/elbow.png)
 
 ### Cluster Visualization
 
 The customer counts of clusters are shown below: 
 
-![](cluster_count.png)
+![](image/cluster_count.png)
 
 |Cluster|Counts|
 | --- | ---|
@@ -79,17 +79,17 @@ The customer counts of clusters are shown below:
 
 The boxplots for each columns are plotted against clusters. This is to studies the customers properties in each of the clusters. The boxplots are shown below:
 
-![](cluster_boxplot.png)
+![](image/cluster_boxplot.png)
 
 Moreover, some scatterplots are plotted to show the standing of clusters in:
 
 (1) Purchases/Payments
 
-![](cluster_scatter1.png)
+![](image/cluster_scatter1.png)
 
 (2) Balance/Payments
 
-![](cluster_scatter2.png)
+![](image/cluster_scatter2.png)
 
 ### Cluster Findings
 
