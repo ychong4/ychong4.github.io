@@ -17,6 +17,6 @@
 
 **Prediction:**
 
-![](imge/yolov5_pred.png)
+![](image/yolov5_pred.png)
 
-![](imge/yolov5_pred2.png)
+![](image/yolov5_pred2.png)
