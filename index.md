@@ -22,17 +22,6 @@
     		<li>1. Relator | 2. Learner | 3. Positivity | 4. Activator | 5. Deliberative</li>
 	</ul>
 
-<style>
-.ordered-list {
-    list-style-type: none; /* Remove default list styles */
-    padding: 0; /* Remove padding */
-    display: flex; /* Use flexbox for horizontal layout */
-}
-
-.ordered-list li {
-    margin-right: 20px; /* Space between items */
-}
-</style>
 
 <h2>Kaggle Projects</h2>
 	<ul class ="Unorder">
