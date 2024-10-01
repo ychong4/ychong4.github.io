@@ -19,7 +19,7 @@
 
 <h2>Top 5 Gallup Strengths</h2>
 	
-<p> 1. Relator | 2. Learner | 3. Positivity | 4. Activator | 5. Deliberative</p>
+<p> 1. Relator  |  2. Learner  |  3. Positivity  |  4. Activator  |  5. Deliberative</p>
 	
 
 
