@@ -124,15 +124,20 @@
 // Get all the headers and lists
 var buttons = document.querySelectorAll('.toggleButton');
 var lists = document.querySelectorAll('.toggleList');
+var icons = document.querySelectorAll('.toggleIcon');
 
 // Loop through all buttons and attach event listeners
 buttons.forEach(function(button, index) {
     button.addEventListener('click', function() {
         var list = lists[index]; // Get the corresponding list
+        var icon = icons[index]; // Get the corresponding icon
+
         if (list.style.display === 'none') {
             list.style.display = 'block'; // Show the list
+            icon.innerHTML = '&#9662;'; // Change icon to down arrow
         } else {
             list.style.display = 'none'; // Hide the list
+            icon.innerHTML = '&#9656;'; // Change icon to right arrow
         }
     });
 });
