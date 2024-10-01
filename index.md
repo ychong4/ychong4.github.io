@@ -1,15 +1,15 @@
 <body>
-<h1>Yaow Hui Chong</h1>
+<h1>Yaow Hui Chong -- Portfolio</h1>
 
 <h3><a href="Activity 2/Resume_Yaow_Chong.pdf">Resume</a></h3>
 
-<button onclick="window.location.href='Activity 2/Resume_Yaow_Chong.pdf';">Resume</button>
+<button onclick="window.location.href='Activity 2/Resume_Yaow_Chong.pdf';">Click to view Resume</button>
 
 
 <br>
 
 
-<h2>My story</h2>
+<h2>Introduction</h2>
 <p>
 	I am currently working as a Data Analyst in the University of Nebraska-Lincoln, in the Operation Technology and Engineering team. I received my Master's degree with a major in Management Information System (MIS) and a concentration in data analytics from UNO in May 2022. I was an undergraduate student majoring in Actuarial Sscience in UNL from 2015 - 2018. After that, I worked for a year in Kingsbay Group. Kingsbay Group is an E-commerce retailer and I worked as a Purchasing Analyst in the purchasing department. I also had one year experience analyzing research data as a research graduate assistant in UNO. </p>
 <p>
