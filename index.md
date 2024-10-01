@@ -104,15 +104,31 @@
 		<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/Actuarial%20Model/TermLifeInsurancePricing.xlsm">[Life] 10-year Term Life Pricing Model</a></li>
 	</ul>
 	
-<h2>University Data Projects</h2>
-	<ul class ="Unorder">
-		<li><a href="Activity 2/ISQA 8156 Group project.pdf">Statistical Analysis of participation surveys for "Omaha Girls Rock"</a></li>
-		<li><a href="Activity 2/ISQA 8700 Group Project.pdf">COVID-19 Data Mining & Analysis Project</a></li>
-		<li><a href="Activity 2/ISQA8750 Individual Research.pdf">Keys factors that afect the severity of road accidents</a></li>
-		<li><a href="Activity 2/sampleEnergyDoc.pdf">Analysis on Australian Energy Household</a></li>
-	</ul>	
+<h2 id="toggleButton" style="cursor: pointer;">
+    University Data Projects <span id="toggleIcon">&#9656;</span>
+</h2>
+<ul id="strengthsList" style="display: none;">
+    <li><a href="Activity 2/ISQA 8156 Group project.pdf">Statistical Analysis of participation surveys for "Omaha Girls Rock"</a></li>
+    <li><a href="Activity 2/ISQA 8700 Group Project.pdf">COVID-19 Data Mining & Analysis Project</a></li>
+    <li><a href="Activity 2/ISQA8750 Individual Research.pdf">Key factors that affect the severity of road accidents</a></li>
+    <li><a href="Activity 2/sampleEnergyDoc.pdf">Analysis on Australian Energy Household</a></li>
+</ul>
 
-<h2 id="toggleButton" style="cursor: pointer;">University Data Projects</h2>
+<script>
+document.getElementById('toggleButton').onclick = function() {
+    var list = document.getElementById('strengthsList');
+    var icon = document.getElementById('toggleIcon');
+    if (list.style.display === 'none') {
+        list.style.display = 'block';
+        icon.innerHTML = '&#9662;'; // Down arrow
+    } else {
+        list.style.display = 'none';
+        icon.innerHTML = '&#9656;'; // Right arrow
+    }
+}
+</script>
+
+<h2 id="toggleButton" style="cursor: pointer;">University Data Projects<small>(Click to expand)</small></h2>
 <ul id="strengthsList" style="display: none;">
     <li><a href="Activity 2/ISQA 8156 Group project.pdf">Statistical Analysis of participation surveys for "Omaha Girls Rock"</a></li>
     <li><a href="Activity 2/ISQA 8700 Group Project.pdf">COVID-19 Data Mining & Analysis Project</a></li>
