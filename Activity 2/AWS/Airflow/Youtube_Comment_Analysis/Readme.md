@@ -1,6 +1,6 @@
 ## Youtube Comments Scraping ETL Project
 
-**Project Overview:** This project is to to set up the ETL pipeline on Airflow on AWS cloud console to automate scraping youtube comments using API. Then, a sentiment analysis and emotion analysis will be performed on these comments using a pretrained BERT LLM model. The result will be shown using a Tableau Dashboard.
+**Project Overview:** This project is to to set up the ETL pipeline on Airflow using AWS cloud console to automate scraping youtube comments using API. Then, a sentiment analysis and emotion analysis will be performed on these comments using a pretrained BERT LLM model. The result will be shown using a Tableau Dashboard.
 
 </br>
 
@@ -44,7 +44,7 @@
 </br>
 
 ### Step 1. Set up etl.py
-In this step, we will configure the api to scrape the youtube comments data. We are particularly interested to the **aurthor name**, **comment**, and **publish time**. Then, we will create a dataframe to insert the data, and import them to a csv file.
+In this step, we will configure the api to scrape the youtube comments data. We are particularly interested to the **aurthor name**, **comment**, and the **publish time**. Then, we will create a dataframe to insert the data, and import them to a csv file.
 
 ![](etl.png)
 
@@ -87,17 +87,21 @@ Once we run the pipeline, the results will show on S3 bucket with a comments.csv
 
 </br>
 
-After that, we can create an external table in Amazon Athena so that it can be analyzed using SQL, and can be connected to Tableau.
+After that, we can connect S3 to Amazon Athena, and create an external table in Amazon Athena so that it can be analyzed using SQL, and it can be connected to Tableau.
 
 ![](amazon_athena.png)
 
 </br>
 
-In the last step, we build a dashboard for the sentiment count and the emotional count. 
+In the last step, we set up Tableau using Aamazon Athena as a data source. We build a dashboard for the sentiment count and the emotional count. 
 
 ![](sentiment_count.png)
 ![](emotion_count.png)
 
-From the chart, we can see that the neutral sentiment 
+From the chart, we can see that the the distribution of sentiment and emotion are: 
+- 64% neutral, 31% positive, and 5% negative.
+- 86% others, 12% joy, 1% fear 0.7% surprise, 0.5% sadness, 0.2% disgust.
+We can conclude that the comments for this youtube video leans towards positive side.
+
 
 
