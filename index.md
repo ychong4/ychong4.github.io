@@ -154,7 +154,7 @@ buttons.forEach(function(button, index) {
 
 
  
-<h2>Contact Info</h2>
+<h2 style="margin-top: 20px;">Contact Info</h2>
 <p><a href="mailto:yaowhuichong54312@gmail.com">Email</a>  |  <a href="https://www.linkedin.com/in/yaow-hui-chong/">LinkedIn</a></p>
 
 <h3>&copy; Yaow Hui Chong 2024 </h3>
