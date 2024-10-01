@@ -1,4 +1,4 @@
-## Youtube Comments Sentiment and Emotion ETL Project
+## Youtube Video Comments Sentiment and Emotion ETL Project
 
 **Project Overview:** This project is to to set up the ETL pipeline on Airflow using AWS cloud console to automate scraping youtube comments using API. Then, a sentiment analysis and emotion analysis will be performed on these comments using a pretrained BERT LLM model. The result will be shown using a Tableau Dashboard.
 
