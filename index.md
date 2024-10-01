@@ -113,7 +113,7 @@
 	</ul>	
  
 <h2>Contact Info</h2>
-	<ul>
+<p><a href="mailto:yaowhuichong54312@gmail.com">Email</a>  |  <a href="https://www.facebook.com/chong.terry.31">Facebook</a>  |  <a href="https://www.linkedin.com/in/yaow-hui-chong/">LinkedIn</a></p>
 		<li><a href="mailto:yaowhuichong54312@gmail.com">Email</a></li>
               	<li><a href="https://www.facebook.com/chong.terry.31">Facebook</a></li>
                 <li><a href="https://www.linkedin.com/in/yaow-hui-chong/">LinkedIn</a></li>	
