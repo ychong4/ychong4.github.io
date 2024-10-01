@@ -128,7 +128,7 @@ document.getElementById('toggleButton').onclick = function() {
 }
 </script>
 
-<h2 id="toggleButton" style="cursor: pointer;">University Data Projects<small>(Click to expand)</small></h2>
+<h2 id="toggleButton" style="cursor: pointer;">University Data Projects <small>(Click to expand)</small></h2>
 <ul id="strengthsList" style="display: none;">
     <li><a href="Activity 2/ISQA 8156 Group project.pdf">Statistical Analysis of participation surveys for "Omaha Girls Rock"</a></li>
     <li><a href="Activity 2/ISQA 8700 Group Project.pdf">COVID-19 Data Mining & Analysis Project</a></li>
