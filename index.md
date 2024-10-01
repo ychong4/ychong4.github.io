@@ -17,7 +17,7 @@
 	For continuing education, I passed the actuarial examinations and received the Associateship of the Society of Actuaries (ASA) in April 2023. I am also a Microsoft certified Azure Data Engineer Associate since August 2024.
 
 </p>
-
+</div>
 
 <h2 class="toggleButton" style="cursor: pointer; margin-top: 20px;">
     Top 5 Gallup Strengths <span id="toggleIcon">&#9656;</span>
