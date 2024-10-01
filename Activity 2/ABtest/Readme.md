@@ -47,11 +47,11 @@ our target variable is "REVENUE". Therefore, we will plot to understand the dist
 
 The statistics for the dataset is shown below:
 
-![](statistic_1.png)
+![](image/statistic_1.png)
 
 The revenue distribution for the entire dataset is shown below:
 
-![](scenario_1.png)
+![](image/scenario_1.png)
 
 As we can see, there are many users with 0 revenue, and there are some users with positive revenue.
 
@@ -71,11 +71,11 @@ Then, we filter out the users with positive revenue. We want to study if the con
 
 The statistics for the dataset is shown below:
 
-![](statistic_2.png)
+![](image/statistic_2.png)
 
 The revenue distribution for the dataset is shown below:
 
-![](scenario_2.png)
+![](image/scenario_2.png)
 
 As we can see, the control group seems having a higher mean and third quantile as compared to the variant group. We will perform a hypothesis testing on them.
 
@@ -96,11 +96,11 @@ Then, we filter out the users with multiple visits. We want to study if the cont
 
 The statistics for the dataset is shown below:
 
-![](statistic_3.png)
+![](image/statistic_3.png)
 
 The revenue distribution for the dataset is shown below:
 
-![](scenario_3.png)
+![](image/scenario_3.png)
 
 As we can see, the revenue distribution looks alike with the dataframe in the first section.
 
