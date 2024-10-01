@@ -65,9 +65,12 @@
 	
 				
 	
-<h2>Computer Vision</h2>
-	<ul class ="Unorder">
-		<li>1. [Image Classification] Natural Scene Image Classification -- CNN</li>
+
+<h2 class="toggleButton" style="cursor: pointer;">
+    Computer Vision <span id="toggleIcon">&#9656;</span>
+</h2>
+<ul class="strengthsList" style="display: none;">
+    <li>1. [Image Classification] Natural Scene Image Classification -- CNN</li>
 		<ul>
 			<li><a href="https://github.com/ychong4/ychong4.github.io/tree/master/Activity%202/Intel%20Image%20Classification">Project Overview</a></li>
 			<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/Intel_Image_Classification.ipynb">Notebook</a></li>
@@ -92,7 +95,9 @@
 		<ul>
 			<li><a href="https://github.com/ychong4/ychong4.github.io/tree/master/Activity%202/FireDetectionRobflow">Project Overview</a></li>
 		</ul>
-	</ul>
+</ul>
+	
+</br>
 
 <h2 class="toggleButton" style="cursor: pointer;">
     Tableau Public <span id="toggleIcon">&#9656;</span>
@@ -107,7 +112,8 @@
 <ul class="strengthsList" style="display: none;">
     <li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/Actuarial%20Model/TermLifeInsurancePricing.xlsm">[Life] 10-year Term Life Pricing Model</a></li>
 </ul>
-	
+
+</br>
 	
 <h2 class="toggleButton" style="cursor: pointer;">
     University Data Projects <span id="toggleIcon">&#9656;</span>
@@ -119,6 +125,7 @@
     <li><a href="Activity 2/sampleEnergyDoc.pdf">Analysis on Australian Energy Household</a></li>
 </ul>
 
+</br>
 
 <script>
 // Get all the headers and lists
