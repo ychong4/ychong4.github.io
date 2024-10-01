@@ -13,15 +13,25 @@
 </p>
 
 <h2>Top 5 Gallup Strengths</h2>
-	<ul class ="Unorder">
-		<li> Relator </li>
-		<li> Learner </li>
-		<li> Positivity </li>
-		<li> Activator </li>
-		<li> Deliberative </li>
+	<ul class="ordered-list">
+    		<li>1. Relator</li>
+    		<li>2. Learner</li>
+    		<li>3. Positivity</li>
+    		<li>4. Activator</li>
+    		<li>5. Deliberative</li>
 	</ul>
 
-	
+<style>
+.ordered-list {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0; /* Remove padding */
+    display: flex; /* Use flexbox for horizontal layout */
+}
+
+.ordered-list li {
+    margin-right: 20px; /* Space between items */
+}
+</style>
 <h2>Kaggle Projects</h2>
 	<ul class ="Unorder">
 		<li>1. [Classification] Health Insurance: Cross Sell Prediction</li>
