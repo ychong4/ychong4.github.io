@@ -85,6 +85,19 @@ Once we run the pipeline, the results will show on S3 bucket with a comments.csv
 ![](s3_result.png)
 ![](csv_result.png)
 
-We can now understand the sentiment of the comments on the Youtube videos:
+</br>
 
-![](stat_result.png)
+After that, we can create an external table in Amazon Athena so that it can be analyzed using SQL, and can be connected to Tableau.
+
+![](amazon_athena.png)
+
+</br>
+
+In the last step, we build a dashboard for the sentiment count and the emotional count. 
+
+![](sentiment_count.png)
+![](emotion_count.png)
+
+From the chart, we can see that the neutral sentiment 
+
+
