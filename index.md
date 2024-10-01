@@ -2,8 +2,13 @@
 <h1>Yaow Hui Chong</h1>
 
 <h3><a href="Activity 2/Resume_Yaow_Chong.pdf">Resume</a></h3>
+
 <button onclick="window.location.href='Activity 2/Resume_Yaow_Chong.pdf';">Resume</button>
-<br>	
+
+
+<br>
+
+
 <h2>My story</h2>
 <p>
 	I am currently working as a Data Analyst in the University of Nebraska-Lincoln, in the Operation Technology and Engineering team. I received my Master's degree with a major in Management Information System (MIS) and a concentration in data analytics from UNO in May 2022. I was an undergraduate student majoring in Actuarial Sscience in UNL from 2015 - 2018. After that, I worked for a year in Kingsbay Group. Kingsbay Group is an E-commerce retailer and I worked as a Purchasing Analyst in the purchasing department. I also had one year experience analyzing research data as a research graduate assistant in UNO. </p>
@@ -14,11 +19,7 @@
 
 <h2>Top 5 Gallup Strengths</h2>
 	<ul class="ordered-list">
-    		<li>1. Relator</li>
-    		<li>2. Learner</li>
-    		<li>3. Positivity</li>
-    		<li>4. Activator</li>
-    		<li>5. Deliberative</li>
+    		<li>1. Relator | 2. Learner | 3. Positivity | 4. Activator | 5. Deliberative</li>
 	</ul>
 
 <style>
@@ -32,6 +33,7 @@
     margin-right: 20px; /* Space between items */
 }
 </style>
+
 <h2>Kaggle Projects</h2>
 	<ul class ="Unorder">
 		<li>1. [Classification] Health Insurance: Cross Sell Prediction</li>
