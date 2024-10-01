@@ -7,16 +7,16 @@
 
 **Example image:**
 
-![](yolov5_example.png)
+![](image/yolov5_example.png)
 
 
 **Statistical result:**
 
-![](yolov5_results.png)
+![](image/yolov5_results.png)
 
 
 **Prediction:**
 
-![](yolov5_pred.png)
+![](image/yolov5_pred.png)
 
-![](yolov5_pred2.png)
+![](image/yolov5_pred2.png)
