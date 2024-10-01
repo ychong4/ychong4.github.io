@@ -17,9 +17,12 @@
 
 </p>
 
-<h2>Top 5 Gallup Strengths</h2>
-	
-<p> 1. Relator  |  2. Learner  |  3. Positivity  |  4. Activator  |  5. Deliberative</p>
+<h2 class="toggleButton" style="cursor: pointer; margin-top: 20px;">
+    Top 5 Gallup Strengths <span id="toggleIcon">&#9656;</span>
+</h2>	
+<ul class="strengthsList" style="display: none;">
+    <li>1. Relator  |  2. Learner  |  3. Positivity  |  4. Activator  |  5. Deliberative</li>
+</ul>
 	
 
 
