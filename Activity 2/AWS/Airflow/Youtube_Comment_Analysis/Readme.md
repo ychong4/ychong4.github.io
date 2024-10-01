@@ -89,7 +89,7 @@ Once we run the pipeline, the results will show on S3 bucket with a comments.csv
 
 After that, we can connect S3 to Amazon Athena, and create an external table in Amazon Athena so that it can be analyzed using SQL, and it can be connected to Tableau.
 
-![](amazon_athena.png)
+![](aws_athena.png)
 
 </br>
 
