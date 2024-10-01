@@ -1,6 +1,7 @@
 <body>
 <h1>Yaow Hui Chong -- Portfolio</h1>
 
+<br>
 
 <button onclick="window.location.href='Activity 2/Resume_Yaow_Chong.pdf';">Click to view Resume</button>
 
