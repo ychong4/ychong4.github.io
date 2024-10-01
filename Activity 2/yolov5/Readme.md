@@ -21,4 +21,5 @@
 
 ![](image/yolov5_pred2.png)
 
-The model prediction can be applied to the video: https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/yolov5/car.mp4
+<p>The model prediction can be applied to the video: <a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/yolov5/car.mp4" target="_blank">video</a></p>
+
