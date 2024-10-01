@@ -97,13 +97,13 @@ In this section, we performed a few data transformation: </br>
 
 ## Data Visualization
 
-![](sales_price_histogram.png)
+![](image/sales_price_histogram.png)
 
 It shows that the sales price of houses are right-skewed. With that, we will perform a log transformation to the sales price and drop the original column.
 
 </br>
 
-![](corr_plot.png)
+![](image/corr_plot.png)
 
 We will drop columns that have low correlation with sales price to prevent model overfitting:
 - Id
