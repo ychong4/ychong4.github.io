@@ -7,7 +7,7 @@
 
 <br>
 
-<h2 class="toggleButton" style="cursor: pointer; margin-top: 20px;">
+<h2 class="toggleButton" style="cursor: pointer; margin-top: 30px;">
     Introduction <span id="toggleIcon">&#9656;</span>
 </h2>	
 <div class="strengthsList" style="display: none;">
@@ -19,14 +19,14 @@
 </p>
 </div>
 
-<h2 class="toggleButton" style="cursor: pointer; margin-top: 20px;">
+<h2 class="toggleButton" style="cursor: pointer; margin-top: 30px;">
     Top 5 Gallup Strengths <span id="toggleIcon">&#9656;</span>
 </h2>	
 <ul class="strengthsList" style="display: none;">
     <li>1. Relator  |  2. Learner  |  3. Positivity  |  4. Activator  |  5. Deliberative</li>
 </ul>
 	
-<h2 class="toggleButton" style="cursor: pointer; margin-top: 20px;">
+<h2 class="toggleButton" style="cursor: pointer; margin-top: 30px;">
     Data Engineering ETL Projects <span id="toggleIcon">&#9656;</span>
 </h2>
 <ul class="strengthsList" style="display: none;">
@@ -34,7 +34,7 @@
     <li><a href="https://github.com/ychong4/ychong4.github.io/tree/master/Activity%202/Azure/OlympicParis2024">Azure ETL projects for Paris Olympic 2024 Dataset</a></li>
 </ul>
 
-<h2 class="toggleButton" style="cursor: pointer; margin-top: 20px;">
+<h2 class="toggleButton" style="cursor: pointer; margin-top: 30px;">
     Kaggle Data Analysis Projects <span id="toggleIcon">&#9656;</span>
 </h2>
 <ul class="strengthsList" style="display: none;">
@@ -77,7 +77,7 @@
 </ul>				
 	
 
-<h2 class="toggleButton" style="cursor: pointer; margin-top: 20px;">
+<h2 class="toggleButton" style="cursor: pointer; margin-top: 30px;">
     Computer Vision Projects<span id="toggleIcon">&#9656;</span>
 </h2>
 <ul class="strengthsList" style="display: none;">
@@ -110,7 +110,7 @@
 	
 
 
-<h2 class="toggleButton" style="cursor: pointer; margin-top: 20px;">
+<h2 class="toggleButton" style="cursor: pointer; margin-top: 30px;">
     Tableau Public Website<span id="toggleIcon">&#9656;</span>
 </h2>
 <ul class="strengthsList" style="display: none;">
@@ -118,7 +118,7 @@
 </ul>
 
 
-<h2 class="toggleButton" style="cursor: pointer; margin-top: 20px">
+<h2 class="toggleButton" style="cursor: pointer; margin-top: 30px">
     Actuarial Models <span id="toggleIcon">&#9656;</span>
 </h2>
 <ul class="strengthsList" style="display: none;">
@@ -127,7 +127,7 @@
 
 
 	
-<h2 class="toggleButton" style="cursor: pointer; margin-top: 20px;">
+<h2 class="toggleButton" style="cursor: pointer; margin-top: 30px;">
     University Data Analysis Projects <span id="toggleIcon">&#9656;</span>
 </h2>
 <ul class="strengthsList" style="display: none;">
@@ -165,7 +165,7 @@ buttons.forEach(function(button, index) {
 
 
  
-<h2 style="margin-top: 20px;">Contact Info</h2>
+<h2 style="margin-top: 30px;">Contact Info</h2>
 <p><a href="mailto:yaowhuichong54312@gmail.com">Email</a>  |  <a href="https://www.linkedin.com/in/yaow-hui-chong/">LinkedIn</a></p>
 
 <h3>&copy; Yaow Hui Chong 2024 </h3>
