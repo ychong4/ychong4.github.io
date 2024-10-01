@@ -123,7 +123,7 @@
 <script>
 // Get all the headers and lists
 var buttons = document.querySelectorAll('.toggleButton');
-var lists = document.querySelectorAll('.toggleList');
+var lists = document.querySelectorAll('.strengthsList');
 var icons = document.querySelectorAll('.toggleIcon');
 
 // Loop through all buttons and attach event listeners
