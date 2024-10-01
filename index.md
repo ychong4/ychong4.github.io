@@ -2,7 +2,7 @@
 <h1>Yaow Hui Chong</h1>
 
 <h3><a href="Activity 2/Resume_Yaow_Chong.pdf">Resume</a></h3>
-<button onclick="alert('Button clicked!')">Click Me</button>
+<button onclick="window.location.href='Activity 2/Resume_Yaow_Chong.pdf';">Resume</button>
 <br>	
 <h2>My story</h2>
 <p>
