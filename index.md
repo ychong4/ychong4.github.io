@@ -10,7 +10,7 @@
 <h2 class="toggleButton" style="cursor: pointer; margin-top: 30px;">
     Introduction <span id="toggleIcon">&#9656;</span>
 </h2>	
-<div class="strengthsList" style="display: none;">
+<div class="strengthsList" style="display: block;">
 <p>
 	I am currently working as a Data Analyst in the University of Nebraska-Lincoln, in the Operation Technology and Engineering team. I received my Master's degree with a major in Management Information System (MIS) and a concentration in data analytics from UNO in May 2022. I was an undergraduate student majoring in Actuarial Sscience in UNL from 2015 - 2018. After that, I worked for a year in Kingsbay Group. Kingsbay Group is an E-commerce retailer and I worked as a Purchasing Analyst in the purchasing department. I also had one year experience analyzing research data as a research graduate assistant in UNO. </p>
 <p>
