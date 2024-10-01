@@ -101,6 +101,7 @@ In the last step, we set up Tableau using Aamazon Athena as a data source. We bu
 From the chart, we can see that the the distribution of sentiment and emotion are: 
 - 64% neutral, 31% positive, and 5% negative.
 - 86% others, 12% joy, 1% fear 0.7% surprise, 0.5% sadness, 0.2% disgust.
+
 We can conclude that the comments for this youtube video leans towards positive side.
 
 
