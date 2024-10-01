@@ -23,9 +23,11 @@
 	
 
 
-<h2>Kaggle Projects</h2>
-	<ul class ="Unorder">
-		<li>1. [Classification] Health Insurance: Cross Sell Prediction</li>
+<h2 class="toggleButton" style="cursor: pointer; margin-top: 20px;">
+    Kaggle Projects <span id="toggleIcon">&#9656;</span>
+</h2>
+<ul class="strengthsList" style="display: none;">
+    <li>1. [Classification] Health Insurance: Cross Sell Prediction</li>
 		<ul>
 			<li><a href="https://github.com/ychong4/ychong4.github.io/tree/master/Activity%202/InsurancePrediction">Project Overview</a></li>
     			<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/InsurancePrediction/Predicting_insurance.ipynb">Notebook</a></li>
@@ -61,9 +63,7 @@
 			<li><a href="https://github.com/ychong4/ychong4.github.io/tree/master/Activity%202/ABtest">Project Overview</a></li>
 			<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/ABtest/abtest.ipynb">Notebook</a></li>
 		</ul>
-	</ul>
-	
-				
+</ul>				
 	
 
 <h2 class="toggleButton" style="cursor: pointer; margin-top: 20px;">
@@ -106,7 +106,8 @@
     <li><a href="https://public.tableau.com/app/profile/yaow.chong/vizzes">Tableau Public Page</a></li>
 </ul>
 
-<h2 class="toggleButton" style="cursor: pointer;">
+
+<h2 class="toggleButton" style="cursor: pointer; margin-top: 20px">
     Actuarial Models <span id="toggleIcon">&#9656;</span>
 </h2>
 <ul class="strengthsList" style="display: none;">
