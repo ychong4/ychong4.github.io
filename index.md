@@ -28,7 +28,7 @@
 
 
 <h2 class="toggleButton" style="cursor: pointer; margin-top: 20px;">
-    Kaggle Projects <span id="toggleIcon">&#9656;</span>
+    Kaggle Data Analysis Projects <span id="toggleIcon">&#9656;</span>
 </h2>
 <ul class="strengthsList" style="display: none;">
     <li>1. [Classification] Health Insurance: Cross Sell Prediction</li>
@@ -71,7 +71,7 @@
 	
 
 <h2 class="toggleButton" style="cursor: pointer; margin-top: 20px;">
-    Computer Vision <span id="toggleIcon">&#9656;</span>
+    Computer Vision Projects<span id="toggleIcon">&#9656;</span>
 </h2>
 <ul class="strengthsList" style="display: none;">
     <li>1. [Image Classification] Natural Scene Image Classification -- CNN</li>
@@ -104,7 +104,7 @@
 
 
 <h2 class="toggleButton" style="cursor: pointer; margin-top: 20px;">
-    Tableau Public <span id="toggleIcon">&#9656;</span>
+    Tableau Public Website<span id="toggleIcon">&#9656;</span>
 </h2>
 <ul class="strengthsList" style="display: none;">
     <li><a href="https://public.tableau.com/app/profile/yaow.chong/vizzes">Tableau Public Page</a></li>
