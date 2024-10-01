@@ -11,8 +11,7 @@
     Introduction <span id="toggleIcon">&#9656;</span>
 </h2>	
 <p class="strengthsList" style="display: none;">
-	I am currently working as a Data Analyst in the University of Nebraska-Lincoln, in the Operation Technology and Engineering team. I received my Master's degree with a major in Management Information System (MIS) and a concentration in data analytics from UNO in May 2022. I was an undergraduate student majoring in Actuarial Sscience in UNL from 2015 - 2018. After that, I worked for a year in Kingsbay Group. Kingsbay Group is an E-commerce retailer and I worked as a Purchasing Analyst in the purchasing department. I also had one year experience analyzing research data as a research graduate assistant in UNO. </p>
-<p class="strengthsList" style="display: none;">
+	I am currently working as a Data Analyst in the University of Nebraska-Lincoln, in the Operation Technology and Engineering team. I received my Master's degree with a major in Management Information System (MIS) and a concentration in data analytics from UNO in May 2022. I was an undergraduate student majoring in Actuarial Sscience in UNL from 2015 - 2018. After that, I worked for a year in Kingsbay Group. Kingsbay Group is an E-commerce retailer and I worked as a Purchasing Analyst in the purchasing department. I also had one year experience analyzing research data as a research graduate assistant in UNO. 
 	For continuing education, I passed the actuarial examinations and received the Associateship of the Society of Actuaries (ASA) in April 2023. I am also a Microsoft certified Azure Data Engineer Associate since August 2024.
 
 </p>
@@ -25,7 +24,13 @@
     <li>1. Relator  |  2. Learner  |  3. Positivity  |  4. Activator  |  5. Deliberative</li>
 </ul>
 	
-
+<h2 class="toggleButton" style="cursor: pointer; margin-top: 20px;">
+    Data Engineering ETL Projects <span id="toggleIcon">&#9656;</span>
+</h2>
+<ul class="strengthsList" style="display: none;">
+    <li><a href="https://github.com/ychong4/ychong4.github.io/tree/master/Activity%202/AWS/Airflow/Youtube_Comment_Analysis">Youtube Video Comments Sentiment and Emotion ETL Project</a></li>
+    <li><a href="https://github.com/ychong4/ychong4.github.io/tree/master/Activity%202/Azure/OlympicParis2024">Azure ETL projects for Paris Olympic 2024 Dataset</a></li>
+</ul>
 
 <h2 class="toggleButton" style="cursor: pointer; margin-top: 20px;">
     Kaggle Data Analysis Projects <span id="toggleIcon">&#9656;</span>
@@ -121,7 +126,7 @@
 
 	
 <h2 class="toggleButton" style="cursor: pointer; margin-top: 20px;">
-    University Data Projects <span id="toggleIcon">&#9656;</span>
+    University Data Analysis Projects <span id="toggleIcon">&#9656;</span>
 </h2>
 <ul class="strengthsList" style="display: none;">
     <li><a href="Activity 2/ISQA 8156 Group project.pdf">Statistical Analysis of participation surveys for "Omaha Girls Rock"</a></li>
