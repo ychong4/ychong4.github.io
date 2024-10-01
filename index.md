@@ -66,7 +66,7 @@
 				
 	
 
-<h2 class="toggleButton" style="cursor: pointer;">
+<h2 class="toggleButton" style="cursor: pointer; margin-top: 20px;">
     Computer Vision <span id="toggleIcon">&#9656;</span>
 </h2>
 <ul class="strengthsList" style="display: none;">
@@ -97,9 +97,9 @@
 		</ul>
 </ul>
 	
-</br>
 
-<h2 class="toggleButton" style="cursor: pointer;">
+
+<h2 class="toggleButton" style="cursor: pointer; margin-top: 20px;">
     Tableau Public <span id="toggleIcon">&#9656;</span>
 </h2>
 <ul class="strengthsList" style="display: none;">
@@ -113,9 +113,9 @@
     <li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/Actuarial%20Model/TermLifeInsurancePricing.xlsm">[Life] 10-year Term Life Pricing Model</a></li>
 </ul>
 
-</br>
+
 	
-<h2 class="toggleButton" style="cursor: pointer;">
+<h2 class="toggleButton" style="cursor: pointer; margin-top: 20px;">
     University Data Projects <span id="toggleIcon">&#9656;</span>
 </h2>
 <ul class="strengthsList" style="display: none;">
@@ -125,7 +125,7 @@
     <li><a href="Activity 2/sampleEnergyDoc.pdf">Analysis on Australian Energy Household</a></li>
 </ul>
 
-</br>
+
 
 <script>
 // Get all the headers and lists
