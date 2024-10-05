@@ -7,10 +7,15 @@
 **API Link:** https://finnhub.io/
 * We will be using the real-time websocket api.
 
+</br>
+
 **Project File Links:**
 - <a href="etl.py">etl.py</a>
-- <a href="KafkaProducer.ipynb">KafkaProducer.ipynb</a>
-- <a href="KafkaConsumer.ipynb">KafkaConsumer.ipynb</a>
+
+</br>
+
+**Project Workflow:**
+![](image/etl_workflow.png)
 
 </br>
 
