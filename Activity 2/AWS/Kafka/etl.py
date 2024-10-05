@@ -73,6 +73,7 @@ if __name__ == "__main__":
     ws_thread.start()
 
     #Continuously consume data from Kafka and write to s3
+
     for count, message in enumerate(consumer):
         try:
             print(f"Received from Kafka: {message.value}")
