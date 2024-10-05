@@ -4,8 +4,9 @@
 
 </br>
 
-**API Link:** https://finnhub.io/
-* We will be using the real-time websocket api.
+**API Link:** 
+- https://finnhub.io/
+- We will be using the real-time websocket api.
 
 </br>
 
@@ -19,6 +20,7 @@
 ![](image/etl_workflow.png)
 
 </br>
+
 
 **Project steps:**
 **1. Data Ingestion Using Finnhub API:**
