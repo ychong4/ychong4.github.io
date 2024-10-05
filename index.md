@@ -79,7 +79,7 @@
 	
 
 <h2 class="toggleButton" style="cursor: pointer; margin-top: 30px;">
-    Computer Vision Projects<span id="toggleIcon">&#9656;</span>
+    Computer Vision Notebooks<span id="toggleIcon">&#9656;</span>
 </h2>
 <ul class="strengthsList" style="display: none;">
     <li>1. [Image Classification] Natural Scene Image Classification -- CNN</li>
