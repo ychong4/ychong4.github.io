@@ -22,7 +22,7 @@
 </br>
 
 
-### Project steps:
+## Project steps:
 
 **1. Data Ingestion Using Finnhub API:**
 - The project began by utilizing the Finnhub Stock API to gather real-time financial data, particularly stock prices and trade information.
