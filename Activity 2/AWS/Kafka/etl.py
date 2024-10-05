@@ -11,7 +11,7 @@ FINNHUB_API_KEY = api_key
 
 # Kafka configuration
 KAFKA_BOOTSTRAP_SERVERS = [ip_address]
-KAFKA_TOPIC = 'btcusdt_trades'
+KAFKA_TOPIC = 'btc-trade'
 
 # S3 Configuration
 S3_BUCKET_NAME = S3_BUCKET_NAME
