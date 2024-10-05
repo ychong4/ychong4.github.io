@@ -1,4 +1,4 @@
-## Real-time Stock API Apache Kafka ETL Pipeline
+## Real-time Stock API Kafka ETL Pipeline
 
 **Project Overview:** This project integrated real-time stock data from the Finnhub API with an Apache Kafka-based architecture to build a robust data ingestion pipeline. Kafka acted as the messaging system for streaming live trade data, enabling a scalable and fault-tolerant mechanism for capturing financial information in real time.
 
