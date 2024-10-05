@@ -24,13 +24,8 @@ producer = KafkaProducer(bootstrap_servers=KAFKA_BOOTSTRAP_SERVERS,
 consumer = KafkaConsumer(KAFKA_TOPIC, bootstrap_servers=KAFKA_BOOTSTRAP_SERVERS,
                          value_deserializer=lambda x: json.loads(x.decode('utf-8')))
 
-# Initialize S3 client
-s3_client = boto3.client('s3')
-
-def upload_to_s3(data, count):
-    filename = f"{S3_FILE_PREFIX}/btcusdt_trades_{count}.json"
-    s3_client.put_object(Bucket=S3_BUCKET_NAME, Key=filename, Body=json.dumps(data))
-    print(f"Uploaded {filename} to s3")
+# Initialize S3
+s3 = S3FileSystem()
 
 # Finnhub client
 finnhub_client = finnhub.Client(api_key=FINNHUB_API_KEY)
@@ -74,5 +69,6 @@ if __name__ == "__main__":
     for count, message in enumerate(consumer):
         print(f"Received from Kafka: {message.value}")
         # Upload the message to s3
-        upload_to_s3(message.value, count)
+        with s3.open(f"s3://{S3_BUCKET_NAME}/trade_{count}.json", "w") as file:
+            json.dump(message.value, file)
     
