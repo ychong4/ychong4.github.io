@@ -24,10 +24,13 @@ api_key = api_key
 
 weather_data = get_weather(lat, lon, api_key)
 
+print(weather_data)
 
+'''
 if weather_data:
     print(f"Temperature: {weather_data['main']['temp']}°C")
     print(f"Description: {weather_data['weather'][0]['description']}")
     print(f"Humidity: {weather_data['main']['humidity']}%")
 else:
     print("Failed to retrieve weather data.")
+'''
