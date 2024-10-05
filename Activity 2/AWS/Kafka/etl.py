@@ -5,6 +5,7 @@ from kafka import KafkaProducer, KafkaConsumer
 from key import api_key, ip_address, S3_BUCKET_NAME, S3_FILE_PREFIX 
 from s3fs import S3FileSystem
 import boto3
+import threading
 
 # Finnhub API key
 FINNHUB_API_KEY = api_key
@@ -57,7 +58,7 @@ def on_open(ws):
     print("WebSocket connection opened")
     ws.send('{"type":"subscribe","symbol":"BINANCE:BTCUSDT"}')
 
-if __name__ == "__main__":
+def run_websocket():
     websocket.enableTrace(True)
     ws = websocket.WebSocketApp(f"wss://ws.finnhub.io?token={FINNHUB_API_KEY}",
                                 on_message=on_message,
@@ -67,8 +68,11 @@ if __name__ == "__main__":
 
     ws.run_forever()
 
+if __name__ == "__main__":
+    ws_thread = threading.Thread(target=run_websocket)
+    ws_thread.start()
+
     #Continuously consume data from Kafka and write to s3
-    print("Polling Kafka for messages...")
     for count, message in enumerate(consumer):
         try:
             print(f"Received from Kafka: {message.value}")
