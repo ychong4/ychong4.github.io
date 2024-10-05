@@ -45,6 +45,17 @@ def on_message(ws, message):
             producer.send(KAFKA_TOPIC, trade_data)
             print(f"Sent to Kafka: {trade_data}")
 
+            #Continuously consume data from Kafka and write to s3
+            for count, message in enumerate(consumer):
+                try:
+                    print(f"Received from Kafka: {message.value}")
+                    # Upload the message to s3
+                    with s3.open(f"s3://{S3_BUCKET_NAME}/trade_{count}.json", "w") as file:
+                        json.dump(message.value, file)
+                    print(f"Data successfully written to S3: trade_{count}.json")
+                except Exception as e:
+                    print(f"Error writing to S3: {e}")
+
 def on_error(ws, error):
     print(f"Error: {error}")
 
@@ -65,10 +76,3 @@ if __name__ == "__main__":
 
     ws.run_forever()
 
-    #Continuously consume data from Kafka and write to s3
-    for count, message in enumerate(consumer):
-        print(f"Received from Kafka: {message.value}")
-        # Upload the message to s3
-        with s3.open(f"s3://{S3_BUCKET_NAME}/trade_{count}.json", "w") as file:
-            json.dump(message.value, file)
-    
