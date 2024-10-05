@@ -7,6 +7,13 @@
 **API Link:** https://finnhub.io/
 * We will be using the real-time websocket api.
 
+**Project File Links:**
+- <a href="etl.py">etl.py</a>
+- <a href="KafkaProducer.ipynb">KafkaProducer.ipynb</a>
+- <a href="KafkaConsumer.ipynb">KafkaConsumer.ipynb</a>
+
+</br>
+
 **Project steps:**
 **1. Data Ingestion Using Finnhub API:**
 - The project began by utilizing the Finnhub Stock API to gather real-time financial data, particularly stock prices and trade information.
