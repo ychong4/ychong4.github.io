@@ -9,7 +9,7 @@ FINNHUB_API_KEY = api_key
 
 # Kafka configuration
 KAFKA_BOOTSTRAP_SERVERS = [ip_address]
-KAFKA_TOPIC = 'stock_data'
+KAFKA_TOPIC = 'btcusdt_trades'
 
 # Initialize Kafka producer
 producer = KafkaProducer(bootstrap_servers=KAFKA_BOOTSTRAP_SERVERS,
@@ -20,23 +20,29 @@ finnhub_client = finnhub.Client(api_key=FINNHUB_API_KEY)
 
 def on_message(ws, message):
     data = json.loads(message)
-    # Only process trade data
+
     if data['type'] == 'trade':
         for trade in data['data']:
             # Send trade data to Kafka
-            producer.send(KAFKA_TOPIC, trade)
-            print(f"Sent to Kafka: {trade}")
+            trade_data = {
+                'price': trade['p'],
+                'timestamp': trade['t'],
+                'volume': trade['v']
+            }
+
+
+            producer.send(KAFKA_TOPIC, trade_data)
+            print(f"Sent to Kafka: {trade_data}")
 
 def on_error(ws, error):
-    print(error)
+    print(f"Error: {error}")
 
 def on_close(ws):
     print("WebSocket connection closed")
 
 def on_open(ws):
     print("WebSocket connection opened")
-    # Subscribe to Apple stock
-    ws.send('{"type":"subscribe","symbol":"AAPL"}')
+    ws.send('{"type":"subscribe","symbol":"BINANCE:BTCUSDT"}')
 
 if __name__ == "__main__":
     websocket.enableTrace(True)
