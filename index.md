@@ -32,6 +32,7 @@
 </h2>
 <ul class="strengthsList" style="display: none;">
     <li><a href="https://github.com/ychong4/ychong4.github.io/tree/master/Activity%202/AWS/Airflow/Youtube_Comment_Analysis">Youtube Video Comments Sentiment and Emotion ETL Project</a></li>
+    <li><a href="https://github.com/ychong4/ychong4.github.io/tree/master/Activity%202/AWS/Kafka">Real-time Stock API Kafka ETL Pipeline</a></li>
     <li><a href="https://github.com/ychong4/ychong4.github.io/tree/master/Activity%202/Azure/OlympicParis2024">Azure ETL projects for Paris Olympic 2024 Dataset</a></li>
 </ul>
 
@@ -79,7 +80,7 @@
 	
 
 <h2 class="toggleButton" style="cursor: pointer; margin-top: 30px;">
-    Computer Vision Projects<span id="toggleIcon">&#9656;</span>
+    Computer Vision Notebooks<span id="toggleIcon">&#9656;</span>
 </h2>
 <ul class="strengthsList" style="display: none;">
     <li>1. [Image Classification] Natural Scene Image Classification -- CNN</li>
