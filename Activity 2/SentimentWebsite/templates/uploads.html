@@ -4,19 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSV Upload and Sentiment Analysis</title>
-    <link rel="stylesheet" href="styles.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Centering content vertically and horizontally */
+        body, html {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            max-width: 600px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Upload CSV for Sentiment Analysis</h1>
+    <div class="container text-center">
+        <h1 class="mb-4">Upload CSV for Sentiment Analysis</h1>
 
-    <!-- Form for CSV upload -->
-    <form action="/upload_csv" method="POST" enctype="multipart/form-data">
-        <label for="csvFile">Select CSV File:</label>
-        <input type="file" id="csvFile" name="csvFile" accept=".csv" required>
-        <button type="submit">Upload and Analyze</button>
-    </form>
+        <!-- Form for CSV upload -->
+        <form action="/upload" method="POST" enctype="multipart/form-data" class="mb-4">
+            <div class="form-group">
+                <label for="csvFile">Select CSV File:</label>
+                <input type="file" id="csvFile" name="csvFile" class="form-control-file" accept=".csv" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Upload and Analyze</button>
+        </form>
 
-    <p id="result"></p>
+        <!-- Placeholder for results -->
+        <p id="result"></p>
+    </div>
 
     <script src="app.js"></script>
 </body>

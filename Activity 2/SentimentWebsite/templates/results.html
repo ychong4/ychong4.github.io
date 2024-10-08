@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Analysis Results</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="text-center">Sentiment Analysis Results</h2>
+
+        <!-- Table displaying the results -->
+        <table class="table table-bordered table-striped mt-4">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Text</th>
+                    <th>Sentiment</th>
+                    <th>Confidence</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in data %}
+                <tr>
+                    <td>{{ row['text'] }}</td>
+                    <td>{{ row['sentiment'] }}</td>
+                    <td>{{ row['confidence'] }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+        <!-- Plot displaying sentiment distribution -->
+        <h3 class="text-center mt-5">Sentiment Distribution</h3>
+        <div class="text-center">
+            <img src="data:image/png;base64,{{ plot_url }}" class="img-fluid" alt="Sentiment Distribution Plot">
+        </div>
+    </div>
+</body>
+</html>
