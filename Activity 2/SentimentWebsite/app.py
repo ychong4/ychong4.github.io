@@ -2,16 +2,11 @@ import os
 import pandas as pd
 from flask import Flask, render_template, request, redirect, url_for, send_file
 from werkzeug.utils import secure_filename
-import nltk
-from nltk.sentiment import SentimentIntensityAnalyzer
 import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
 from transformers import pipeline
 
-# Initialize NLTK Sentiment Analyzer
-nltk.download('vader_lexicon')
-sia = SentimentIntensityAnalyzer()
 
 # Initialize Flask app
 app = Flask(__name__)
@@ -72,17 +67,17 @@ def analyze_sentiment(filepath):
     df = pd.read_csv(filepath)
     
     # Assuming the CSV has a 'sentence' column
-    df['sentiment'] = df['sentence'].apply(lambda x: sia.polarity_scores(x)['compound'])
+    df['sentiment'] = df['sentence'].apply(lambda x: sentiment_pipeline(x)[0]['label'])
     
     # Save the updated CSV
     result_filepath = os.path.join(app.config['UPLOAD_FOLDER'], 'results.csv')
     df.to_csv(result_filepath, index=False)
     
-    # Visualization: Plot sentiment scores
+    # Visualization: Plot sentiment distribution
     fig = plt.figure(figsize=(10, 6))
     sns.boxplot(x='sentiment', data=df)
     plt.title('Sentiment Distribution')
-    plt.xlabel('Sentiment Score')
+    plt.xlabel('Sentiment Label')
     fig_path = os.path.join(app.config['UPLOAD_FOLDER'], 'sentiment_distribution.png')
     plt.savefig(fig_path)
     
