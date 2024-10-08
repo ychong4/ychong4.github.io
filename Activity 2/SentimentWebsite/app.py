@@ -7,6 +7,7 @@ from nltk.sentiment import SentimentIntensityAnalyzer
 import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
+from transformers import pipeline
 
 # Initialize NLTK Sentiment Analyzer
 nltk.download('vader_lexicon')
