@@ -1,0 +1,21 @@
+text,sentiment,confidence
+hello,positive,0.9995
+damn,negative,0.9823
+shit,negative,0.9993
+no way!,negative,0.9981
+haha,positive,0.7155
+I like this,positive,0.9999
+how possible,positive,0.9958
+gorgeous,positive,0.9999
+amazing,positive,0.9999
+it is not something I would like,negative,0.9997
+lol,negative,0.9438
+jesus,positive,0.9656
+qoq,positive,0.7619
+perfect,positive,0.9999
+oh no god,negative,0.9953
+wow,positive,0.9996
+test,negative,0.9606
+sksksk,positive,0.6992
+hola,positive,0.7184
+I'm calling my dad,negative,0.9768

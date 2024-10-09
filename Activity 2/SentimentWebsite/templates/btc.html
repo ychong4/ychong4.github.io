@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Bitcoin Chart</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="static/js/script.js" defer></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif; /* Example styling */
+        }
+
+        #btc-chart {
+            min-height: 400px; /* Set a minimum height for the chart container */
+            border: 1px solid silver; /* Optional border for visual separation */
+        }
+
+        .line {
+            fill: none;
+            stroke: blue; /* Set line color */
+            stroke-width: 2; /* Set line width */
+        }
+    </style>
+</head>
+<body>
+    <h1>Real-Time Bitcoin Price</h1>
+    <div id="btc-chart"></div> <!-- Container for the chart -->
+</body>
+</html>

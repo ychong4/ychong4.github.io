@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Analysis</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* To center the content vertically as well */
+        body, html {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            max-width: 600px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container text-center">
+        <h1 class="text-center mb-4">Sentiment Analysis</h1>
+        <form action="/analyze" method="post", class="mb-4">
+            <div class="form-group">
+                <input type="text" name="sentence" class="form-control" placeholder="Enter a sentence" required>
+            </div>
+            <div class="form-group">
+                <label for="model">Select NLP Model:</label>
+                <select class="form-control" id="model" name="model" required>
+                    {% for model_name, model_label in nlp_models.items() %}
+                        <option value="{{ model_name }}">{{ model_label }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Analyze Sentiment</button>
+            <div id="loading" style="display:none;">Loading... Please wait.</div>
+
+            <script>
+                // Show loading message before making the request
+                function showLoading() {
+                    document.getElementById('loading').style.display = 'block';
+                }
+
+                // Hide loading message when the request is complete
+                function hideLoading() {
+                    document.getElementById('loading').style.display = 'none';
+                }
+
+                // Call these functions appropriately when making requests
+            </script>
+        </form>
+        
+        {% if sentence %}
+        <h2>Analysis Result</h2>
+        <p><strong>Sentence:</strong> {{ sentence }}</p>
+        <p><strong>Selected Model:</strong> {{ model_name }}</p>
+        <p><strong>Sentiment:</strong> {{ sentiment }}</p>
+        <p><strong>Confidence:</strong> {{ confidence }}</p>
+        {% endif %}
+
+        <h1 class="text-center mt-5">Sentiment Analysis on CSV File</h1>
+        <a href="/uploads.html" class="btn btn-secondary mt-3">Upload CSV for Sentiment Analysis</a>
+    </div>
+
+
+
+</body>
+</html>
