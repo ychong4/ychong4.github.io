@@ -8,3 +8,6 @@ transformers
 Torch
 wordcloud
 Flask-Session
+sentencepiece
+protobuf
+accelerate
