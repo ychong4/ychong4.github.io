@@ -13,7 +13,11 @@
 
 ![](image/chatbot5.png)
 
-3. The example uses are shown below:
+3. After that, we need to build an interface for the chatbot. We use html and javascript for that. Link:
+- <a href="chat.js">chat.js</a>
+- <a href="chatbot.html">chatbot.html</a>
+
+5. The example uses are shown below:
 
 ![](image/chatbot1.png)
 ![](image/chatbot2.png)
