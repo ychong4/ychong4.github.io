@@ -17,15 +17,10 @@
 <p>
 	For continuing education, I passed the actuarial examinations and received the Associateship of the Society of Actuaries (ASA) in April 2023. I am also a Microsoft certified Azure Data Engineer Associate since August 2024.
 
+Top 5 Gallup Strengths: 1. Relator  |  2. Learner  |  3. Positivity  |  4. Activator  |  5. Deliberative
+
 </p>
 </div>
-
-<h2 class="toggleButton" style="cursor: pointer; margin-top: 30px;">
-    Top 5 Gallup Strengths <span id="toggleIcon">&#9656;</span>
-</h2>	
-<ul class="strengthsList" style="display: none;">
-    <li>1. Relator  |  2. Learner  |  3. Positivity  |  4. Activator  |  5. Deliberative</li>
-</ul>
 	
 <h2 class="toggleButton" style="cursor: pointer; margin-top: 30px;">
     Data Engineering ETL Projects <span id="toggleIcon">&#9656;</span>
@@ -77,7 +72,17 @@
 			<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/ABtest/abtest.ipynb">Notebook</a></li>
 		</ul>
 </ul>				
-	
+
+<h2 class="toggleButton" style="cursor: pointer; margin-top: 30px;">
+    Natural Language Processing (NLP)<span id="toggleIcon">&#9656;</span>
+</h2>
+<ul class="strengthsList" style="display: none;">
+    <li>1. [Chatbot] Buiilding a chatbot </li>
+		<ul>
+			<li><a href="https://github.com/ychong4/ychong4.github.io/tree/master/Activity%202/Intel%20Image%20Classification">Project Overview</a></li>
+			<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/Intel_Image_Classification.ipynb">Notebook</a></li>
+		</ul>
+</ul>
 
 <h2 class="toggleButton" style="cursor: pointer; margin-top: 30px;">
     Computer Vision Notebooks<span id="toggleIcon">&#9656;</span>
