@@ -33,6 +33,7 @@
 <br>
 
 2. The user should upload a CSV file with a 'text' column, then proceed to selecting a NLP model.
+* The example file can be found <a href="example.csv">here</a>
    
 ![](image/sentiment_analysis_csv2.png)
 
