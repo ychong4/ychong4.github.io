@@ -23,3 +23,5 @@
 
 3. Then click on the "Analyze Sentiment" button, the sentiment analysis result will shown below
 ![](image/sentiment_analysis_sentence3.png)
+
+### Part 2. CSV file upload sentiment analysis
