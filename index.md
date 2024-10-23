@@ -16,9 +16,9 @@
 	I am currently working as a Data Analyst in the University of Nebraska-Lincoln, in the Operation Technology and Engineering team. I received my Master's degree with a major in Management Information System (MIS) and a concentration in data analytics from UNO in May 2022. I was an undergraduate student majoring in Actuarial Sscience in UNL from 2015 - 2018. After that, I worked for a year in Kingsbay Group. Kingsbay Group is an E-commerce retailer and I worked as a Purchasing Analyst in the purchasing department. I also had one year experience analyzing research data as a research graduate assistant in UNO. </p>
 <p>
 	For continuing education, I passed the actuarial examinations and received the Associateship of the Society of Actuaries (ASA) in April 2023. I am also a Microsoft certified Azure Data Engineer Associate since August 2024.
-
+</p>
+<p>	
 Top 5 Gallup Strengths: 1. Relator  |  2. Learner  |  3. Positivity  |  4. Activator  |  5. Deliberative
-
 </p>
 </div>
 	
@@ -77,11 +77,11 @@ Top 5 Gallup Strengths: 1. Relator  |  2. Learner  |  3. Positivity  |  4. Activ
     Natural Language Processing (NLP)<span id="toggleIcon">&#9656;</span>
 </h2>
 <ul class="strengthsList" style="display: none;">
-    <li>1. [Chatbot] Buiilding a chatbot using Llama-3.2-1B-Instruct model </li>
+    <li>1. [Chatbot] Building a chatbot using Llama-3.2-1B-Instruct model </li>
 		<ul>
 			<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/NLP/chatbot/Readme.md">Project Overview</a></li>
 		</ul>
-    <li>1. [Sentiment Analysis] Sentiment Analysis on a sentence and a CSV file </li>
+    <li>1. [Sentiment Analysis] Sentiment Analysis on sentence and CSV file (BERT)</li>
 		<ul>
 			<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/NLP/sentiment_analysis/Readme.md">Project Overview</a></li>
 		</ul>
