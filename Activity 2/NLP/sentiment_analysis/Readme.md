@@ -9,8 +9,17 @@
 
 ### Part 1. Simple sentence sentiment analysis
 
+<br>
+
+The sentence analysis interface is shown below:
+
 ![](image/sentiment_analysis_sentence1.png)
 
+<br>
+
+
+The user should input a word or a setence into the text box, then proceed to selecting a NLP model.
 ![](image/sentiment_analysis_sentence2.png)
 
+Then click on the "Analyze Sentiment" button, the sentiment analysis result will shown below
 ![](image/sentiment_analysis_sentence3.png)
