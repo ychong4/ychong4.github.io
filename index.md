@@ -77,10 +77,13 @@ Top 5 Gallup Strengths: 1. Relator  |  2. Learner  |  3. Positivity  |  4. Activ
     Natural Language Processing (NLP)<span id="toggleIcon">&#9656;</span>
 </h2>
 <ul class="strengthsList" style="display: none;">
-    <li>1. [Chatbot] Buiilding a chatbot </li>
+    <li>1. [Chatbot] Buiilding a chatbot using Llama-3.2-1B-Instruct model </li>
 		<ul>
-			<li><a href="https://github.com/ychong4/ychong4.github.io/tree/master/Activity%202/Intel%20Image%20Classification">Project Overview</a></li>
-			<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/Intel_Image_Classification.ipynb">Notebook</a></li>
+			<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/NLP/chatbot/Readme.md">Project Overview</a></li>
+		</ul>
+    <li>1. [Sentiment Analysis] Sentiment Analysis on a sentence and a CSV file </li>
+		<ul>
+			<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/NLP/sentiment_analysis/Readme.md">Project Overview</a></li>
 		</ul>
 </ul>
 
