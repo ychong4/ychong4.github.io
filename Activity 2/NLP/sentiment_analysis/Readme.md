@@ -7,9 +7,9 @@
 - <a href="https://huggingface.co/nlptown/bert-base-multilingual-uncased-sentiment">bert-base-multilingual-uncased-sentiment</a>
 - <a href="https://huggingface.co/cardiffnlp/twitter-xlm-roberta-base-sentiment">twitter-xlm-roberta-base-sentiment</a>
 
-### Part 1. Simple sentence sentiment analysis
-
 <br>
+
+### Part 1. Simple sentence sentiment analysis
 
 1. The sentence analysis interface is shown below:
 
