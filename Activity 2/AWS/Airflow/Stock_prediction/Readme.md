@@ -58,7 +58,7 @@ We created two tables in the PostgreSQL database: (1) stock_historical_price, (2
 
 </br>
 
-### Step 2. Set up dag.py to configure the DAG on Airflow
+### Step 3. Set up dag.py to configure the DAG on Airflow
 
 
 
