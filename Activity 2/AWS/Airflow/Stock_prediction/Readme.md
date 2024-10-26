@@ -22,6 +22,11 @@
 
 </br>
 
+**Project Mapflow:**
+![](process.png)
+
+</br>
+
 **Steps:**
 1. Set up Amazon RDS (PostgresSQL Database)
 2. Create EC2 instance (ubuntu) and set up airflow in the instance. Also, set up PostgreSQL in the instance.  
@@ -30,9 +35,6 @@
 
 </br>
 
-**Project Mapflow:**
-![](process.png)
 
-</br>
 
 
