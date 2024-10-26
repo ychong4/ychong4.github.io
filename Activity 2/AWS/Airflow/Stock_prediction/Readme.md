@@ -8,8 +8,7 @@
 
 </br>
 
-**API Link:** https://developers.google.com/youtube/v3/getting-started
-* This project uses the Youtube comments api in the link.
+**API Link:** https://polygon.io/stocks
 
 </br>
 
