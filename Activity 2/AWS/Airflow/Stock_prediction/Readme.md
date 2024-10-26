@@ -35,6 +35,13 @@
 
 </br>
 
+### Step 1. Set up Amazon RDS (PostgresSQL Database)
+In this step, we will set up the Amazon RDS database to store data.
+
+
+
+### Step 2. Create EC2 instance 
+In this step, we will create an EC2 instance and set up airflow in the instance. Also, set up PostgreSQL in the instance.  
 
 
 
