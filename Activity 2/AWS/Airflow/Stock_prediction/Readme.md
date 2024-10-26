@@ -43,9 +43,10 @@ In this step, we will set up the Amazon RDS database to store data.
 </br>
 
 ### Step 2. Create EC2 instance and set up Airflow and PostgreSQL
-In this step, we will create an EC2 instance and set up airflow in the instance. Also, set up PostgreSQL in the instance. After that, do a batch import to import historical data to the PostgrelSQL database.
+In this step, we will create an EC2 instance and set up airflow in the instance. Also, set up PostgreSQL in the instance.
 
 ![](image/postgres1.png)
+We created two tables in the PostgreSQL database: (1) stock_historical_price, (2) stock_prediction_price. The stock_historical_price table is to store the historical stock price so that the algorithm can read and process the data, whereas the stock_prediction_price table is to store the prediction price. After that, do a batch import to import historical data to the PostgrelSQL database using s3 bucket.
 
 ![](image/postgres2.png)
 
