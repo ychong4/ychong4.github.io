@@ -36,14 +36,14 @@
 </br>
 
 ### Step 1. Set up Amazon RDS (PostgresSQL Database)
-In this step, we will set up the Amazon RDS database to store data.
+In this part, we will set up the Amazon RDS database to store data.
 
 ![](image/rds.png)
 
 </br>
 
 ### Step 2. Create EC2 instance and set up Airflow and PostgreSQL
-In this step, we will create an EC2 instance and set up airflow in the instance. Also, set up PostgreSQL in the instance.
+In this part, we will create an EC2 instance and set up airflow in the instance. Also, set up PostgreSQL in the instance.
 
 ![](image/postgres1.png)
 
@@ -59,6 +59,6 @@ We created two tables in the PostgreSQL database: (1) stock_historical_price, (2
 </br>
 
 ### Step 3. Set up dag.py to configure the DAG on Airflow
+In this part, we will set up dag.py to automate data retrieval using API and store data into stock_historical_price table. Then, read data from stock_historical_price table and use as an input to the Prophet algorithm for making prediction in the next 5 days. Lastly, import the prediction data into stock_prediction_price table. 
 
-
-
+![](image/airflow.png)
