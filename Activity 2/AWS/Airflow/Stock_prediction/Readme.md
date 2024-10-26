@@ -43,7 +43,7 @@ In this step, we will set up the Amazon RDS database to store data.
 ### Step 2. Create EC2 instance and set up Airflow and PostgreSQL
 In this step, we will create an EC2 instance and set up airflow in the instance. Also, set up PostgreSQL in the instance. After that, do a batch import to import historical data to the PostgrelSQL database.
 
-![](postgres1.png)
+![](image/postgres1.png)
 
-![](postgres2.png)
+![](image/postgres2.png)
 
