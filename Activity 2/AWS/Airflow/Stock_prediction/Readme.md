@@ -67,4 +67,4 @@ In this part, we will set up dag.py to automate data retrieval using API and sto
 ### Step 4. Run the pipeline
 In this part, we will trigger the pipeline. The result shows the prediction data is imported to the stock_prediction_price table. After that, we will create a airflow-scheduler.service and airflow-webserver.service files to automate the processes.
 
-![](image/postgres3.png)
+![](image/postgres4.png)
