@@ -27,7 +27,7 @@
 
 </br>
 
-**Steps:**
+**Project Steps:**
 1. Set up Amazon RDS (PostgresSQL Database)
 2. Create EC2 instance (ubuntu) and set up airflow in the instance. Also, set up PostgreSQL in the instance.  
 3. Set up dag.py to configure the DAG on Airflow.
@@ -38,10 +38,12 @@
 ### Step 1. Set up Amazon RDS (PostgresSQL Database)
 In this step, we will set up the Amazon RDS database to store data.
 
+![](image/rds.png)
 
+### Step 2. Create EC2 instance and set up Airflow and PostgreSQL
+In this step, we will create an EC2 instance and set up airflow in the instance. Also, set up PostgreSQL in the instance. After that, do a batch import to import historical data to the PostgrelSQL database.
 
-### Step 2. Create EC2 instance 
-In this step, we will create an EC2 instance and set up airflow in the instance. Also, set up PostgreSQL in the instance.  
+![](postgres1.png)
 
-
+![](postgres2.png)
 
