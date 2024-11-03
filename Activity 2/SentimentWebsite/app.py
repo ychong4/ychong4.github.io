@@ -16,6 +16,9 @@ import torch
 import transformers
 from transformers import LlamaTokenizer, pipeline, AutoTokenizer, AutoModelForCausalLM
 from hftoken import huggingface_token
+import psycopg2
+import boto3
+import json
 
 
 matplotlib.use('Agg')
@@ -27,6 +30,40 @@ Session(app)
 
 # Set a secret key to securely sign the session cookie
 app.secret_key = os.urandom(24)  # Generates a random secret key each time
+
+
+def get_secret():
+
+    secret_name = "rds!db-cdacc544-7d3a-45bc-92d1-7929cb3fb80b"
+    region_name = "us-east-2"
+
+    # Create a Secrets Manager client
+    session = boto3.session.Session()
+    client = session.client(
+        service_name='secretsmanager',
+        region_name=region_name
+    )
+
+    get_secret_value_response = client.get_secret_value(
+        SecretId=secret_name
+    )
+
+    response = get_secret_value_response['SecretString']
+    secret = json.loads(response)
+    return secret['username'], secret['password']
+
+username, password = get_secret()
+
+# Connection to postgreSQL
+def get_db_connection():
+    conn = psycopg2.connect(
+            host="db-stock.cbueaqgy4mwk.us-east-2.rds.amazonaws.com",
+            user=username,
+            password=password,
+            port=5432 
+    )
+    return conn
+
 
 # Directory for storing uploaded files
 UPLOAD_FOLDER = 'uploads'
@@ -342,6 +379,35 @@ def download_wordcloud():
     response.headers.set('Content-Type', 'image/png')
     response.headers.set('Content-Disposition', 'attachment; filename=word_cloud.png')
     return response
+
+@app.route('/time_series')
+def time_series():
+    
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    
+    # Query for historical prices
+    cursor.execute("SELECT date, close, ticker FROM stock_historical_price;")
+    historical_prices = cursor.fetchall()
+    
+    # Query for predicted prices
+    cursor.execute("SELECT date, predicted_price FROM stock_prediction_price;")
+    predicted_prices = cursor.fetchall()
+    
+    cursor.close()
+    conn.close()
+
+    historical_df = historical_prices
+    prediction_df = predicted_prices
+    
+    #historical_df = pd.read_csv("data_df.csv")
+    #prediction_df = pd.read_csv("pred_df.csv")
+    prediction_df = prediction_df[['ticker', 'prediction_date','price', 'price_upper', 'price_lower']]
+    print(prediction_df)
+    
+    return render_template('time_series.html', 
+                           historical_data=historical_df.to_dict(orient='records'), 
+                           prediction_data=prediction_df.to_dict(orient='records'))
 
 if __name__ == '__main__':
     app.run(debug=False)

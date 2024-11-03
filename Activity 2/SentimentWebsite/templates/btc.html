@@ -3,28 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Real-Time Bitcoin Chart</title>
+    <title>Real-Time Bitcoin Candlestick Chart</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="static/js/script.js" defer></script>
     <style>
         body {
-            font-family: Arial, sans-serif; /* Example styling */
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa; /* Light background for better contrast */
+        }
+
+        .container {
+            margin-top: 50px; /* Space from the top */
         }
 
         #btc-chart {
-            min-height: 400px; /* Set a minimum height for the chart container */
-            border: 1px solid silver; /* Optional border for visual separation */
+            min-height: 400px; /* Minimum height for the chart container */
+            border: 1px solid #ced4da; /* Light border for visual separation */
+            border-radius: 5px; /* Rounded corners */
+            background-color: white; /* White background for the chart */
+            padding: 20px; /* Padding inside the chart area */
         }
 
-        .line {
-            fill: none;
-            stroke: blue; /* Set line color */
-            stroke-width: 2; /* Set line width */
+        h1 {
+            color: #343a40; /* Dark color for the heading */
         }
     </style>
 </head>
 <body>
-    <h1>Real-Time Bitcoin Price</h1>
-    <div id="btc-chart"></div> <!-- Container for the chart -->
+    <div class="container">
+        <h1 class="text-center">Real-Time Bitcoin Price Candlestick Chart</h1>
+        <div id="btc-chart" class="shadow-sm"></div> <!-- Container for the chart -->
+        <p class="text-center mt-3">Live updates of Bitcoin prices will be shown here.</p>
+    </div>
 </body>
 </html>

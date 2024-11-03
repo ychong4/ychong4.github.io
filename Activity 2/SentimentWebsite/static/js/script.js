@@ -1,83 +1,64 @@
-document.addEventListener('DOMContentLoaded', function () {
-    const margin = { top: 20, right: 30, bottom: 30, left: 40 };
-    const width = 800 - margin.left - margin.right;
-    const height = 400 - margin.top - margin.bottom;
+// Sample data structure for Bitcoin prices
+const data = [
+    { date: new Date('2024-10-21'), open: 60000, high: 60500, low: 59500, close: 60200 },
+    { date: new Date('2024-10-22'), open: 60200, high: 61000, low: 59800, close: 60800 },
+    // Add more data points as needed
+];
 
-    const svg = d3.select("#btc-chart")
-        .append("svg")
-        .attr("width", width + margin.left + margin.right)
-        .attr("height", height + margin.top + margin.bottom)
-        .append("g")
-        .attr("transform", `translate(${margin.left},${margin.top})`);
+// Set the dimensions of the canvas
+const margin = { top: 20, right: 30, bottom: 40, left: 50 };
+const width = 600 - margin.left - margin.right;
+const height = 400 - margin.top - margin.bottom;
 
-    const xScale = d3.scaleLinear().range([0, width]);
-    const yScale = d3.scaleLinear().range([height, 0]);
-    const line = d3.line()
-        .x((d, i) => xScale(i))
-        .y(d => yScale(d));
+// Create the SVG canvas
+const svg = d3.select("#btc-chart")
+    .append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+    .append("g")
+    .attr("transform", `translate(${margin.left},${margin.top})`);
 
-    let prices = [];
-    let currentPrice = null;
+// Set the scales
+const x = d3.scaleBand()
+    .domain(data.map(d => d.date))
+    .range([0, width])
+    .padding(0.2);
 
-    const xAxisGroup = svg.append("g")
-        .attr("class", "x-axis")
-        .attr("transform", `translate(0,${height})`);
-    
-    const yAxisGroup = svg.append("g")
-        .attr("class", "y-axis");
+const y = d3.scaleLinear()
+    .domain([d3.min(data, d => d.low), d3.max(data, d => d.high)])
+    .range([height, 0]);
 
-    function updateChart(price) {
-        // Update the current price
-        currentPrice = price;
+// Create axes
+svg.append("g")
+    .attr("class", "x-axis")
+    .attr("transform", `translate(0,${height})`)
+    .call(d3.axisBottom(x).tickFormat(d3.timeFormat("%Y-%m-%d")));
 
-        prices.push(price);
-        // Keep the last 50 prices to create a rolling window
-        if (prices.length > 50) {
-            prices.shift(); // Remove the oldest price
-        }
+svg.append("g")
+    .attr("class", "y-axis")
+    .call(d3.axisLeft(y));
 
-        // Update the scales
-        xScale.domain([0, prices.length - 1]);
-        const minPrice = currentPrice - 100;
-        const maxPrice = currentPrice + 100;
-        yScale.domain([minPrice, maxPrice]);
+// Draw candlesticks
+svg.selectAll(".candlestick")
+    .data(data)
+    .enter()
+    .append("g")
+    .attr("class", "candlestick")
+    .attr("transform", d => `translate(${x(d.date)},0)`)
 
-        // Bind data and create/update the line
-        svg.selectAll(".line").remove(); // Remove existing line
-        svg.append("path")
-            .datum(prices) // Bind the prices data
-            .attr("class", "line")
-            .attr("d", line); // Generate the path
+    // Create the line for high and low
+    .append("line")
+    .attr("y1", d => y(d.high))
+    .attr("y2", d => y(d.low))
+    .attr("stroke", d => d.open > d.close ? "red" : "green")
+    .attr("stroke-width", 2)
+    .attr("x1", 0)
+    .attr("x2", 0);
 
-        // Update axes
-        xAxisGroup.call(d3.axisBottom(xScale).ticks(prices.length));
-        yAxisGroup.call(d3.axisLeft(yScale));
-    }
+svg.selectAll(".candlestick")
+    .append("rect")
+    .attr("y", d => d.open > d.close ? y(d.open) : y(d.close))
+    .attr("height", d => Math.abs(y(d.open) - y(d.close)))
+    .attr("width", x.bandwidth())
+    .attr("fill", d => d.open > d.close ? "red" : "green");
 
-    const socket = new WebSocket('wss://ws.finnhub.io?token=crvli3hr01qkji45lrj0crvli3hr01qkji45lrjg');
-
-    socket.addEventListener('open', function (event) {
-        console.log("WebSocket connection established.");
-        socket.send(JSON.stringify({ 'type': 'subscribe', 'symbol': 'BINANCE:BTCUSDT' }));
-    });
-
-    socket.addEventListener('message', function (event) {
-        const message = JSON.parse(event.data);
-        console.log('Message from server: ', message);
-
-        // Check if the message is of type 'trade' and contains data
-        if (message.type === 'trade' && message.data && message.data.length > 0) {
-            // Extract the price from the latest trade data
-            const latestTrade = message.data[message.data.length - 1]; // Get the last trade
-            const price = latestTrade.p; // Extract the price
-
-            if (price) { // Check if the price is valid
-                console.log(`Current BTC Price: $${price}`);
-                updateChart(price); // Update the chart with the latest price
-            }
-        } else if (message.type === 'ping') {
-            console.log("Received ping, sending pong.");
-            socket.send(JSON.stringify({ "type": "pong" }));
-        }
-    });
-});
