@@ -1,6 +1,6 @@
 # Building a Chatbot with using Llama-3.2-1B-Instruct model
 
-! Please note that the EC2 instance deployed does not have a GPU. Therefore, it should take longer time for this chatbot to respond !
+! Please note that the EC2 instance that this chatbot deployed does not have a GPU. Therefore, it should take longer time for this chatbot to respond !
 
 <br>
 
