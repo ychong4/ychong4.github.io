@@ -15,7 +15,7 @@ import math
 import torch
 import transformers
 from transformers import LlamaTokenizer, pipeline, AutoTokenizer, AutoModelForCausalLM
-from hftoken import huggingface_token
+from hftoken import huggingface_token, secret_name, region_name, host
 import psycopg2
 import boto3
 import json
@@ -34,8 +34,8 @@ app.secret_key = os.urandom(24)  # Generates a random secret key each time
 
 def get_secret():
 
-    secret_name = "rds!db-cdacc544-7d3a-45bc-92d1-7929cb3fb80b"
-    region_name = "us-east-2"
+    secret_name = secret_name
+    region_name = region_name
 
     # Create a Secrets Manager client
     session = boto3.session.Session()
@@ -57,7 +57,7 @@ username, password = get_secret()
 # Connection to postgreSQL
 def get_db_connection():
     conn = psycopg2.connect(
-            host="db-stock.cbueaqgy4mwk.us-east-2.rds.amazonaws.com",
+            host=host,
             user=username,
             password=password,
             port=5432 
