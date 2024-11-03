@@ -34,9 +34,6 @@ app.secret_key = os.urandom(24)  # Generates a random secret key each time
 
 def get_secret():
 
-    secret_name = secret_name
-    region_name = region_name
-
     # Create a Secrets Manager client
     session = boto3.session.Session()
     client = session.client(
