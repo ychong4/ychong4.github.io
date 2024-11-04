@@ -35,5 +35,5 @@ The user input text in the writing pad, and the processed text will be generated
 # Image Upload
 The user upload image, and the processed text will be generated.
 ![](image/image-to-text_test.png)
-![](image/image_upload1.png)
-![](image/image_upload2.png)
+![](image/image-upload1.png)
+![](image/image-upload2.png)
