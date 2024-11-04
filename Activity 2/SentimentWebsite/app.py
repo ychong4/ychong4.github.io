@@ -14,12 +14,18 @@ import base64
 import math
 import torch
 import transformers
-from transformers import LlamaTokenizer, pipeline, AutoTokenizer, AutoModelForCausalLM
+from transformers import LlamaTokenizer, pipeline, AutoTokenizer, AutoModelForCausalLM, TrOCRProcessor, VisionEncoderDecoderModel
 from hftoken import huggingface_token, secret_name, region_name, host
 import psycopg2
 import boto3
 import json
-
+from PIL import Image, ImageEnhance, ImageFilter
+import torchvision.transforms as transforms
+from flask_cors import CORS
+from paddleocr import PaddleOCR
+import easyocr
+import numpy as np
+import traceback
 
 matplotlib.use('Agg')
 
@@ -27,6 +33,7 @@ matplotlib.use('Agg')
 app = Flask(__name__)
 app.config['SESSION_TYPE'] = 'filesystem'  # Store sessions on the server's filesystem
 Session(app)
+CORS(app)
 
 # Set a secret key to securely sign the session cookie
 app.secret_key = os.urandom(24)  # Generates a random secret key each time
@@ -421,6 +428,153 @@ def time_series():
     return render_template('time_series.html', 
                            historical_data=historical_df.to_dict(orient='records'), 
                            prediction_data=prediction_df.to_dict(orient='records'))
+
+
+
+
+# Load the TrOCR model and processor
+vision_processor = TrOCRProcessor.from_pretrained('microsoft/trocr-large-handwritten')
+vision_model = VisionEncoderDecoderModel.from_pretrained('microsoft/trocr-large-handwritten')
+
+# Move to GPU if available
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+model.to(device)
+
+@app.route('/image-to-text', methods=['GET', 'POST'])
+def image_to_text():
+    extracted_text = None
+
+    def preprocess_image(image):
+        transform = transforms.Compose([
+            transforms.Resize((384, 384)),  # Resize to a specific size
+            transforms.ToTensor(),
+            transforms.Normalize(mean=[0.5], std=[0.5])  # Normalize based on your needs
+        ])
+        image = transform(image)
+        return image.unsqueeze(0)  # Add batch dimension
+
+    if request.method == 'POST':
+        # Check if the post request has the file part
+        if 'image' not in request.files:
+            return render_template('image-to-text.html', error="No file part"), 400
+
+        file = request.files['image']
+        if file.filename == '':
+            return render_template('image-to-text.html', error="No selected file"), 400
+
+        # Process the image
+        try:
+            image = Image.open(file).convert("RGB")
+            # Then pass this preprocessed image to the model
+            pixel_values = preprocess_image(image)
+
+            # Generate text from the image
+            with torch.no_grad():
+                generated_ids = vision_model.generate(pixel_values, max_new_tokens=100)
+            extracted_text = vision_processor.batch_decode(generated_ids, skip_special_tokens=True)[0]
+
+        except Exception as e:
+            return render_template('image-to-text.html', error=f"Error processing image: {e}"), 500
+
+    return render_template('image-to-text.html', extracted_text=extracted_text)
+
+@app.route('/image-to-text-write', methods=['GET', 'POST'])
+def image_to_text_write():
+
+    def preprocess_image(image):
+        # Convert to grayscale
+        gray = image.convert('L')
+    
+        # Increase contrast
+        enhancer = ImageEnhance.Contrast(gray)
+        enhanced = enhancer.enhance(2.0)
+    
+        # Denoise
+        denoised = enhanced.filter(ImageFilter.MedianFilter(size=3))
+
+        # Resize image for OCR
+        target_size = (640, 480)  # Adjust as needed
+        resized = denoised.resize(target_size)
+    
+        # Binarization
+        threshold = 128
+        binary = resized.point(lambda x: 255 if x > threshold else 0)
+    
+        return binary.convert('RGB')
+    
+    def recognize_text_ensemble(image):
+        results = []
+
+        # TrOCR
+        try:
+            pixel_values = vision_processor(image, return_tensors="pt").pixel_values
+            generated_ids = vision_model.generate(pixel_values)
+            trocr_text = vision_processor.batch_decode(generated_ids, skip_special_tokens=True)[0]
+            if trocr_text:
+                results.append(trocr_text)
+        except Exception as e:
+            print("TrOCR failed:", e)
+        
+        # EasyOCR
+        try:
+            image_np = np.array(image)
+            reader = easyocr.Reader(['en'])
+            easyocr_result = reader.readtext(image_np)
+            easyocr_text = ' '.join([text[1] for text in easyocr_result])
+            if easyocr_text:
+                results.append(easyocr_text)
+        except Exception as e:
+            print("EasyOCR failed:", e)
+        
+        # PaddleOCR
+        try:
+            paddle_ocr = PaddleOCR(lang='en', use_angle_cls=True)
+            paddle_result = paddle_ocr.ocr(image_np)
+            if paddle_result:
+                paddle_text = ' '.join([line[1][0] for line in paddle_result])
+                results.append(paddle_text)
+            else:
+                print("PaddleOCR found no text.")
+        except Exception as e:
+            print("PaddleOCR failed:", e)
+        
+        # Handle empty results
+        if not results:
+            return "No text found in the image", 400
+
+        # Simple voting system
+        return max(set(results), key=results.count)
+
+    if request.method == 'GET':
+        return render_template('image-to-text-write.html')
+    
+    if request.method == 'POST':
+        try:
+            data = request.json
+            if not data or 'image' not in data:
+                return jsonify({'error': 'No image data received'}), 400
+            
+            image_data = data['image'].split(',')[1]
+            image = Image.open(io.BytesIO(base64.b64decode(image_data)))
+            
+            if image.mode != 'RGB':
+                image = image.convert('RGB')
+            
+            # Process image
+            processed_image = preprocess_image(image)
+
+            # Debugging output
+            print("Processed image size:", processed_image.size)
+            print("Processed image mode:", processed_image.mode)
+
+            # Use ensemble method for text recognition
+            recognized_text = recognize_text_ensemble(processed_image)
+            
+            return jsonify({'text': recognized_text})
+        except Exception as e:
+            print("Exception occurred:", e)
+            print(traceback.format_exc())  # This will show the stack trace in the logs
+            return jsonify({'error': str(e)}), 500
 
 if __name__ == '__main__':
     app.run(debug=False)

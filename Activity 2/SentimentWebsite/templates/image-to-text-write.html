@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handwriting Recognition</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        #canvas {
+            border: 2px solid #333;
+            border-radius: 4px;
+            cursor: crosshair;
+            margin: 20px 0;
+            background-color: white;
+        }
+        
+        .controls {
+            margin: 20px 0;
+        }
+        
+        button {
+            padding: 10px 20px;
+            margin: 0 10px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+        }
+        
+        button#clear {
+            background-color: #f44336;
+        }
+        
+        #output {
+            margin-top: 20px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            min-height: 50px;
+        }
+        
+        .loading {
+            display: none;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Handwriting Recognition</h1>
+    <p>Write something on the pad below:</p>
+    
+    <canvas id="canvas" width="600" height="200"></canvas>
+    
+    <div class="controls">
+        <button id="clear">Clear</button>
+        <button id="submit">Recognize Text</button>
+    </div>
+    
+    <div class="loading" id="loading">Processing...</div>
+    
+    <div id="output">Recognized text will appear here...</div>
+
+    <script>
+        const canvas = document.getElementById('canvas');
+        const context = canvas.getContext('2d');
+        const loading = document.getElementById('loading');
+        let isDrawing = false;
+        let lastX = 0;
+        let lastY = 0;
+
+        // Initialize white background
+        context.fillStyle = 'white';
+        context.fillRect(0, 0, canvas.width, canvas.height);
+
+        // Set up canvas
+        context.lineWidth = 3;
+        context.lineCap = 'round';
+        context.strokeStyle = 'black';
+
+        function startDrawing(e) {
+            isDrawing = true;
+            [lastX, lastY] = getCoordinates(e);
+        }
+
+        function draw(e) {
+            if (!isDrawing) return;
+            
+            const [currentX, currentY] = getCoordinates(e);
+            
+            context.beginPath();
+            context.moveTo(lastX, lastY);
+            context.lineTo(currentX, currentY);
+            context.stroke();
+            
+            [lastX, lastY] = [currentX, currentY];
+        }
+
+        function stopDrawing() {
+            isDrawing = false;
+        }
+
+        function getCoordinates(e) {
+            const rect = canvas.getBoundingClientRect();
+            const x = (e.clientX || e.touches?.[0]?.clientX || 0) - rect.left;
+            const y = (e.clientY || e.touches?.[0]?.clientY || 0) - rect.top;
+            return [x, y];
+        }
+
+        // Mouse events
+        canvas.addEventListener('mousedown', startDrawing);
+        canvas.addEventListener('mousemove', draw);
+        canvas.addEventListener('mouseup', stopDrawing);
+        canvas.addEventListener('mouseout', stopDrawing);
+
+        // Touch events
+        canvas.addEventListener('touchstart', (e) => {
+            e.preventDefault();
+            startDrawing(e);
+        });
+        canvas.addEventListener('touchmove', (e) => {
+            e.preventDefault();
+            draw(e);
+        });
+        canvas.addEventListener('touchend', stopDrawing);
+
+        // Clear canvas
+        document.getElementById('clear').addEventListener('click', () => {
+            context.fillStyle = 'white';
+            context.fillRect(0, 0, canvas.width, canvas.height);
+            context.strokeStyle = 'black';
+            document.getElementById('output').innerText = 'Recognized text will appear here...';
+        });
+
+        // Submit drawing
+        document.getElementById('submit').addEventListener('click', async () => {
+            loading.style.display = 'block';
+            const imageData = canvas.toDataURL('image/png');
+            
+            try {
+                const response = await fetch('/image-to-text-write', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ image: imageData }),
+                });
+                
+                const data = await response.json();
+                
+                if (data.error) {
+                    document.getElementById('output').innerText = `Error: ${data.error}`;
+                } else {
+                    document.getElementById('output').innerText = `Recognized Text: ${data.text}`;
+                }
+            } catch (error) {
+                document.getElementById('output').innerText = `Error: ${error.message}`;
+            } finally {
+                loading.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>

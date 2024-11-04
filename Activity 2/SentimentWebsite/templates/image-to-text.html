@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image to Text Converter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f9;
+            padding: 20px; /* Added padding for better spacing */
+        }
+        .container {
+            text-align: center;
+            background-color: #fff;
+            padding: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            width: 100%;
+            max-width: 400px; /* Increased max-width for larger screens */
+            margin: 10px; /* Margin between containers */
+        }
+        h1 {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .drop-area {
+            border: 2px dashed #007bff;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 15px 0;
+            text-align: center;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .drop-area.hover {
+            background-color: #e9f5ff; /* Change background on hover */
+        }
+        .submit-btn {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s; /* Smooth transition for hover effect */
+        }
+        .submit-btn:hover {
+            background-color: #0056b3;
+        }
+        .message {
+            margin-top: 15px;
+            color: #555;
+        }
+        .result {
+            display: block; /* Show result container */
+            margin-top: 30px; /* Increased space between upload and result sections */
+            text-align: left;
+            color: #333;
+            background-color: #e9f5ff; /* Light background for result section */
+            padding: 15px;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Image to Text Converter</h1>
+        <form action="/image-to-text" method="POST" enctype="multipart/form-data" id="upload-form">
+            <div class="drop-area" id="drop-area">
+                <p>Drag and drop an image here or click to upload.</p>
+                <input type="file" id="file-input" name="image" accept="image/*" required style="display: none;" />
+                <p id="file-name" style="margin-top: 10px; color: #007bff;"></p> <!-- Filename display -->
+            </div>
+            <button type="button" id="submit-btn" class="submit-btn">Upload Image</button>
+            <div class="message">
+                <p>Upload an image to generate text.</p>
+            </div>
+        </form>
+    </div>
+
+    <div class="container result" id="result-container">
+        <h2>Extracted Text:</h2>
+        {% if extracted_text %}
+            
+            <p>{{ extracted_text }}</p>
+        {% elif error %}
+            <h2>Error:</h2>
+            <p>{{ error }}</p>
+        {% endif %}
+    </div>
+
+    <script>
+        const dropArea = document.getElementById('drop-area');
+        const fileInput = document.getElementById('file-input');
+        const fileNameDisplay = document.getElementById('file-name');
+        const submitBtn = document.getElementById('submit-btn');
+        const uploadForm = document.getElementById('upload-form');
+
+        dropArea.addEventListener('dragover', (e) => {
+            e.preventDefault(); // Prevent default behavior
+            dropArea.classList.add('hover'); // Add hover class
+        });
+
+        dropArea.addEventListener('dragleave', () => {
+            dropArea.classList.remove('hover'); // Remove hover class
+        });
+
+        dropArea.addEventListener('drop', (e) => {
+            e.preventDefault(); // Prevent default behavior
+            dropArea.classList.remove('hover'); // Remove hover class
+            const files = e.dataTransfer.files; // Get the dropped files
+            if (files.length) {
+                fileInput.files = files; // Set the file input's files
+                fileNameDisplay.textContent = files[0].name; // Display the filename
+            }
+        });
+
+        dropArea.addEventListener('click', () => {
+            fileInput.click(); // Simulate click on file input
+        });
+
+        fileInput.addEventListener('change', () => {
+            if (fileInput.files.length > 0) {
+                fileNameDisplay.textContent = fileInput.files[0].name; // Display the filename
+            }
+        });
+
+        submitBtn.addEventListener('click', () => {
+            if (fileInput.files.length === 0) {
+                alert('Please upload an image before submitting.'); // Alert if no file is selected
+            } else {
+                uploadForm.submit(); // Submit the form
+            }
+        });
+    </script>
+
+</body>
+</html>
