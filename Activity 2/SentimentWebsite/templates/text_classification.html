@@ -58,6 +58,14 @@
             position: absolute;
             right: 20px;
             top: 12px;
+            color: #333;
+        }
+
+        h1, h2 {
+            font-size: 1.5em; /* Ensure both titles are the same size */
+            margin-top: 20px;
+            color: #333;
+            text-align: center;
         }
     </style>
 </head>
@@ -72,12 +80,18 @@
                 <li class="nav-item">
                     <a class="nav-link" href="/">Home</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/time_series">Time-Series</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="NLP">
+                        Time-Series
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/time_series">Stock Price Time Series</a>
+                    </div>
+                        
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="NLP">
-                        NLP
+                        Natural Language Processing
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <!-- Nested dropdown for Text Classification -->
@@ -93,13 +107,30 @@
                         <a class="dropdown-item" href="/chat">Chat Bot</a>
                     </div>
                 </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Computer Vision">
+                        Computer Vision
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <!-- Nested dropdown for Text Classification -->
+                        <div class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#" id="textClassificationDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Image To Text <span class="caret caret-right"></span>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="textClassificationDropdown">
+                                <a class="dropdown-item" href="/image-to-text">Image Upload</a>
+                                <a class="dropdown-item" href="/image-to-text-write">Writing Pad</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
             </ul>
         </div>
-        <!-- GitHub Link in the Top-Right Corner -->
         <a id="github-link" href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/NLP/sentiment_analysis/Readme.md" target="_blank" title="GitHub Documentation">
             <i class="fab fa-github fa-lg"></i>
         </a>
     </nav>
+
     <div class="container text-center">
         <h1 class="text-center mb-4">Sentiment Analysis</h1>
         <form action="/analyze" method="post", class="mb-4">

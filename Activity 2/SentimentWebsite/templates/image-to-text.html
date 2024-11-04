@@ -4,17 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image to Text Converter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
+        /* Optional styling for the dropdown to show on hover */
+        .navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+            display: block;
+        }
+
+        /* To display the submenu on the right */
+        .dropdown-submenu {
+            position: relative;
+        }
+
+        .dropdown-submenu .dropdown-menu {
+            top: 0;
+            left: 100%;
+            margin-top: 0;
+            margin-left: 0;
+        }
+
+        /* Rotate the caret to point right */
+        .caret-right {
+            transform: rotate(90deg); /* Rotate caret to point right */
+            margin-left: 5px;
+        }
+
         body {
             font-family: Arial, sans-serif;
             display: flex;
+            flex-direction: column; /* Stack navbar and container */
             align-items: center;
-            justify-content: center;
+            justify-content: flex-start; /* Align to the top */
             height: 100vh;
             margin: 0;
             background-color: #f4f4f9;
-            padding: 20px; /* Added padding for better spacing */
+            padding-top: 60px; /* Adjust for fixed navbar height */
         }
+
         .container {
             text-align: center;
             background-color: #fff;
@@ -25,11 +52,12 @@
             max-width: 400px; /* Increased max-width for larger screens */
             margin: 10px; /* Margin between containers */
         }
-        h1 {
-            font-size: 1.5em;
+        h1, h2 {
+            font-size: 1.5em; /* Ensure both titles are the same size */
             margin-bottom: 20px;
             color: #333;
         }
+
         .drop-area {
             border: 2px dashed #007bff;
             border-radius: 8px;
@@ -38,7 +66,9 @@
             text-align: center;
             cursor: pointer;
             transition: background-color 0.3s;
+            height: 150px; /* Set a fixed height */
         }
+
         .drop-area.hover {
             background-color: #e9f5ff; /* Change background on hover */
         }
@@ -67,10 +97,87 @@
             padding: 15px;
             border-radius: 4px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            height: 150px; /* Set a fixed height to match drop area */
         }
+
+        h1, h2 {
+            font-size: 1.5em; /* Ensure both titles are the same size */
+            margin-top: 20px;
+            color: #333;
+            text-align: center;
+            font-weight: bold;
+        }
+        #github-link {
+            position: absolute;
+            right: 20px;
+            top: 12px;
+            color: #333;
+        }
+
     </style>
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">My Website</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="NLP">
+                        Time-Series
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/time_series">Stock Price Time Series</a>
+                    </div>
+                        
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="NLP">
+                        Natural Language Processing
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <!-- Nested dropdown for Text Classification -->
+                        <div class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#" id="textClassificationDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Text Classification <span class="caret caret-right"></span>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="textClassificationDropdown">
+                                <a class="dropdown-item" href="/text_classification">Simple Sentence Sentiment</a>
+                                <a class="dropdown-item" href="/uploads">CSV File Sentiment</a>
+                            </div>
+                        </div>
+                        <a class="dropdown-item" href="/chat">Chat Bot</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Computer Vision">
+                        Computer Vision
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <!-- Nested dropdown for Text Classification -->
+                        <div class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#" id="textClassificationDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Image To Text <span class="caret caret-right"></span>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="textClassificationDropdown">
+                                <a class="dropdown-item" href="/image-to-text">Image Upload</a>
+                                <a class="dropdown-item" href="/image-to-text-write">Writing Pad</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <a id="github-link" href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/Computer%20Vision/ImageToText/Readme.md" target="_blank" title="GitHub Documentation">
+            <i class="fab fa-github fa-lg"></i>
+        </a>
+    </nav>
+
     <div class="container">
         <h1>Image to Text Converter</h1>
         <form action="/image-to-text" method="POST" enctype="multipart/form-data" id="upload-form">
@@ -87,14 +194,8 @@
     </div>
 
     <div class="container result" id="result-container">
-        <h2>Extracted Text:</h2>
-        {% if extracted_text %}
-            
-            <p>{{ extracted_text }}</p>
-        {% elif error %}
-            <h2>Error:</h2>
-            <p>{{ error }}</p>
-        {% endif %}
+        <h2 style="text-align: center;">Extracted Text</h2>
+        <p id="extracted-text">{{ extracted_text if extracted_text else '' }}</p>
     </div>
 
     <script>
@@ -103,6 +204,9 @@
         const fileNameDisplay = document.getElementById('file-name');
         const submitBtn = document.getElementById('submit-btn');
         const uploadForm = document.getElementById('upload-form');
+        const extractedTextContainer = document.getElementById('extracted-text');
+
+        let timerInterval;
 
         dropArea.addEventListener('dragover', (e) => {
             e.preventDefault(); // Prevent default behavior
@@ -137,8 +241,59 @@
             if (fileInput.files.length === 0) {
                 alert('Please upload an image before submitting.'); // Alert if no file is selected
             } else {
+                startExtractingText();
                 uploadForm.submit(); // Submit the form
             }
+        });
+
+        function startExtractingText() {
+            let seconds = 0;
+            extractedTextContainer.innerHTML = `Extracting Text... (${seconds} seconds)`;
+
+            timerInterval = setInterval(() => {
+                seconds++;
+                extractedTextContainer.innerHTML = `Extracting Text... (${seconds} seconds)`;
+            }, 1000);
+        }
+
+        // Stop the timer after the response is received
+        uploadForm.addEventListener('submit', () => {
+            clearInterval(timerInterval);
+        });
+
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        const dropdownItem = document.getElementById('navbarDropdown');
+        const dropdownMenu = dropdownItem.nextElementSibling;
+        let timeoutId; // Variable to hold the timeout ID
+
+        // Show the dropdown immediately
+        dropdownItem.addEventListener('mouseenter', () => {
+            clearTimeout(timeoutId); // Clear any existing timeout
+            dropdownMenu.style.display = 'block'; // Show dropdown menu
+        });
+
+        // Hide the dropdown after a delay
+        dropdownItem.addEventListener('mouseleave', () => {
+            timeoutId = setTimeout(() => {
+                dropdownMenu.style.display = 'none'; // Hide dropdown menu after 0.1 seconds
+            }, 100);
+        });
+
+        // Also hide dropdown when mouse leaves the dropdown menu
+        dropdownMenu.addEventListener('mouseleave', () => {
+            timeoutId = setTimeout(() => {
+                dropdownMenu.style.display = 'none'; // Hide dropdown menu after 0.1 seconds
+            }, 100);
+        });
+
+        // Keep dropdown visible if hovering over it
+        dropdownMenu.addEventListener('mouseenter', () => {
+            clearTimeout(timeoutId); // Clear the timeout when entering the dropdown
         });
     </script>
 

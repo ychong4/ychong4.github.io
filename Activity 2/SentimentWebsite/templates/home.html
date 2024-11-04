@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
         /* Optional styling for the dropdown to show on hover */
@@ -28,6 +29,31 @@
             transform: rotate(90deg); /* Rotate caret to point right */
             margin-left: 5px;
         }
+
+        .social-links a {
+            margin: 0 10px;
+            font-size: 1.5em;
+            color: #333;
+            padding: 10px 20px;
+        }
+
+        .social-links a.github {
+            color: #333;
+        }
+
+        .social-links a.linkedin {
+            color: #0077b5;
+        }
+
+        /* Centering the content */
+        .centered-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: calc(100vh - 56px); /* Adjust height based on navbar height */
+            text-align: center; /* Center text */
+        }
     </style>
 </head>
 <body>
@@ -41,12 +67,18 @@
                 <li class="nav-item">
                     <a class="nav-link" href="/">Home</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/time_series">Time-Series</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="NLP">
+                        Time-Series
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/time_series">Stock Price Time Series</a>
+                    </div>
+                        
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="NLP">
-                        NLP
+                        Natural Language Processing
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <!-- Nested dropdown for Text Classification -->
@@ -62,16 +94,38 @@
                         <a class="dropdown-item" href="/chat">Chat Bot</a>
                     </div>
                 </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Computer Vision">
+                        Computer Vision
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <!-- Nested dropdown for Text Classification -->
+                        <div class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#" id="textClassificationDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Image To Text <span class="caret caret-right"></span>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="textClassificationDropdown">
+                                <a class="dropdown-item" href="/image-to-text">Image Upload</a>
+                                <a class="dropdown-item" href="/image-to-text-write">Writing Pad</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
             </ul>
         </div>
     </nav>
 
-    <div class="container mt-5">
+    <div class="centered-content">
         <h1 class="text-center">Welcome to My Website</h1>
-        <p class="text-center">Explore various sections including Time-Series and NLP analysis.</p>
-        
-        <!-- Add your content here -->
-        
+        <p class="text-center">Explore various sections for machine learning features.</p>  
+        <div class="social-links">
+            <a href="https://ychong4.github.io/" target="_blank" title="GitHub" class="github">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/yaow-hui-chong/" target="_blank" title="LinkedIn" class="linkedin">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
