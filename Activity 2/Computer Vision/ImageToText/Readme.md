@@ -26,8 +26,14 @@
 
 <br>
 
-### Handwriting Recognition
+# Handwriting Recognition
 The user input text in the writing pad, and the processed text will be generated.
 
 ![](image/handwriting_recognition1.png)
 ![](image/handwriting_recognition2.png)
+
+# Image Upload
+The user upload image, and the processed text will be generated.
+
+![](image/image_upload1.png)
+![](image/image_upload2.png)
