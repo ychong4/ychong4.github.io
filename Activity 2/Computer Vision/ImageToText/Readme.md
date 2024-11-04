@@ -8,17 +8,17 @@
 
 **Steps:**
 1. First, we need to define the preprocessing functions. We implement a function (preprocess_image_ to prepare images for the OCR models, such as:
-- Grayscale Conversion: Convert images to grayscale to reduce color complexity.
-- Contrast Adjustment: Increase contrast to improve OCR accuracy.
-- Denoising: Apply a median filter to reduce noise.
-- Resizing and Binarization: Resize the image and convert to binary (black-and-white) to enhance text visibility.
+- **Grayscale Conversion:** Convert images to grayscale to reduce color complexity.
+- **Contrast Adjustment:** Increase contrast to improve OCR accuracy.
+- **Denoising:** Apply a median filter to reduce noise.
+- **Resizing and Binarization:** Resize the image and convert to binary (black-and-white) to enhance text visibility.
 
 <br>
 
 2. Then, we build the ensemble OCR Function. We create an ensemble function (recognize_text_ensemble) to process the image with each OCR model. Each model processes the image, and the results are stored. Implement a simple majority voting system to select the most frequent recognized text output. 
-- TrOCR: Uses a Transformer model for OCR, ideal for general text recognition.
-- EasyOCR: Handles multiple languages and various text types; use a pre-trained English model.
-- PaddleOCR: Provides support for angle correction and multilingual OCR.
+- **TrOCR:** Uses a Transformer model for OCR, ideal for general text recognition.
+- **EasyOCR:** Handles multiple languages and various text types; use a pre-trained English model.
+- **PaddleOCR:** Provides support for angle correction and multilingual OCR.
 
 <br>
 
