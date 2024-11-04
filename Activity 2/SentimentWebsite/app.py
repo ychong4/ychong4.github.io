@@ -38,7 +38,7 @@ CORS(app)
 # Set a secret key to securely sign the session cookie
 app.secret_key = os.urandom(24)  # Generates a random secret key each time
 
-'''
+
 def get_secret():
 
     # Create a Secrets Manager client
@@ -67,7 +67,7 @@ def get_db_connection():
             port=5432 
     )
     return conn
-'''
+
 
 # Directory for storing uploaded files
 UPLOAD_FOLDER = 'uploads'
@@ -386,7 +386,7 @@ def download_wordcloud():
 
 @app.route('/time_series')
 def time_series():
-    '''
+    
     conn = get_db_connection()
     cursor = conn.cursor()
     
@@ -417,13 +417,8 @@ def time_series():
     
     cursor.close()
     conn.close()
-    '''
-    historical_df = pd.read_csv("data_df.csv")
-    prediction_df = pd.read_csv("pred_df.csv")
-
 
     prediction_df = prediction_df[['ticker', 'prediction_date','price', 'price_upper', 'price_lower']]
-    print(prediction_df)
     
     return render_template('time_series.html', 
                            historical_data=historical_df.to_dict(orient='records'), 
