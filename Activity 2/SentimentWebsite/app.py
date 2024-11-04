@@ -31,7 +31,7 @@ Session(app)
 # Set a secret key to securely sign the session cookie
 app.secret_key = os.urandom(24)  # Generates a random secret key each time
 
-
+'''
 def get_secret():
 
     # Create a Secrets Manager client
@@ -60,7 +60,7 @@ def get_db_connection():
             port=5432 
     )
     return conn
-
+'''
 
 # Directory for storing uploaded files
 UPLOAD_FOLDER = 'uploads'
@@ -137,7 +137,7 @@ def chatbot():
 
     # Add system prompt to behave like a good teacher
     messages = [
-        {"role": "system", "content": "You are a helpful, patient, and knowledgeable teacher. You explain things clearly, provide encouragement, and help users learn step-by-step."},
+        {"role": "system", "content": "You are a helpful, patient, and knowledgeable teacher."},
         {"role": "user", "content": user_input}
     ]
     #bot_response = chat_pipeline(messages, max_length=150)
@@ -145,7 +145,7 @@ def chatbot():
     #return jsonify({'response': response_text})
 
      # Generate the teacher-like response
-    bot_response = chat_pipeline(messages, max_new_tokens=150)
+    bot_response = chat_pipeline(messages, max_new_tokens=60)
 
     # Extract the assistant's response from the bot_response
     assistant_response = ""
@@ -379,26 +379,42 @@ def download_wordcloud():
 
 @app.route('/time_series')
 def time_series():
-    
+    '''
     conn = get_db_connection()
     cursor = conn.cursor()
     
     # Query for historical prices
-    cursor.execute("SELECT date, close, ticker FROM stock_historical_price;")
-    historical_prices = cursor.fetchall()
+    cursor.execute("""
+    SELECT date AT TIME ZONE 'UTC' AT TIME ZONE 'America/Chicago' AS date, close, ticker 
+    FROM stock_historical_price;
+    """)
+
+    historical_data = cursor.fetchall()
+    historical_df = pd.DataFrame(historical_data, columns=['date', 'close', 'ticker'])
     
     # Query for predicted prices
-    cursor.execute("SELECT date, predicted_price FROM stock_prediction_price;")
-    predicted_prices = cursor.fetchall()
+    cursor.execute("""
+    SELECT id, ticker,
+           insert_date AT TIME ZONE 'UTC' AT TIME ZONE 'America/Chicago' AS insert_date,
+           prediction_date AT TIME ZONE 'UTC' AT TIME ZONE 'America/Chicago' AS prediction_date,
+           price, price_upper, price_lower
+    FROM stock_prediction_price
+    WHERE (ticker, insert_date) IN (
+        SELECT ticker, MAX(insert_date)
+        FROM stock_prediction_price
+        GROUP BY ticker
+    );
+    """)
+    prediction_data = cursor.fetchall()
+    prediction_df = pd.DataFrame(prediction_data, columns=['id', 'ticker', 'insert_date', 'prediction_date', 'price', 'price_upper', 'price_lower'])
     
     cursor.close()
     conn.close()
+    '''
+    historical_df = pd.read_csv("data_df.csv")
+    prediction_df = pd.read_csv("pred_df.csv")
 
-    historical_df = historical_prices
-    prediction_df = predicted_prices
-    
-    #historical_df = pd.read_csv("data_df.csv")
-    #prediction_df = pd.read_csv("pred_df.csv")
+
     prediction_df = prediction_df[['ticker', 'prediction_date','price', 'price_upper', 'price_lower']]
     print(prediction_df)
     
