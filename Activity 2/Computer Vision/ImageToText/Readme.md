@@ -32,8 +32,14 @@ The user input text in the writing pad, and the processed text will be generated
 ![](image/handwriting_recognition1.png)
 ![](image/handwriting_recognition2.png)
 
+<br>
+
 # Image Upload
 The user upload image, and the processed text will be generated.
 ![](image/image-to-text_test.png)
 ![](image/image-upload1.png)
 ![](image/image-upload2.png)
+
+<br>
+
+**Next step:** The next step of this project is to improve the accuracy of the image-to-text feature.
