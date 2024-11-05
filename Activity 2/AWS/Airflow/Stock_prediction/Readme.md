@@ -31,6 +31,7 @@
 2. Create EC2 instance (ubuntu) and set up airflow in the instance. Also, set up PostgreSQL in the instance.  
 3. Set up dag.py to configure the DAG on Airflow.
 4. Run the pipeline.
+5. Visualization.
 
 </br>
 
@@ -68,3 +69,10 @@ In this part, we will set up dag.py to automate data retrieval using API and sto
 In this part, we will trigger the pipeline. The result shows the prediction data is imported to the stock_prediction_price table. After that, we will create a airflow-scheduler.service and airflow-webserver.service files to automate the processes.
 
 ![](image/postgres4.png)
+
+</br>
+
+### Step 5. Visualization
+Lastly, the historical price from stock_historical_price table and the prediction price from the stock_prediction_price table is used to build a dashboard on my personal website. The dashboard is built using Plotly.js.
+
+![](image/visual.png)
