@@ -91,7 +91,7 @@ Top 5 Gallup Strengths: 1. Relator  |  2. Learner  |  3. Positivity  |  4. Activ
     Computer Vision Projects/Notebooks<span id="toggleIcon">&#9656;</span>
 </h2>
 <ul class="strengthsList" style="display: none;">
-		<li>1. [Image-To-Text] Handwriting Recognition and Image Upload -- CNN</li>
+		<li>1. [Image-To-Text] Handwriting Recognition and Image Upload</li>
 		<ul>
 			<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/Computer%20Vision/ImageToText/Readme.md">Project Overview</a></li>
 			<li><a href="https://yaowhuichong.com/image-to-text-write">Handwriting Recognition</a></li>
