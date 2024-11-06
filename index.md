@@ -88,31 +88,37 @@ Top 5 Gallup Strengths: 1. Relator  |  2. Learner  |  3. Positivity  |  4. Activ
 </ul>
 
 <h2 class="toggleButton" style="cursor: pointer; margin-top: 30px;">
-    Computer Vision Notebooks<span id="toggleIcon">&#9656;</span>
+    Computer Vision Projects/Notebooks<span id="toggleIcon">&#9656;</span>
 </h2>
 <ul class="strengthsList" style="display: none;">
-    <li>1. [Image Classification] Natural Scene Image Classification -- CNN</li>
+		<li>1. [Image-To-Text] Handwriting Recognition and Image Upload -- CNN</li>
+		<ul>
+			<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/Computer%20Vision/ImageToText/Readme.md">Project Overview</a></li>
+			<li><a href="https://yaowhuichong.com/image-to-text-write">Handwriting Recognition</a></li>
+   			<li><a href="https://yaowhuichong.com/image-to-text">Image Upload</a></li>	
+		</ul>
+    		<li>2. [Image Classification] Natural Scene Image Classification -- CNN</li>
 		<ul>
 			<li><a href="https://github.com/ychong4/ychong4.github.io/tree/master/Activity%202/Intel%20Image%20Classification">Project Overview</a></li>
 			<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/Intel_Image_Classification.ipynb">Notebook</a></li>
 		</ul>
-		<li>2. [Image Classification] Transfer Learning on MobileNetV2</li>
+		<li>3. [Image Classification] Transfer Learning on MobileNetV2</li>
 		<ul>
 			<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/MobileNet_v2/TransfrerLearning.md">Project Overview</a></li>
 			<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/TransferLearning_MobileNet_v2.ipynb">Notebook</a></li>
 		</ul>
-		<li>3. [Image Classification] Fine Tuning on MobileNetV2</li>
+		<li>4. [Image Classification] Fine Tuning on MobileNetV2</li>
 		<ul>
 			<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/MobileNet_v2/FineTune.md">Project Overview</a></li>
 			<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/FineTune_MobileNetV2.ipynb">Notebook</a></li>
 		</ul>
-		<li>4. [Object Detection] YOLOv5 Car Prediction on road</li>
+		<li>5. [Object Detection] YOLOv5 Car Prediction on road</li>
 		<ul>
 			<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/yolov5/Readme.md">Project Overview</a></li>
 			<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/yolov5.ipynb">Notebook</a></li>
 			<li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/car.mp4">[Object Detection] Video</a></li>
 		</ul>
-		<li>5. [Object Detection] YOLOv8 Fire Detection using Roboflow</li>
+		<li>6. [Object Detection] YOLOv8 Fire Detection using Roboflow</li>
 		<ul>
 			<li><a href="https://github.com/ychong4/ychong4.github.io/tree/master/Activity%202/FireDetectionRobflow">Project Overview</a></li>
 		</ul>
