@@ -1,11 +1,11 @@
 # Personal Website
 
-**Overview**: The purpose of setting this website up is to explore the application of various machine learning algorithms on Natural Language Processing, Computer Vision and Time Series. (More to come).
+**Overview**: This website up is set up to explore the application of various machine learning algorithms on Natural Language Processing, Computer Vision and Time Series. (More to come).
 
 Link: https://yaowhuichong.com/
 
 ## Natural Language Processing
-**1. Sentiment Analysis:** This is a sentiment analysis feature where some NLP models are used to analyze the sentiment in a sentence, whether it is a positive or negative sentiment.
+**1. Sentiment Analysis:** This is a sentiment analysis feature where some NLP models are used to analyze the sentiment in a sentence, whether it is a positive or negative sentiment. When the user upload csv file for analysis, the sentiment distribution plot and word cloud can be generated and can be downloaded.
 
 GitHub Link: https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/NLP/sentiment_analysis/Readme.md
 
