@@ -18,7 +18,7 @@ GitHub Link: https://github.com/ychong4/ychong4.github.io/tree/master/Activity%2
 <br>
 
 ## Computer Vision
-1. Image-To-Text: This is a feature aims to convert handwritten text in images into digital text using advanced handwriting recognition technology. The users can upload images of handwritten notes, and this tool processes and translates the visual text into machine-readable text, making it easy to digitize and search handwritten documents.
+**1. Image-To-Text:** This is a feature aims to convert handwritten text in images into digital text using advanced handwriting recognition technology. The users can upload images of handwritten notes, and this tool processes and translates the visual text into machine-readable text, making it easy to digitize and search handwritten documents.
 
 GitHub Link: https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/Computer%20Vision/ImageToText/Readme.md
 
