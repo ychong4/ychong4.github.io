@@ -1,6 +1,6 @@
 # Sentiment Analysis
 
-**Overview:** This part includes two features of sentiment analysis (1) Simple sentence, (2) CSV file upload for batch analysis. There are three NLP models available for selection when analyzing the sentence and for CSV file.
+**Overview:** This part includes two features of sentiment analysis (1) Simple sentence, (2) CSV file upload for batch analysis. There are three NLP models available for selection when analyzing the sentence and for CSV file. The models are used to analyze the sentiment in the sentence, whether it is positive or negative.
 
 **Model Link:**
 - <a href="https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english">distilbert-base-uncased-finetuned-sst-2-english</a>
