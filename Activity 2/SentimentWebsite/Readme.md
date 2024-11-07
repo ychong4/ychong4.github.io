@@ -6,11 +6,13 @@ Link: https://yaowhuichong.com/
 
 ## Natural Language Processing
 **1. Sentiment Analysis:** This is a sentiment analysis feature where some NLP models are used to analyze the sentiment in the sentence, whether it is positive or negative.
+
 GitHub Link: https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/NLP/sentiment_analysis/Readme.md
 
 <br>
 
 **2. Chatbot:** This is a chatbot built with using the Llama-3.2-1B-Instruct model from Hugging Face. User can interact with the chatbot to get their questions answered.
+
 GitHub Link: https://github.com/ychong4/ychong4.github.io/tree/master/Activity%202/NLP/chatbot
 
 <br>
