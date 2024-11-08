@@ -22,7 +22,7 @@
 </br>
 
 **Project Mapflow:**
-![](process.png)
+![](mapflow.png)
 
 </br>
 
