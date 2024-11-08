@@ -26,9 +26,12 @@ Top 5 Gallup Strengths: 1. Relator  |  2. Learner  |  3. Positivity  |  4. Activ
     Data Engineering ETL Projects <span id="toggleIcon">&#9656;</span>
 </h2>
 <ul class="strengthsList" style="display: none;">
+    <li><a href="https://github.com/ychong4/ychong4.github.io/blob/master/Activity%202/AWS/Airflow/Stock_prediction/Readme.md">Stock Price Prediction ETL Project</a></li>
     <li><a href="https://github.com/ychong4/ychong4.github.io/tree/master/Activity%202/AWS/Airflow/Youtube_Comment_Analysis">Youtube Video Comments Sentiment and Emotion ETL Project</a></li>
     <li><a href="https://github.com/ychong4/ychong4.github.io/tree/master/Activity%202/AWS/Kafka">Real-time Stock API Kafka ETL Pipeline</a></li>
     <li><a href="https://github.com/ychong4/ychong4.github.io/tree/master/Activity%202/Azure/OlympicParis2024">Azure ETL projects for Paris Olympic 2024 Dataset</a></li>
+   
+ 
 </ul>
 
 <h2 class="toggleButton" style="cursor: pointer; margin-top: 30px;">
@@ -88,7 +91,7 @@ Top 5 Gallup Strengths: 1. Relator  |  2. Learner  |  3. Positivity  |  4. Activ
 </ul>
 
 <h2 class="toggleButton" style="cursor: pointer; margin-top: 30px;">
-    Computer Vision Projects/Notebooks<span id="toggleIcon">&#9656;</span>
+    Computer Vision<span id="toggleIcon">&#9656;</span>
 </h2>
 <ul class="strengthsList" style="display: none;">
 		<li>1. [Image-To-Text] Handwriting Recognition and Image Upload</li>
